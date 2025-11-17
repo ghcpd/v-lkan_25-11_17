@@ -1,0 +1,214 @@
+You are an expert full-stack ML/NLP engineer and MLOps architect. Your task is to generate a complete, production-ready, reproducible evaluation project for entity extraction **and** relation extraction from semi-structured enterprise text, including runnable code, scripts, and unit tests (pytest). Project Name: Enterprise-KG-Eval ======================== Functional Requirements ======================== 1. Entity Extraction - Extract 10 predefined entity types - Input text file: documents.txt - Entity type definitions: entities.json - Output: output/entities_output.json 2. Relation Extraction - Extract 30 predefined relation types - Uses the same input documents - Relation type definitions: relations.json - Output: output/relations_output.json ========================================= Engineering Deliverables (all mandatory) ========================================= The generated project must include and fully implement the following files: 1. Project directory structure (tree format) 2. Fully runnable Python code for: - Data loading module - Entity extraction pipeline - Relation extraction pipeline - Unified output writer following strict JSON schema - Config loader (entities.json / relations.json) - Module-swappable extraction engine design (LLM / regex / ML) 3. requirements.txt (minimum necessary dependencies only) 4. Dockerfile (must be buildable and runnable) 5. setup.sh (must install deps, run tests, prepare directories) 6. run_test.sh (full E2E pipeline, including pytest execution) 7. test_report_template.json (for evaluation reporting) 8. README.md (installation, usage, API, troubleshooting)
+
+
+
+You are an expert full-stack ML/NLP engineer and MLOps architect.
+
+Your task is to generate a complete, production-ready, reproducible evaluation project
+
+for entity extraction and relation extraction from semi-structured enterprise text,
+
+including runnable code, scripts, and unit tests (pytest).
+
+Project Name: Enterprise-KG-Eval
+
+========================
+
+Functional Requirements
+
+========================
+
+Entity Extraction
+Extract 10 predefined entity types
+
+Input text file: documents.txt
+
+Entity type definitions: entities.json
+
+Output: output/entities_output.json
+
+Relation Extraction
+Extract 30 predefined relation types
+
+Uses the same input documents
+
+Relation type definitions: relations.json
+
+Output: output/relations_output.json
+
+=========================================
+
+Engineering Deliverables (all mandatory)
+
+=========================================
+
+The generated project must include and fully implement the following files:
+
+Project directory structure (tree format)
+
+Fully runnable Python code for:
+
+Data loading module
+
+Entity extraction pipeline
+
+Relation extraction pipeline
+
+Unified output writer following strict JSON schema
+
+Config loader (entities.json / relations.json)
+
+Module-swappable extraction engine design (LLM / regex / ML)
+
+requirements.txt (minimum necessary dependencies only)
+
+Dockerfile (must be buildable and runnable)
+
+setup.sh (must install deps, run tests, prepare directories)
+
+run_test.sh (full E2E pipeline, including pytest execution)
+
+test_report_template.json (for evaluation reporting)
+
+README.md (installation, usage, API, troubleshooting)
+
+
+Summary Enterprise-KG-Eval now has a full README plus tree guide (README.md (line 1) and project_structure.txt (line 1)) describing the reusable evaluation harness, required data/config files, scripts, and expected outputs.
+
+Details Added the CLI metadata builder, config loader, and document reader so the pipeline can be wired via python -m enterprise_kg_eval.cli (enterprise_kg_eval/cli.py (line 1), enterprise_kg_eval/config_loader.py (line 1), enterprise_kg_eval/data_loader.py (line 1)); implemented schema-backed writer/validators and rule-, ML-, and LLM-style engines that feed both entity and relation pipelines (enterprise_kg_eval/schema.py (line 1), enterprise_kg_eval/writer.py (line 1), enterprise_kg_eval/engines/regex_engine.py (line 1), enterprise_kg_eval/engines/ml_engine.py (line 1), enterprise_kg_eval/engines/llm_stub_engine.py (line 1)); surfaced unit tests covering pipelines/writer behavior (tests/test_pipeline.py (line 1), tests/test_writer.py (line 1)); and added infrastructure (requirements, Dockerfile, setup/run scripts, test-report template) to install, test, and containerize the evaluation (requirements.txt (line 1), Dockerfile (line 1), setup.sh (line 1), run_test.sh (line 1), test_report_template.json (line 1)).
+
+Testing Not run—no usable Python interpreter is available in this environment (python/python.exe resolve to the Microsoft Store stub that immediately exits), so dependency installation and pytest cannot execute.
+
+Next steps 1) Install or expose a proper Python interpreter (e.g., download from python.org) so python -m pytest tests and the scripts can run. 2) Once Python is available, rerun ./setup.sh or ./run_test.sh and optionally docker build . to verify the containerized flow (run_test.sh (line 1)).
+
+24 files changed
++1305
+-1
+
+Undo
+
+View all changes
+Dockerfile
++14
+-0
+
+README.md
++88
+-1
+
+__init__.py
++4
+-0
+
+cli.py
++87
+-0
+
+config_loader.py
++31
+-0
+
+data_loader.py
++26
+-0
+
+__init__.py
++8
+-0
+
+base.py
++31
+-0
+
+llm_stub_engine.py
++35
+-0
+
+ml_engine.py
++37
+-0
+
+regex_engine.py
++608
+-0
+
+models.py
++42
+-0
+
+pipeline.py
++28
+-0
+
+schema.py
++55
+-0
+
+writer.py
++46
+-0
+
+.gitkeep
++1
+-0
+
+project_structure.txt
++32
+-0
+
+requirements.txt
++2
+-0
+
+run_test.sh
++8
+-0
+
+setup.sh
++9
+-0
+
+test_report_template.json
++30
+-0
+
+__init__.py
++1
+-0
+
+test_pipeline.py
++32
+-0
+
+test_writer.py
++50
+-0
+
+run test
+
+
+Tests: python.exe -m pytest tests (fails because the python alias here points to the Microsoft Store stub and does not resolve to a real interpreter, so the suite cannot start).
+Next steps: 1) Install or wire up a proper Python interpreter so python launches (e.g., install from python.org or enable an existing installation). 2) Once Python is available, rerun ./setup.sh or python -m pytest tests (and optionally ./run_test.sh) to execute the full evaluation pipeline.
+D:\package\venv310\Scripts\python.exe
+
+
+Added logging-aware handling for malformed project dates so the regex engine now treats invalid end dates as “active” instead of raising; see enterprise_kg_eval/engines/regex_engine.py for the guard around datetime.fromisoformat.
+Tests: D:\package\venv310\Scripts\python.exe -m pytest tests
+1 file changed
+
+Undo
+
+View all changes
+regex_engine.py
++9
+-5
+
+运行测试文件都通过了吗
+
+
+是的，使用 D:\package\venv310\Scripts\python.exe -m pytest tests 运行的全部 3 条测试（tests/test_pipeline.py 和 tests/test_writer.py）已经通过。
+输出文件的结果
+
+
+Entity/relation CLI run (D:\package\venv310\Scripts\python.exe -m enterprise_kg_eval.cli) completed and wrote output/entities_output.json (268 records spanning 10 entity types) and output/relations_output.json (31 records covering all 30 relation definitions); two project lines had malformed end dates, so the regex engine treated those projects as active (warnings printed during execution).
+Tests: D:\package\venv310\Scripts\python.exe -m pytest tests (passes — all 3 tests succeed).

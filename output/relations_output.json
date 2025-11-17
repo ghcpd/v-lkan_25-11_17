@@ -1,0 +1,238 @@
+{
+  "component": "relations",
+  "metadata": {
+    "engine": "regex",
+    "component": "relations",
+    "generated_at": "2025-11-17T07:41:24.655680Z",
+    "source_documents": [
+      "D:\\Downloads\\Codex-mini\\v-lkan_25-11_17\\documents.txt"
+    ],
+    "document_count": 162
+  },
+  "results": [
+    {
+      "id": "works_at-Person-john_doe-590463-Company-openai-608710-5532f1",
+      "type": "works_at",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    },
+    {
+      "id": "manages-Person-john_doe-590463-Project-alpha-c0c9e2-553f1b",
+      "type": "manages",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "leads-Person-john_doe-590463-Team-alpha_squad-dac3b1-ed6339",
+      "type": "leads",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Team-alpha_squad-dac3b1",
+      "metadata": {}
+    },
+    {
+      "id": "supervises-Person-john_doe-590463-Person-michael_brown-7c52ae-568782",
+      "type": "supervises",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Person-michael_brown-7c52ae",
+      "metadata": {}
+    },
+    {
+      "id": "project_period-Project-alpha-c0c9e2-b2210b",
+      "type": "project_period",
+      "subject_id": "Project-alpha-c0c9e2",
+      "object_id": null,
+      "metadata": {
+        "start_date": "2023-01-15",
+        "end_date": "2023-06-30"
+      }
+    },
+    {
+      "id": "company_industry-Company-openai-608710-a331d4",
+      "type": "company_industry",
+      "subject_id": "Company-openai-608710",
+      "object_id": null,
+      "metadata": {
+        "industry": "the Technology industry"
+      }
+    },
+    {
+      "id": "employed_in-Person-john_doe-590463-Department-research-e2ccd8-e92f3c",
+      "type": "employed_in",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Department-research-e2ccd8",
+      "metadata": {}
+    },
+    {
+      "id": "located_at-Company-openai-608710-Company-openai-608710-1d2431",
+      "type": "located_at",
+      "subject_id": "Company-openai-608710",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    },
+    {
+      "id": "belongs_to-Department-research-e2ccd8-Company-openai-608710-4e1564",
+      "type": "belongs_to",
+      "subject_id": "Department-research-e2ccd8",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    },
+    {
+      "id": "assigned_to-Person-john_doe-590463-Project-alpha-c0c9e2-12c18e",
+      "type": "assigned_to",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "collaborates_with-Person-john_doe-590463-Person-michael_brown-7c52ae-54842d",
+      "type": "collaborates_with",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Person-michael_brown-7c52ae",
+      "metadata": {}
+    },
+    {
+      "id": "reports_to-Person-john_doe-590463-Person-michael_brown-7c52ae-44ff7c",
+      "type": "reports_to",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Person-michael_brown-7c52ae",
+      "metadata": {}
+    },
+    {
+      "id": "develops-Team-alpha_squad-dac3b1-Product-alpha_platform-8559a0-affc05",
+      "type": "develops",
+      "subject_id": "Team-alpha_squad-dac3b1",
+      "object_id": "Product-alpha_platform-8559a0",
+      "metadata": {}
+    },
+    {
+      "id": "uses_technology-Project-alpha-c0c9e2-Project-alpha-c0c9e2-5ccd17",
+      "type": "uses_technology",
+      "subject_id": "Project-alpha-c0c9e2",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "serves_client-Company-openai-608710-Client-openai_strategic_solutions-f8b7b0-8a3c3c",
+      "type": "serves_client",
+      "subject_id": "Company-openai-608710",
+      "object_id": "Client-openai_strategic_solutions-f8b7b0",
+      "metadata": {}
+    },
+    {
+      "id": "has_position-Person-john_doe-590463-Position-researcher-326677-f0319d",
+      "type": "has_position",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Position-researcher-326677",
+      "metadata": {}
+    },
+    {
+      "id": "team_member-Person-john_doe-590463-Team-alpha_squad-dac3b1-fe8eb2",
+      "type": "team_member",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Team-alpha_squad-dac3b1",
+      "metadata": {}
+    },
+    {
+      "id": "project_technology-Project-alpha-c0c9e2-Project-alpha-c0c9e2-f439be",
+      "type": "project_technology",
+      "subject_id": "Project-alpha-c0c9e2",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "client_contract-Client-openai_strategic_solutions-f8b7b0-Company-openai-608710-764b10",
+      "type": "client_contract",
+      "subject_id": "Client-openai_strategic_solutions-f8b7b0",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    },
+    {
+      "id": "department_head-Person-john_doe-590463-Department-research-e2ccd8-3b5b5f",
+      "type": "department_head",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Department-research-e2ccd8",
+      "metadata": {}
+    },
+    {
+      "id": "office_location-Person-john_doe-590463-Location-san_francisco_-_openai-ecf396-9091d8",
+      "type": "office_location",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Location-san_francisco_-_openai-ecf396",
+      "metadata": {}
+    },
+    {
+      "id": "project_budget-Project-alpha-c0c9e2-8a2916",
+      "type": "project_budget",
+      "subject_id": "Project-alpha-c0c9e2",
+      "object_id": null,
+      "metadata": {
+        "budget": "unreported"
+      }
+    },
+    {
+      "id": "technology_stack-Project-alpha-c0c9e2-Project-alpha-c0c9e2-4e0ee4",
+      "type": "technology_stack",
+      "subject_id": "Project-alpha-c0c9e2",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "team_lead-Person-john_doe-590463-Team-alpha_squad-dac3b1-703e7b",
+      "type": "team_lead",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Team-alpha_squad-dac3b1",
+      "metadata": {}
+    },
+    {
+      "id": "product_manager-Person-john_doe-590463-Product-alpha_platform-8559a0-25964b",
+      "type": "product_manager",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Product-alpha_platform-8559a0",
+      "metadata": {}
+    },
+    {
+      "id": "client_relationship-Person-john_doe-590463-Client-openai_strategic_solutions-f8b7b0-8ba3f6",
+      "type": "client_relationship",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Client-openai_strategic_solutions-f8b7b0",
+      "metadata": {}
+    },
+    {
+      "id": "cross_functional-Team-alpha_squad-dac3b1-Department-research-e2ccd8-9f54f0",
+      "type": "cross_functional",
+      "subject_id": "Team-alpha_squad-dac3b1",
+      "object_id": "Department-research-e2ccd8",
+      "metadata": {}
+    },
+    {
+      "id": "mentors-Person-john_doe-590463-Person-michael_brown-7c52ae-5a9b44",
+      "type": "mentors",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Person-michael_brown-7c52ae",
+      "metadata": {}
+    },
+    {
+      "id": "project_stakeholder-Person-john_doe-590463-Project-alpha-c0c9e2-e70792",
+      "type": "project_stakeholder",
+      "subject_id": "Person-john_doe-590463",
+      "object_id": "Project-alpha-c0c9e2",
+      "metadata": {}
+    },
+    {
+      "id": "vendor_relationship-Company-openai-608710-Company-openai-608710-7e7546",
+      "type": "vendor_relationship",
+      "subject_id": "Company-openai-608710",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    },
+    {
+      "id": "subsidiary_of-Company-openai-608710-Company-openai-608710-f4d7ed",
+      "type": "subsidiary_of",
+      "subject_id": "Company-openai-608710",
+      "object_id": "Company-openai-608710",
+      "metadata": {}
+    }
+  ]
+}
