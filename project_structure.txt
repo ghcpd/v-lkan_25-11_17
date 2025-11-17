@@ -1,0 +1,32 @@
+.
+├── Dockerfile
+├── README.md
+├── documents.txt
+├── entities.json
+├── relations.json
+├── requirements.txt
+├── run_test.sh
+├── setup.sh
+├── test_report_template.json
+├── project_structure.txt
+├── output/
+│   └── .gitkeep
+├── enterprise_kg_eval/
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── config_loader.py
+│   ├── data_loader.py
+│   ├── pipeline.py
+│   ├── schema.py
+│   ├── writer.py
+│   ├── models.py
+│   └── engines/
+│       ├── __init__.py
+│       ├── base.py
+│       ├── llm_stub_engine.py
+│       ├── ml_engine.py
+│       └── regex_engine.py
+└── tests/
+    ├── __init__.py
+    ├── test_pipeline.py
+    └── test_writer.py

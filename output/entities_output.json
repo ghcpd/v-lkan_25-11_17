@@ -1,0 +1,3689 @@
+{
+  "component": "entities",
+  "metadata": {
+    "engine": "regex",
+    "component": "entities",
+    "generated_at": "2025-11-17T07:41:24.636622Z",
+    "source_documents": [
+      "D:\\Downloads\\Codex-mini\\v-lkan_25-11_17\\documents.txt"
+    ],
+    "document_count": 162
+  },
+  "results": [
+    {
+      "id": "Person-john_doe-590463",
+      "type": "Person",
+      "attributes": {
+        "name": "John Doe",
+        "age": 32,
+        "position": "Researcher",
+        "department": "Research"
+      },
+      "source_sentence": "John Doe, age 32, works at OpenAI as a Researcher.",
+      "metadata": {
+        "company": "OpenAI",
+        "department": "Research",
+        "projects": [
+          "Alpha",
+          "Beta",
+          "Gamma"
+        ]
+      }
+    },
+    {
+      "id": "Person-michael_brown-7c52ae",
+      "type": "Person",
+      "attributes": {
+        "name": "Michael Brown",
+        "age": 45,
+        "position": "Senior Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Michael Brown, age 45, works at Microsoft as a Senior Developer.",
+      "metadata": {
+        "company": "Microsoft",
+        "department": "Engineering",
+        "projects": [
+          "Zeta",
+          "Eta",
+          "Theta",
+          "Iota"
+        ]
+      }
+    },
+    {
+      "id": "Person-sarah_wilson-486e6d",
+      "type": "Person",
+      "attributes": {
+        "name": "Sarah Wilson",
+        "age": 35,
+        "position": "Product Manager",
+        "department": "Management"
+      },
+      "source_sentence": "Sarah Wilson, age 35, works at Apple as a Product Manager.",
+      "metadata": {
+        "company": "Apple",
+        "department": "Management",
+        "projects": [
+          "Kappa"
+        ]
+      }
+    },
+    {
+      "id": "Person-david_johnson-8e6074",
+      "type": "Person",
+      "attributes": {
+        "name": "David Johnson",
+        "age": 29,
+        "position": "Data Scientist",
+        "department": "Scientist"
+      },
+      "source_sentence": "David Johnson, age 29, works at Amazon as a Data Scientist.",
+      "metadata": {
+        "company": "Amazon",
+        "department": "Scientist",
+        "projects": [
+          "Lambda",
+          "Mu",
+          "Nu",
+          "Xi",
+          "Omicron"
+        ]
+      }
+    },
+    {
+      "id": "Person-emily_davis-e79b60",
+      "type": "Person",
+      "attributes": {
+        "name": "Emily Davis",
+        "age": 31,
+        "position": "UX Designer",
+        "department": "Design"
+      },
+      "source_sentence": "Emily Davis, age 31, works at Meta as a UX Designer.",
+      "metadata": {
+        "company": "Meta",
+        "department": "Design",
+        "projects": [
+          "Pi",
+          "Rho"
+        ]
+      }
+    },
+    {
+      "id": "Person-lisa_garcia-d762a1",
+      "type": "Person",
+      "attributes": {
+        "name": "Lisa Garcia",
+        "age": 26,
+        "position": "Software Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Lisa Garcia, age 26, works at Netflix as a Software Engineer.",
+      "metadata": {
+        "company": "Netflix",
+        "department": "Engineering",
+        "projects": [
+          "Phi"
+        ]
+      }
+    },
+    {
+      "id": "Person-james_rodriguez-ec8096",
+      "type": "Person",
+      "attributes": {
+        "name": "James Rodriguez",
+        "age": 42,
+        "position": "Backend Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "James Rodriguez, age 42, works at Spotify as a Backend Developer.",
+      "metadata": {
+        "company": "Spotify",
+        "department": "Engineering",
+        "projects": [
+          "Chi",
+          "Psi",
+          "Omega",
+          "Alpha-2"
+        ]
+      }
+    },
+    {
+      "id": "Person-maria_martinez-ccb0af",
+      "type": "Person",
+      "attributes": {
+        "name": "Maria Martinez",
+        "age": 34,
+        "position": "Systems Architect",
+        "department": "Architecture"
+      },
+      "source_sentence": "Maria Martinez, age 34, works at Uber as a Systems Architect.",
+      "metadata": {
+        "company": "Uber",
+        "department": "Architecture",
+        "projects": [
+          "Beta-2",
+          "Gamma-2"
+        ]
+      }
+    },
+    {
+      "id": "Person-tom_anderson-862acc",
+      "type": "Person",
+      "attributes": {
+        "name": "Tom Anderson",
+        "age": 39,
+        "position": "Cloud Architect",
+        "department": "Architecture"
+      },
+      "source_sentence": "Tom Anderson, age 39, works at IBM as a Cloud Architect.",
+      "metadata": {
+        "company": "IBM",
+        "department": "Architecture",
+        "projects": [
+          "Nova",
+          "Stellar"
+        ]
+      }
+    },
+    {
+      "id": "Person-rachel_green-4976de",
+      "type": "Person",
+      "attributes": {
+        "name": "Rachel Green",
+        "age": 27,
+        "position": "Database Administrator",
+        "department": "Administrator"
+      },
+      "source_sentence": "Rachel Green, age 27, works at Oracle as a Database Administrator.",
+      "metadata": {
+        "company": "Oracle",
+        "department": "Administrator",
+        "projects": [
+          "Cosmic",
+          "Galactic",
+          "Universal"
+        ]
+      }
+    },
+    {
+      "id": "Person-kevin_lee-f9667d",
+      "type": "Person",
+      "attributes": {
+        "name": "Kevin Lee",
+        "age": 33,
+        "position": "DevOps Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer.",
+      "metadata": {
+        "company": "Salesforce",
+        "department": "Engineering",
+        "projects": [
+          "Quantum"
+        ]
+      }
+    },
+    {
+      "id": "Person-anna_thompson-4a177d",
+      "type": "Person",
+      "attributes": {
+        "name": "Anna Thompson",
+        "age": 30,
+        "position": "Creative Director",
+        "department": "Leadership"
+      },
+      "source_sentence": "Anna Thompson, age 30, works at Adobe as a Creative Director.",
+      "metadata": {
+        "company": "Adobe",
+        "department": "Leadership",
+        "projects": [
+          "Photon",
+          "Electron",
+          "Neutron",
+          "Proton"
+        ]
+      }
+    },
+    {
+      "id": "Person-mark_davis-ce5619",
+      "type": "Person",
+      "attributes": {
+        "name": "Mark Davis",
+        "age": 44,
+        "position": "Hardware Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Mark Davis, age 44, works at Intel as a Hardware Engineer.",
+      "metadata": {
+        "company": "Intel",
+        "department": "Engineering",
+        "projects": [
+          "Circuit",
+          "Binary"
+        ]
+      }
+    },
+    {
+      "id": "Person-susan_clark-4c37a5",
+      "type": "Person",
+      "attributes": {
+        "name": "Susan Clark",
+        "age": 36,
+        "position": "Network Specialist",
+        "department": "Operations"
+      },
+      "source_sentence": "Susan Clark, age 36, works at Cisco as a Network Specialist.",
+      "metadata": {
+        "company": "Cisco",
+        "department": "Operations",
+        "projects": [
+          "Network-A",
+          "Network-B",
+          "Network-C"
+        ]
+      }
+    },
+    {
+      "id": "Person-paul_wilson-62be00",
+      "type": "Person",
+      "attributes": {
+        "name": "Paul Wilson",
+        "age": 41,
+        "position": "Systems Administrator",
+        "department": "Administrator"
+      },
+      "source_sentence": "Paul Wilson, age 41, works at HP as a Systems Administrator.",
+      "metadata": {
+        "company": "HP",
+        "department": "Administrator",
+        "projects": [
+          "Server-Prime"
+        ]
+      }
+    },
+    {
+      "id": "Person-jennifer_moore-7bfa12",
+      "type": "Person",
+      "attributes": {
+        "name": "Jennifer Moore",
+        "age": 29,
+        "position": "Technical Support Lead",
+        "department": "Lead"
+      },
+      "source_sentence": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead.",
+      "metadata": {
+        "company": "Dell",
+        "department": "Lead",
+        "projects": [
+          "Support-Alpha",
+          "Support-Beta"
+        ]
+      }
+    },
+    {
+      "id": "Person-steven_taylor-9aa927",
+      "type": "Person",
+      "attributes": {
+        "name": "Steven Taylor",
+        "age": 37,
+        "position": "Virtualization Expert",
+        "department": "Expert"
+      },
+      "source_sentence": "Steven Taylor, age 37, works at VMware as a Virtualization Expert.",
+      "metadata": {
+        "company": "VMware",
+        "department": "Expert",
+        "projects": [
+          "Virtual-X",
+          "Virtual-Y",
+          "Virtual-Z"
+        ]
+      }
+    },
+    {
+      "id": "Person-michelle_white-98a73f",
+      "type": "Person",
+      "attributes": {
+        "name": "Michelle White",
+        "age": 32,
+        "position": "Linux Administrator",
+        "department": "Administrator"
+      },
+      "source_sentence": "Michelle White, age 32, works at RedHat as a Linux Administrator.",
+      "metadata": {
+        "company": "RedHat",
+        "department": "Administrator",
+        "projects": [
+          "Linux-Core"
+        ]
+      }
+    },
+    {
+      "id": "Person-daniel_kim-f63831",
+      "type": "Person",
+      "attributes": {
+        "name": "Daniel Kim",
+        "age": 35,
+        "position": "Full Stack Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer.",
+      "metadata": {
+        "company": "Airbnb",
+        "department": "Engineering",
+        "projects": [
+          "AirFlow",
+          "AirStream",
+          "AirSync"
+        ]
+      }
+    },
+    {
+      "id": "Person-catherine_jones-757dd6",
+      "type": "Person",
+      "attributes": {
+        "name": "Catherine Jones",
+        "age": 28,
+        "position": "Frontend Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Catherine Jones, age 28, works at Twitter as a Frontend Developer.",
+      "metadata": {
+        "company": "Twitter",
+        "department": "Engineering",
+        "projects": [
+          "TweetDeck-2",
+          "TwitterAPI-v3"
+        ]
+      }
+    },
+    {
+      "id": "Person-andrew_chen-87cb30",
+      "type": "Person",
+      "attributes": {
+        "name": "Andrew Chen",
+        "age": 42,
+        "position": "Data Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer.",
+      "metadata": {
+        "company": "LinkedIn",
+        "department": "Engineering",
+        "projects": [
+          "LinkedData",
+          "ProfileEngine",
+          "NetworkGraph",
+          "JobMatcher"
+        ]
+      }
+    },
+    {
+      "id": "Person-sophia_rodriguez-84348f",
+      "type": "Person",
+      "attributes": {
+        "name": "Sophia Rodriguez",
+        "age": 31,
+        "position": "Mobile Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer.",
+      "metadata": {
+        "company": "Pinterest",
+        "department": "Engineering",
+        "projects": [
+          "PinBoard-Mobile"
+        ]
+      }
+    },
+    {
+      "id": "Person-nathan_williams-fb0c45",
+      "type": "Person",
+      "attributes": {
+        "name": "Nathan Williams",
+        "age": 39,
+        "position": "Security Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Nathan Williams, age 39, works at Dropbox as a Security Engineer.",
+      "metadata": {
+        "company": "Dropbox",
+        "department": "Engineering",
+        "projects": [
+          "SecureVault",
+          "CryptoGuard"
+        ]
+      }
+    },
+    {
+      "id": "Person-olivia_brown-a2cd17",
+      "type": "Person",
+      "attributes": {
+        "name": "Olivia Brown",
+        "age": 26,
+        "position": "Product Designer",
+        "department": "Design"
+      },
+      "source_sentence": "Olivia Brown, age 26, works at Slack as a Product Designer.",
+      "metadata": {
+        "company": "Slack",
+        "department": "Design",
+        "projects": [
+          "SlackBot-AI",
+          "ChannelSync",
+          "WorkspaceHub"
+        ]
+      }
+    },
+    {
+      "id": "Person-christopher_davis-f30ad3",
+      "type": "Person",
+      "attributes": {
+        "name": "Christopher Davis",
+        "age": 34,
+        "position": "Video Technology Specialist",
+        "department": "Operations"
+      },
+      "source_sentence": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist.",
+      "metadata": {
+        "company": "Zoom",
+        "department": "Operations",
+        "projects": [
+          "VideoCodec-X",
+          "MeetingRoom-Pro"
+        ]
+      }
+    },
+    {
+      "id": "Person-ryan_garcia-3589bb",
+      "type": "Person",
+      "attributes": {
+        "name": "Ryan Garcia",
+        "age": 37,
+        "position": "Payment Systems Engineer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer.",
+      "metadata": {
+        "company": "Square",
+        "department": "Engineering",
+        "projects": [
+          "PaymentGateway",
+          "SquareAPI",
+          "TransactionEngine"
+        ]
+      }
+    },
+    {
+      "id": "Person-jessica_wilson-1c32f3",
+      "type": "Person",
+      "attributes": {
+        "name": "Jessica Wilson",
+        "age": 33,
+        "position": "API Developer",
+        "department": "Engineering"
+      },
+      "source_sentence": "Jessica Wilson, age 33, works at DocuSign as a API Developer.",
+      "metadata": {
+        "company": "DocuSign",
+        "department": "Engineering",
+        "projects": [
+          "SignatureAPI",
+          "DocumentFlow"
+        ]
+      }
+    },
+    {
+      "id": "Company-openai-608710",
+      "type": "Company",
+      "attributes": {
+        "name": "OpenAI",
+        "industry": "the Technology industry",
+        "sector": "the Technology industry",
+        "location": "San Francisco"
+      },
+      "source_sentence": "OpenAI operates in the Technology industry.",
+      "metadata": {
+        "location_info": {
+          "city": "San Francisco",
+          "country": "USA",
+          "office_type": "HQ"
+        }
+      }
+    },
+    {
+      "id": "Company-google-6bb956",
+      "type": "Company",
+      "attributes": {
+        "name": "Google",
+        "industry": "Technology",
+        "sector": "Internet Services",
+        "location": "Mountain View"
+      },
+      "source_sentence": "Google specializes in Technology and Internet Services.",
+      "metadata": {
+        "location_info": {
+          "city": "Mountain View",
+          "country": "USA",
+          "office_type": "Campus"
+        }
+      }
+    },
+    {
+      "id": "Company-amazon-cf867e",
+      "type": "Company",
+      "attributes": {
+        "name": "Amazon",
+        "industry": "Technology",
+        "sector": "E-commerce sectors",
+        "location": "Seattle"
+      },
+      "source_sentence": "Amazon works in Technology and E-commerce sectors.",
+      "metadata": {
+        "location_info": {
+          "city": "Seattle",
+          "country": "USA",
+          "office_type": "Headquarters"
+        }
+      }
+    },
+    {
+      "id": "Company-meta-12e606",
+      "type": "Company",
+      "attributes": {
+        "name": "Meta",
+        "industry": "Technology",
+        "sector": "Social Media industry",
+        "location": "Menlo Park"
+      },
+      "source_sentence": "Meta operates in Technology and Social Media industry.",
+      "metadata": {
+        "location_info": {
+          "city": "Menlo Park",
+          "country": "USA",
+          "office_type": "Headquarters"
+        }
+      }
+    },
+    {
+      "id": "Company-tesla-3a9667",
+      "type": "Company",
+      "attributes": {
+        "name": "Tesla",
+        "industry": "Automotive",
+        "sector": "Clean Energy",
+        "location": "Palo Alto"
+      },
+      "source_sentence": "Tesla specializes in Automotive and Clean Energy.",
+      "metadata": {
+        "location_info": {
+          "city": "Palo Alto",
+          "country": "USA",
+          "office_type": "Research"
+        }
+      }
+    },
+    {
+      "id": "Company-spotify-5f65e8",
+      "type": "Company",
+      "attributes": {
+        "name": "Spotify",
+        "industry": "Music",
+        "sector": "Audio Technology",
+        "location": "Stockholm"
+      },
+      "source_sentence": "Spotify operates in Music and Audio Technology.",
+      "metadata": {
+        "location_info": {
+          "city": "Stockholm",
+          "country": "Sweden",
+          "office_type": "Product"
+        }
+      }
+    },
+    {
+      "id": "Company-uber-5347cf",
+      "type": "Company",
+      "attributes": {
+        "name": "Uber",
+        "industry": "Transportation",
+        "sector": "Technology",
+        "location": "San Francisco"
+      },
+      "source_sentence": "Uber specializes in Transportation and Technology.",
+      "metadata": {
+        "location_info": {
+          "city": "San Francisco",
+          "country": "USA",
+          "office_type": "Operations"
+        }
+      }
+    },
+    {
+      "id": "Company-ibm-8306e8",
+      "type": "Company",
+      "attributes": {
+        "name": "IBM",
+        "industry": "Technology",
+        "sector": "Enterprise Solutions industry",
+        "location": "Armonk"
+      },
+      "source_sentence": "IBM operates in Technology and Enterprise Solutions industry.",
+      "metadata": {
+        "location_info": {
+          "city": "Armonk",
+          "country": "USA",
+          "office_type": "Research"
+        }
+      }
+    },
+    {
+      "id": "Company-oracle-cc93a6",
+      "type": "Company",
+      "attributes": {
+        "name": "Oracle",
+        "industry": "Database",
+        "sector": "Enterprise Software",
+        "location": "Redwood Shores"
+      },
+      "source_sentence": "Oracle specializes in Database and Enterprise Software.",
+      "metadata": {
+        "location_info": {
+          "city": "Redwood Shores",
+          "country": "USA",
+          "office_type": "Campus"
+        }
+      }
+    },
+    {
+      "id": "Company-intel-8ac23c",
+      "type": "Company",
+      "attributes": {
+        "name": "Intel",
+        "industry": "Semiconductors",
+        "sector": "Technology sectors",
+        "location": "Santa Clara"
+      },
+      "source_sentence": "Intel works in Semiconductors and Technology sectors.",
+      "metadata": {
+        "location_info": {
+          "city": "Santa Clara",
+          "country": "USA",
+          "office_type": "Microchip Lab"
+        }
+      }
+    },
+    {
+      "id": "Company-cisco-2168ce",
+      "type": "Company",
+      "attributes": {
+        "name": "Cisco",
+        "industry": "Networking",
+        "sector": "Technology industry",
+        "location": "San Jose"
+      },
+      "source_sentence": "Cisco operates in Networking and Technology industry.",
+      "metadata": {
+        "location_info": {
+          "city": "San Jose",
+          "country": "USA",
+          "office_type": "Networking"
+        }
+      }
+    },
+    {
+      "id": "Company-hp-65571c",
+      "type": "Company",
+      "attributes": {
+        "name": "HP",
+        "industry": "Computing",
+        "sector": "Printing Technology",
+        "location": "Palo Alto"
+      },
+      "source_sentence": "HP specializes in Computing and Printing Technology.",
+      "metadata": {
+        "location_info": {
+          "city": "Palo Alto",
+          "country": "USA",
+          "office_type": "Operations"
+        }
+      }
+    },
+    {
+      "id": "Company-vmware-5df275",
+      "type": "Company",
+      "attributes": {
+        "name": "VMware",
+        "industry": "Virtualization",
+        "sector": "Cloud Computing",
+        "location": "Palo Alto"
+      },
+      "source_sentence": "VMware operates in Virtualization and Cloud Computing.",
+      "metadata": {
+        "location_info": {
+          "city": "Palo Alto",
+          "country": "USA",
+          "office_type": "Virtualization"
+        }
+      }
+    },
+    {
+      "id": "Company-redhat-27cff2",
+      "type": "Company",
+      "attributes": {
+        "name": "RedHat",
+        "industry": "Open Source",
+        "sector": "Enterprise Linux",
+        "location": "Raleigh"
+      },
+      "source_sentence": "RedHat specializes in Open Source and Enterprise Linux.",
+      "metadata": {
+        "location_info": {
+          "city": "Raleigh",
+          "country": "USA",
+          "office_type": "Open Source Lab"
+        }
+      }
+    },
+    {
+      "id": "Company-airbnb-09e811",
+      "type": "Company",
+      "attributes": {
+        "name": "Airbnb",
+        "industry": "Travel",
+        "sector": "Hospitality Technology industry",
+        "location": "Global"
+      },
+      "source_sentence": "Airbnb operates in Travel and Hospitality Technology industry.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-twitter-779e4d",
+      "type": "Company",
+      "attributes": {
+        "name": "Twitter",
+        "industry": "Social Media",
+        "sector": "Communication Technology",
+        "location": "Global"
+      },
+      "source_sentence": "Twitter specializes in Social Media and Communication Technology.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-dropbox-5eb591",
+      "type": "Company",
+      "attributes": {
+        "name": "Dropbox",
+        "industry": "Cloud Storage",
+        "sector": "File Sharing sectors",
+        "location": "Global"
+      },
+      "source_sentence": "Dropbox works in Cloud Storage and File Sharing sectors.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-slack-7eec41",
+      "type": "Company",
+      "attributes": {
+        "name": "Slack",
+        "industry": "Business Communication",
+        "sector": "Collaboration",
+        "location": "Global"
+      },
+      "source_sentence": "Slack operates in Business Communication and Collaboration.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-zoom-576f2d",
+      "type": "Company",
+      "attributes": {
+        "name": "Zoom",
+        "industry": "Video Conferencing",
+        "sector": "Communications",
+        "location": "Global"
+      },
+      "source_sentence": "Zoom specializes in Video Conferencing and Communications.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-square-95ce8a",
+      "type": "Company",
+      "attributes": {
+        "name": "Square",
+        "industry": "Financial Technology",
+        "sector": "Payment Processing",
+        "location": "Global"
+      },
+      "source_sentence": "Square operates in Financial Technology and Payment Processing.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Company-docusign-6a5345",
+      "type": "Company",
+      "attributes": {
+        "name": "DocuSign",
+        "industry": "Digital Signature",
+        "sector": "Document Management",
+        "location": "Global"
+      },
+      "source_sentence": "DocuSign specializes in Digital Signature and Document Management.",
+      "metadata": {
+        "location_info": {}
+      }
+    },
+    {
+      "id": "Project-alpha-c0c9e2",
+      "type": "Project",
+      "attributes": {
+        "name": "Alpha",
+        "start_date": "2023-01-15",
+        "end_date": "2023-06-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Alpha started on 2023-01-15, ends on 2023-06-30.",
+      "metadata": {
+        "team": "Alpha Team",
+        "project": "Alpha"
+      }
+    },
+    {
+      "id": "Project-beta-348cc1",
+      "type": "Project",
+      "attributes": {
+        "name": "Beta",
+        "start_date": "2023-02-01",
+        "end_date": "2023-08-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Beta began on 2023-02-01, concludes on 2023-08-15.",
+      "metadata": {
+        "team": "Beta Team",
+        "project": "Beta"
+      }
+    },
+    {
+      "id": "Project-gamma-c399f1",
+      "type": "Project",
+      "attributes": {
+        "name": "Gamma",
+        "start_date": "2023-03-10",
+        "end_date": "2023-09-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Gamma launched on 2023-03-10, finishes on 2023-09-20.",
+      "metadata": {
+        "team": "Gamma Team",
+        "project": "Gamma"
+      }
+    },
+    {
+      "id": "Project-delta-1f28ff",
+      "type": "Project",
+      "attributes": {
+        "name": "Delta",
+        "start_date": "2023-01-20",
+        "end_date": "2023-07-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Delta initiated on 2023-01-20, completes on 2023-07-10.",
+      "metadata": {
+        "team": "Delta Team",
+        "project": "Delta"
+      }
+    },
+    {
+      "id": "Project-epsilon-b9cd54",
+      "type": "Project",
+      "attributes": {
+        "name": "Epsilon",
+        "start_date": "2023-04-05",
+        "end_date": "2023-10-12",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Epsilon started on 2023-04-05, ends on 2023-10-12.",
+      "metadata": {
+        "team": "Epsilon Team",
+        "project": "Epsilon"
+      }
+    },
+    {
+      "id": "Project-zeta-358660",
+      "type": "Project",
+      "attributes": {
+        "name": "Zeta",
+        "start_date": "2023-02-15",
+        "end_date": "2023-12-01",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Zeta began on 2023-02-15, concludes on 2023-12-01.",
+      "metadata": {
+        "team": "Zeta Team",
+        "project": "Zeta"
+      }
+    },
+    {
+      "id": "Project-eta-4b6e61",
+      "type": "Project",
+      "attributes": {
+        "name": "Eta",
+        "start_date": "2023-05-01",
+        "end_date": "2024-01-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Eta launched on 2023-05-01, finishes on 2024-01-30.",
+      "metadata": {
+        "team": "Eta Team",
+        "project": "Eta"
+      }
+    },
+    {
+      "id": "Project-theta-ebae1b",
+      "type": "Project",
+      "attributes": {
+        "name": "Theta",
+        "start_date": "2023-03-20",
+        "end_date": "2023-11-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Theta initiated on 2023-03-20, completes on 2023-11-15.",
+      "metadata": {
+        "team": "Theta Team",
+        "project": "Theta"
+      }
+    },
+    {
+      "id": "Project-iota-0e0419",
+      "type": "Project",
+      "attributes": {
+        "name": "Iota",
+        "start_date": "2023-06-01",
+        "end_date": "2024-02-28",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Iota started on 2023-06-01, ends on 2024-02-28.",
+      "metadata": {
+        "team": "Iota Team",
+        "project": "Iota"
+      }
+    },
+    {
+      "id": "Project-kappa-1a53f8",
+      "type": "Project",
+      "attributes": {
+        "name": "Kappa",
+        "start_date": "2023-01-10",
+        "end_date": "2023-05-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Kappa began on 2023-01-10, concludes on 2023-05-25.",
+      "metadata": {
+        "team": "Kappa Team",
+        "project": "Kappa"
+      }
+    },
+    {
+      "id": "Project-lambda-4a4f76",
+      "type": "Project",
+      "attributes": {
+        "name": "Lambda",
+        "start_date": "2023-07-01",
+        "end_date": "2024-03-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Lambda launched on 2023-07-01, finishes on 2024-03-15.",
+      "metadata": {
+        "team": "Lambda Team",
+        "project": "Lambda"
+      }
+    },
+    {
+      "id": "Project-mu-d089f8",
+      "type": "Project",
+      "attributes": {
+        "name": "Mu",
+        "start_date": "2023-04-15",
+        "end_date": "2023-12-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Mu initiated on 2023-04-15, completes on 2023-12-20.",
+      "metadata": {
+        "team": "Mu Team",
+        "project": "Mu"
+      }
+    },
+    {
+      "id": "Project-nu-d1009b",
+      "type": "Project",
+      "attributes": {
+        "name": "Nu",
+        "start_date": "2023-08-01",
+        "end_date": "2024-04-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Nu started on 2023-08-01, ends on 2024-04-10.",
+      "metadata": {
+        "team": "Nu Team",
+        "project": "Nu"
+      }
+    },
+    {
+      "id": "Project-xi-a0dcce",
+      "type": "Project",
+      "attributes": {
+        "name": "Xi",
+        "start_date": "2023-05-10",
+        "end_date": "2024-01-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Xi began on 2023-05-10, concludes on 2024-01-05.",
+      "metadata": {
+        "team": "Xi Team",
+        "project": "Xi"
+      }
+    },
+    {
+      "id": "Project-omicron-8b1132",
+      "type": "Project",
+      "attributes": {
+        "name": "Omicron",
+        "start_date": "2023-09-01",
+        "end_date": "2024-05-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Omicron launched on 2023-09-01, finishes on 2024-05-20.",
+      "metadata": {
+        "team": "Omicron Team",
+        "project": "Omicron"
+      }
+    },
+    {
+      "id": "Project-pi-9eb5d1",
+      "type": "Project",
+      "attributes": {
+        "name": "Pi",
+        "start_date": "2023-03-25",
+        "end_date": "2023-10-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Pi initiated on 2023-03-25, completes on 2023-10-30.",
+      "metadata": {
+        "team": "Pi Team",
+        "project": "Pi"
+      }
+    },
+    {
+      "id": "Project-rho-44929c",
+      "type": "Project",
+      "attributes": {
+        "name": "Rho",
+        "start_date": "2023-06-15",
+        "end_date": "2024-01-12",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Rho started on 2023-06-15, ends on 2024-01-12.",
+      "metadata": {
+        "team": "Rho Team",
+        "project": "Rho"
+      }
+    },
+    {
+      "id": "Project-sigma-07c767",
+      "type": "Project",
+      "attributes": {
+        "name": "Sigma",
+        "start_date": "2023-02-28",
+        "end_date": "2023-11-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Sigma began on 2023-02-28, concludes on 2023-11-30.",
+      "metadata": {
+        "team": "Sigma Team",
+        "project": "Sigma"
+      }
+    },
+    {
+      "id": "Project-tau-fc4429",
+      "type": "Project",
+      "attributes": {
+        "name": "Tau",
+        "start_date": "2023-07-20",
+        "end_date": "2024-02-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Tau launched on 2023-07-20, finishes on 2024-02-15.",
+      "metadata": {
+        "team": "Tau Team",
+        "project": "Tau"
+      }
+    },
+    {
+      "id": "Project-upsilon-7ef7e1",
+      "type": "Project",
+      "attributes": {
+        "name": "Upsilon",
+        "start_date": "2023-04-30",
+        "end_date": "2024-01-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Upsilon initiated on 2023-04-30, completes on 2024-01-25.",
+      "metadata": {
+        "team": "Upsilon Team",
+        "project": "Upsilon"
+      }
+    },
+    {
+      "id": "Project-phi-77ac7f",
+      "type": "Project",
+      "attributes": {
+        "name": "Phi",
+        "start_date": "2023-08-15",
+        "end_date": "2024-03-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Phi started on 2023-08-15, ends on 2024-03-30.",
+      "metadata": {
+        "team": "Phi Team",
+        "project": "Phi"
+      }
+    },
+    {
+      "id": "Project-chi-a64aeb",
+      "type": "Project",
+      "attributes": {
+        "name": "Chi",
+        "start_date": "2023-05-25",
+        "end_date": "2024-02-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Chi began on 2023-05-25, concludes on 2024-02-10.",
+      "metadata": {
+        "team": "Chi Team",
+        "project": "Chi"
+      }
+    },
+    {
+      "id": "Project-psi-ec1e5b",
+      "type": "Project",
+      "attributes": {
+        "name": "Psi",
+        "start_date": "2023-09-10",
+        "end_date": "2024-04-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Psi launched on 2023-09-10, finishes on 2024-04-25.",
+      "metadata": {
+        "team": "Psi Team",
+        "project": "Psi"
+      }
+    },
+    {
+      "id": "Project-omega-c5bf86",
+      "type": "Project",
+      "attributes": {
+        "name": "Omega",
+        "start_date": "2023-06-30",
+        "end_date": "2024-03-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Omega initiated on 2023-06-30, completes on 2024-03-05.",
+      "metadata": {
+        "team": "Omega Team",
+        "project": "Omega"
+      }
+    },
+    {
+      "id": "Project-alpha-2-9f8043",
+      "type": "Project",
+      "attributes": {
+        "name": "Alpha-2",
+        "start_date": "2023-10-01",
+        "end_date": "2024-06-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Alpha-2 started on 2023-10-01, ends on 2024-06-15.",
+      "metadata": {
+        "team": "Alpha-2 Team",
+        "project": "Alpha-2"
+      }
+    },
+    {
+      "id": "Project-beta-2-480199",
+      "type": "Project",
+      "attributes": {
+        "name": "Beta-2",
+        "start_date": "2023-11-15",
+        "end_date": "2024-07-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Beta-2 began on 2023-11-15, concludes on 2024-07-30.",
+      "metadata": {
+        "team": "Beta-2 Team",
+        "project": "Beta-2"
+      }
+    },
+    {
+      "id": "Project-gamma-2-ec2535",
+      "type": "Project",
+      "attributes": {
+        "name": "Gamma-2",
+        "start_date": "2023-12-01",
+        "end_date": "2024-08-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Gamma-2 launched on 2023-12-01, finishes on 2024-08-20.",
+      "metadata": {
+        "team": "Gamma-2 Team",
+        "project": "Gamma-2"
+      }
+    },
+    {
+      "id": "Project-nova-84e508",
+      "type": "Project",
+      "attributes": {
+        "name": "Nova",
+        "start_date": "2023-08-01",
+        "end_date": "2024-01-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Nova started on 2023-08-01, ends on 2024-01-15.",
+      "metadata": {
+        "team": "Nova Team",
+        "project": "Nova"
+      }
+    },
+    {
+      "id": "Project-stellar-12d653",
+      "type": "Project",
+      "attributes": {
+        "name": "Stellar",
+        "start_date": "2023-09-15",
+        "end_date": "2024-03-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Stellar began on 2023-09-15, concludes on 2024-03-30.",
+      "metadata": {
+        "team": "Stellar Team",
+        "project": "Stellar"
+      }
+    },
+    {
+      "id": "Project-cosmic-bccabd",
+      "type": "Project",
+      "attributes": {
+        "name": "Cosmic",
+        "start_date": "2023-07-10",
+        "end_date": "2024-02-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Cosmic launched on 2023-07-10, finishes on 2024-02-20.",
+      "metadata": {
+        "team": "Cosmic Team",
+        "project": "Cosmic"
+      }
+    },
+    {
+      "id": "Project-galactic-a16b3a",
+      "type": "Project",
+      "attributes": {
+        "name": "Galactic",
+        "start_date": "2023-10-05",
+        "end_date": "2024-05-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Galactic initiated on 2023-10-05, completes on 2024-05-10.",
+      "metadata": {
+        "team": "Galactic Team",
+        "project": "Galactic"
+      }
+    },
+    {
+      "id": "Project-universal-eca2ef",
+      "type": "Project",
+      "attributes": {
+        "name": "Universal",
+        "start_date": "2023-11-20",
+        "end_date": "2024-06-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Universal started on 2023-11-20, ends on 2024-06-25.",
+      "metadata": {
+        "team": "Universal Team",
+        "project": "Universal"
+      }
+    },
+    {
+      "id": "Project-quantum-6a1156",
+      "type": "Project",
+      "attributes": {
+        "name": "Quantum",
+        "start_date": "2023-06-05",
+        "end_date": "2023-12-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Quantum began on 2023-06-05, concludes on 2023-12-15.",
+      "metadata": {
+        "team": "Quantum Team",
+        "project": "Quantum"
+      }
+    },
+    {
+      "id": "Project-photon-e60083",
+      "type": "Project",
+      "attributes": {
+        "name": "Photon",
+        "start_date": "2023-04-20",
+        "end_date": "2023-11-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Photon launched on 2023-04-20, finishes on 2023-11-05.",
+      "metadata": {
+        "team": "Photon Team",
+        "project": "Photon"
+      }
+    },
+    {
+      "id": "Project-electron-63da09",
+      "type": "Project",
+      "attributes": {
+        "name": "Electron",
+        "start_date": "2023-07-25",
+        "end_date": "2024-01-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Electron initiated on 2023-07-25, completes on 2024-01-20.",
+      "metadata": {
+        "team": "Electron Team",
+        "project": "Electron"
+      }
+    },
+    {
+      "id": "Project-neutron-62874a",
+      "type": "Project",
+      "attributes": {
+        "name": "Neutron",
+        "start_date": "2023-08-30",
+        "end_date": "2024-04-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Neutron started on 2023-08-30, ends on 2024-04-05.",
+      "metadata": {
+        "team": "Neutron Team",
+        "project": "Neutron"
+      }
+    },
+    {
+      "id": "Project-proton-ea5a3e",
+      "type": "Project",
+      "attributes": {
+        "name": "Proton",
+        "start_date": "2023-09-20",
+        "end_date": "2024-02-28",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Proton began on 2023-09-20, concludes on 2024-02-28.",
+      "metadata": {
+        "team": "Proton Team",
+        "project": "Proton"
+      }
+    },
+    {
+      "id": "Project-circuit-367e1a",
+      "type": "Project",
+      "attributes": {
+        "name": "Circuit",
+        "start_date": "2023-05-15",
+        "end_date": "2023-12-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Circuit launched on 2023-05-15, finishes on 2023-12-30.",
+      "metadata": {
+        "team": "Circuit Team",
+        "project": "Circuit"
+      }
+    },
+    {
+      "id": "Project-binary-4fc497",
+      "type": "Project",
+      "attributes": {
+        "name": "Binary",
+        "start_date": "2023-10-10",
+        "end_date": "2024-05-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Binary initiated on 2023-10-10, completes on 2024-05-25.",
+      "metadata": {
+        "team": "Binary Team",
+        "project": "Binary"
+      }
+    },
+    {
+      "id": "Project-network-a-f17c2f",
+      "type": "Project",
+      "attributes": {
+        "name": "Network-A",
+        "start_date": "2023-03-05",
+        "end_date": "2023-09-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Network-A started on 2023-03-05, ends on 2023-09-15.",
+      "metadata": {
+        "team": "Network-A Team",
+        "project": "Network-A"
+      }
+    },
+    {
+      "id": "Project-network-b-4e46ef",
+      "type": "Project",
+      "attributes": {
+        "name": "Network-B",
+        "start_date": "2023-06-20",
+        "end_date": "2024-01-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Network-B began on 2023-06-20, concludes on 2024-01-10.",
+      "metadata": {
+        "team": "Network-B Team",
+        "project": "Network-B"
+      }
+    },
+    {
+      "id": "Project-network-c-a04a24",
+      "type": "Project",
+      "attributes": {
+        "name": "Network-C",
+        "start_date": "2023-08-10",
+        "end_date": "2024-03-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Network-C launched on 2023-08-10, finishes on 2024-03-20.",
+      "metadata": {
+        "team": "Network-C Team",
+        "project": "Network-C"
+      }
+    },
+    {
+      "id": "Project-server-prime-ebc2e6",
+      "type": "Project",
+      "attributes": {
+        "name": "Server-Prime",
+        "start_date": "2023-07-05",
+        "end_date": "2024-02-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Server-Prime initiated on 2023-07-05, completes on 2024-02-05.",
+      "metadata": {
+        "team": "Server-Prime Team",
+        "project": "Server-Prime"
+      }
+    },
+    {
+      "id": "Project-support-alpha-cc597c",
+      "type": "Project",
+      "attributes": {
+        "name": "Support-Alpha",
+        "start_date": "2023-09-01",
+        "end_date": "2024-04-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15.",
+      "metadata": {
+        "team": "Support-Alpha Team",
+        "project": "Support-Alpha"
+      }
+    },
+    {
+      "id": "Project-support-beta-0a964a",
+      "type": "Project",
+      "attributes": {
+        "name": "Support-Beta",
+        "start_date": "2023-11-10",
+        "end_date": "2024-06-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Support-Beta began on 2023-11-10, concludes on 2024-06-30.",
+      "metadata": {
+        "team": "Support-Beta Team",
+        "project": "Support-Beta"
+      }
+    },
+    {
+      "id": "Project-virtual-x-5dd47c",
+      "type": "Project",
+      "attributes": {
+        "name": "Virtual-X",
+        "start_date": "2023-05-30",
+        "end_date": "2024-01-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Virtual-X launched on 2023-05-30, finishes on 2024-01-30.",
+      "metadata": {
+        "team": "Virtual-X Team",
+        "project": "Virtual-X"
+      }
+    },
+    {
+      "id": "Project-virtual-y-cbb326",
+      "type": "Project",
+      "attributes": {
+        "name": "Virtual-Y",
+        "start_date": "2023-08-20",
+        "end_date": "2024-04-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Virtual-Y initiated on 2023-08-20, completes on 2024-04-20.",
+      "metadata": {
+        "team": "Virtual-Y Team",
+        "project": "Virtual-Y"
+      }
+    },
+    {
+      "id": "Project-virtual-z-0eaa28",
+      "type": "Project",
+      "attributes": {
+        "name": "Virtual-Z",
+        "start_date": "2023-10-25",
+        "end_date": "2024-07-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Virtual-Z started on 2023-10-25, ends on 2024-07-10.",
+      "metadata": {
+        "team": "Virtual-Z Team",
+        "project": "Virtual-Z"
+      }
+    },
+    {
+      "id": "Project-linux-core-965d7d",
+      "type": "Project",
+      "attributes": {
+        "name": "Linux-Core",
+        "start_date": "2023-12-05",
+        "end_date": "2024-08-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project Linux-Core began on 2023-12-05, concludes on 2024-08-15.",
+      "metadata": {
+        "team": "Linux-Core Team",
+        "project": "Linux-Core"
+      }
+    },
+    {
+      "id": "Project-airflow-832d6a",
+      "type": "Project",
+      "attributes": {
+        "name": "AirFlow",
+        "start_date": "2023-02-10",
+        "end_date": "2023-08-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project AirFlow started on 2023-02-10, ends on 2023-08-25.",
+      "metadata": {
+        "team": "AirFlow Team",
+        "project": "AirFlow"
+      }
+    },
+    {
+      "id": "Project-airstream-39e6a9",
+      "type": "Project",
+      "attributes": {
+        "name": "AirStream",
+        "start_date": "2023-05-05",
+        "end_date": "2023-11-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project AirStream began on 2023-05-05, concludes on 2023-11-20.",
+      "metadata": {
+        "team": "AirStream Team",
+        "project": "AirStream"
+      }
+    },
+    {
+      "id": "Project-airsync-165c8d",
+      "type": "Project",
+      "attributes": {
+        "name": "AirSync",
+        "start_date": "2023-07-15",
+        "end_date": "2024-01-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project AirSync launched on 2023-07-15, finishes on 2024-01-30.",
+      "metadata": {
+        "team": "AirSync Team",
+        "project": "AirSync"
+      }
+    },
+    {
+      "id": "Project-tweetdeck-2-856170",
+      "type": "Project",
+      "attributes": {
+        "name": "TweetDeck-2",
+        "start_date": "2023-04-01",
+        "end_date": "2023-10-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project TweetDeck-2 initiated on 2023-04-01, completes on 2023-10-15.",
+      "metadata": {
+        "team": "TweetDeck-2 Team",
+        "project": "TweetDeck-2"
+      }
+    },
+    {
+      "id": "Project-twitterapi-v3-7c2d1a",
+      "type": "Project",
+      "attributes": {
+        "name": "TwitterAPI-v3",
+        "start_date": "2023-08-05",
+        "end_date": "2024-02-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20.",
+      "metadata": {
+        "team": "TwitterAPI-v3 Team",
+        "project": "TwitterAPI-v3"
+      }
+    },
+    {
+      "id": "Project-linkeddata-9d1788",
+      "type": "Project",
+      "attributes": {
+        "name": "LinkedData",
+        "start_date": "2023-03-15",
+        "end_date": "2023-09-30",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project LinkedData began on 2023-03-15, concludes on 2023-09-30.",
+      "metadata": {
+        "team": "LinkedData Team",
+        "project": "LinkedData"
+      }
+    },
+    {
+      "id": "Project-profileengine-a47ed5",
+      "type": "Project",
+      "attributes": {
+        "name": "ProfileEngine",
+        "start_date": "2023-06-10",
+        "end_date": "2023-12-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project ProfileEngine launched on 2023-06-10, finishes on 2023-12-25.",
+      "metadata": {
+        "team": "ProfileEngine Team",
+        "project": "ProfileEngine"
+      }
+    },
+    {
+      "id": "Project-networkgraph-1391c9",
+      "type": "Project",
+      "attributes": {
+        "name": "NetworkGraph",
+        "start_date": "2023-09-05",
+        "end_date": "2024-03-20",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project NetworkGraph initiated on 2023-09-05, completes on 2024-03-20.",
+      "metadata": {
+        "team": "NetworkGraph Team",
+        "project": "NetworkGraph"
+      }
+    },
+    {
+      "id": "Project-jobmatcher-6b47ea",
+      "type": "Project",
+      "attributes": {
+        "name": "JobMatcher",
+        "start_date": "2023-11-01",
+        "end_date": "2024-05-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15.",
+      "metadata": {
+        "team": "JobMatcher Team",
+        "project": "JobMatcher"
+      }
+    },
+    {
+      "id": "Project-pinboard-mobile-baf569",
+      "type": "Project",
+      "attributes": {
+        "name": "PinBoard-Mobile",
+        "start_date": "2023-01-25",
+        "end_date": "2023-07-40",
+        "status": "active",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project PinBoard-Mobile began on 2023-01-25, concludes on 2023-07-40.",
+      "metadata": {
+        "team": "PinBoard-Mobile Team",
+        "project": "PinBoard-Mobile"
+      }
+    },
+    {
+      "id": "Project-securevault-c1a46f",
+      "type": "Project",
+      "attributes": {
+        "name": "SecureVault",
+        "start_date": "2023-04-10",
+        "end_date": "2023-10-25",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project SecureVault launched on 2023-04-10, finishes on 2023-10-25.",
+      "metadata": {
+        "team": "SecureVault Team",
+        "project": "SecureVault"
+      }
+    },
+    {
+      "id": "Project-cryptoguard-6eaf99",
+      "type": "Project",
+      "attributes": {
+        "name": "CryptoGuard",
+        "start_date": "2023-07-01",
+        "end_date": "2024-01-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project CryptoGuard initiated on 2023-07-01, completes on 2024-01-15.",
+      "metadata": {
+        "team": "CryptoGuard Team",
+        "project": "CryptoGuard"
+      }
+    },
+    {
+      "id": "Project-slackbot-ai-6b654b",
+      "type": "Project",
+      "attributes": {
+        "name": "SlackBot-AI",
+        "start_date": "2023-05-20",
+        "end_date": "2023-11-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05.",
+      "metadata": {
+        "team": "SlackBot-AI Team",
+        "project": "SlackBot-AI"
+      }
+    },
+    {
+      "id": "Project-channelsync-318ace",
+      "type": "Project",
+      "attributes": {
+        "name": "ChannelSync",
+        "start_date": "2023-08-15",
+        "end_date": "2024-02-28",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project ChannelSync began on 2023-08-15, concludes on 2024-02-28.",
+      "metadata": {
+        "team": "ChannelSync Team",
+        "project": "ChannelSync"
+      }
+    },
+    {
+      "id": "Project-workspacehub-436901",
+      "type": "Project",
+      "attributes": {
+        "name": "WorkspaceHub",
+        "start_date": "2023-10-30",
+        "end_date": "2024-04-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project WorkspaceHub launched on 2023-10-30, finishes on 2024-04-15.",
+      "metadata": {
+        "team": "WorkspaceHub Team",
+        "project": "WorkspaceHub"
+      }
+    },
+    {
+      "id": "Project-videocodec-x-f4f213",
+      "type": "Project",
+      "attributes": {
+        "name": "VideoCodec-X",
+        "start_date": "2023-03-30",
+        "end_date": "2023-09-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project VideoCodec-X initiated on 2023-03-30, completes on 2023-09-15.",
+      "metadata": {
+        "team": "VideoCodec-X Team",
+        "project": "VideoCodec-X"
+      }
+    },
+    {
+      "id": "Project-meetingroom-pro-7cd806",
+      "type": "Project",
+      "attributes": {
+        "name": "MeetingRoom-Pro",
+        "start_date": "2023-06-25",
+        "end_date": "2024-01-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10.",
+      "metadata": {
+        "team": "MeetingRoom-Pro Team",
+        "project": "MeetingRoom-Pro"
+      }
+    },
+    {
+      "id": "Project-shopengine-v2-1c0f5c",
+      "type": "Project",
+      "attributes": {
+        "name": "ShopEngine-v2",
+        "start_date": "2023-09-20",
+        "end_date": "2024-05-05",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project ShopEngine-v2 began on 2023-09-20, concludes on 2024-05-05.",
+      "metadata": {
+        "team": "ShopEngine-v2 Team",
+        "project": "ShopEngine-v2"
+      }
+    },
+    {
+      "id": "Project-paymentgateway-43f831",
+      "type": "Project",
+      "attributes": {
+        "name": "PaymentGateway",
+        "start_date": "2023-02-20",
+        "end_date": "2023-08-35",
+        "status": "active",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project PaymentGateway launched on 2023-02-20, finishes on 2023-08-35.",
+      "metadata": {
+        "team": "PaymentGateway Team",
+        "project": "PaymentGateway"
+      }
+    },
+    {
+      "id": "Project-squareapi-2d23a4",
+      "type": "Project",
+      "attributes": {
+        "name": "SquareAPI",
+        "start_date": "2023-07-30",
+        "end_date": "2024-02-15",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project SquareAPI initiated on 2023-07-30, completes on 2024-02-15.",
+      "metadata": {
+        "team": "SquareAPI Team",
+        "project": "SquareAPI"
+      }
+    },
+    {
+      "id": "Project-transactionengine-5817a9",
+      "type": "Project",
+      "attributes": {
+        "name": "TransactionEngine",
+        "start_date": "2023-11-25",
+        "end_date": "2024-07-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10.",
+      "metadata": {
+        "team": "TransactionEngine Team",
+        "project": "TransactionEngine"
+      }
+    },
+    {
+      "id": "Project-signatureapi-f3b69c",
+      "type": "Project",
+      "attributes": {
+        "name": "SignatureAPI",
+        "start_date": "2023-04-25",
+        "end_date": "2023-11-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project SignatureAPI began on 2023-04-25, concludes on 2023-11-10.",
+      "metadata": {
+        "team": "SignatureAPI Team",
+        "project": "SignatureAPI"
+      }
+    },
+    {
+      "id": "Project-documentflow-7ebde1",
+      "type": "Project",
+      "attributes": {
+        "name": "DocumentFlow",
+        "start_date": "2023-08-25",
+        "end_date": "2024-04-10",
+        "status": "completed",
+        "budget": "unreported"
+      },
+      "source_sentence": "Project DocumentFlow launched on 2023-08-25, finishes on 2024-04-10.",
+      "metadata": {
+        "team": "DocumentFlow Team",
+        "project": "DocumentFlow"
+      }
+    },
+    {
+      "id": "Department-research-e2ccd8",
+      "type": "Department",
+      "attributes": {
+        "name": "Research",
+        "head": "John Doe",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-engineering-0d945b",
+      "type": "Department",
+      "attributes": {
+        "name": "Engineering",
+        "head": "Michael Brown",
+        "employee_count": 12
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-management-57a66d",
+      "type": "Department",
+      "attributes": {
+        "name": "Management",
+        "head": "Sarah Wilson",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-scientist-6d76e3",
+      "type": "Department",
+      "attributes": {
+        "name": "Scientist",
+        "head": "David Johnson",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-design-65d079",
+      "type": "Department",
+      "attributes": {
+        "name": "Design",
+        "head": "Emily Davis",
+        "employee_count": 2
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-architecture-84bc95",
+      "type": "Department",
+      "attributes": {
+        "name": "Architecture",
+        "head": "Maria Martinez",
+        "employee_count": 2
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-administrator-3c36e2",
+      "type": "Department",
+      "attributes": {
+        "name": "Administrator",
+        "head": "Rachel Green",
+        "employee_count": 3
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-leadership-c6388b",
+      "type": "Department",
+      "attributes": {
+        "name": "Leadership",
+        "head": "Anna Thompson",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-operations-690539",
+      "type": "Department",
+      "attributes": {
+        "name": "Operations",
+        "head": "Susan Clark",
+        "employee_count": 2
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-lead-be6d24",
+      "type": "Department",
+      "attributes": {
+        "name": "Lead",
+        "head": "Jennifer Moore",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Department-expert-892671",
+      "type": "Department",
+      "attributes": {
+        "name": "Expert",
+        "head": "Steven Taylor",
+        "employee_count": 1
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-researcher-326677",
+      "type": "Position",
+      "attributes": {
+        "title": "Researcher",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-senior_developer-3b87e4",
+      "type": "Position",
+      "attributes": {
+        "title": "Senior Developer",
+        "level": "Senior",
+        "salary_range": "130k-170k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-product_manager-452a55",
+      "type": "Position",
+      "attributes": {
+        "title": "Product Manager",
+        "level": "Manager",
+        "salary_range": "120k-150k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-data_scientist-e6ef3f",
+      "type": "Position",
+      "attributes": {
+        "title": "Data Scientist",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-ux_designer-1d08fc",
+      "type": "Position",
+      "attributes": {
+        "title": "UX Designer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-software_engineer-71efdf",
+      "type": "Position",
+      "attributes": {
+        "title": "Software Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-backend_developer-3d9307",
+      "type": "Position",
+      "attributes": {
+        "title": "Backend Developer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-systems_architect-06270d",
+      "type": "Position",
+      "attributes": {
+        "title": "Systems Architect",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-cloud_architect-9c5d62",
+      "type": "Position",
+      "attributes": {
+        "title": "Cloud Architect",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-database_administrator-d3d78a",
+      "type": "Position",
+      "attributes": {
+        "title": "Database Administrator",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-devops_engineer-c55fe9",
+      "type": "Position",
+      "attributes": {
+        "title": "DevOps Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-creative_director-020464",
+      "type": "Position",
+      "attributes": {
+        "title": "Creative Director",
+        "level": "Director",
+        "salary_range": "160k-200k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-hardware_engineer-ba0845",
+      "type": "Position",
+      "attributes": {
+        "title": "Hardware Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-network_specialist-2624ca",
+      "type": "Position",
+      "attributes": {
+        "title": "Network Specialist",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-systems_administrator-85b9d3",
+      "type": "Position",
+      "attributes": {
+        "title": "Systems Administrator",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-technical_support_lead-32885e",
+      "type": "Position",
+      "attributes": {
+        "title": "Technical Support Lead",
+        "level": "Lead",
+        "salary_range": "150k-190k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-virtualization_expert-4e57fc",
+      "type": "Position",
+      "attributes": {
+        "title": "Virtualization Expert",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-linux_administrator-d5cc4b",
+      "type": "Position",
+      "attributes": {
+        "title": "Linux Administrator",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-full_stack_developer-822a54",
+      "type": "Position",
+      "attributes": {
+        "title": "Full Stack Developer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-frontend_developer-a954b5",
+      "type": "Position",
+      "attributes": {
+        "title": "Frontend Developer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-data_engineer-582562",
+      "type": "Position",
+      "attributes": {
+        "title": "Data Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-mobile_developer-8c6865",
+      "type": "Position",
+      "attributes": {
+        "title": "Mobile Developer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-security_engineer-54ba79",
+      "type": "Position",
+      "attributes": {
+        "title": "Security Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-product_designer-fd07e0",
+      "type": "Position",
+      "attributes": {
+        "title": "Product Designer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-video_technology_specialist-365a57",
+      "type": "Position",
+      "attributes": {
+        "title": "Video Technology Specialist",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-payment_systems_engineer-0ba348",
+      "type": "Position",
+      "attributes": {
+        "title": "Payment Systems Engineer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Position-api_developer-915da0",
+      "type": "Position",
+      "attributes": {
+        "title": "API Developer",
+        "level": "Associate",
+        "salary_range": "90k-120k"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-ai-7a694d",
+      "type": "Technology",
+      "attributes": {
+        "name": "AI",
+        "category": "Artificial Intelligence",
+        "version": "v2.0"
+      },
+      "source_sentence": "John Doe, age 32, works at OpenAI as a Researcher.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-data-6fb0cc",
+      "type": "Technology",
+      "attributes": {
+        "name": "Data",
+        "category": "Analytics",
+        "version": "v4.0"
+      },
+      "source_sentence": "David Johnson, age 29, works at Amazon as a Data Scientist.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-streaming-f411cf",
+      "type": "Technology",
+      "attributes": {
+        "name": "Streaming",
+        "category": "Media",
+        "version": "v9.0"
+      },
+      "source_sentence": "Netflix focuses on Entertainment and Streaming industry.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-transport-dff9f6",
+      "type": "Technology",
+      "attributes": {
+        "name": "Transport",
+        "category": "Logistics",
+        "version": "v9.0"
+      },
+      "source_sentence": "Uber specializes in Transportation and Technology.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-cloud-d53c15",
+      "type": "Technology",
+      "attributes": {
+        "name": "Cloud",
+        "category": "Infrastructure",
+        "version": "v5.0"
+      },
+      "source_sentence": "Tom Anderson, age 39, works at IBM as a Cloud Architect.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-network-775143",
+      "type": "Technology",
+      "attributes": {
+        "name": "Network",
+        "category": "Networking",
+        "version": "v7.0"
+      },
+      "source_sentence": "Susan Clark, age 36, works at Cisco as a Network Specialist.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-virtualization-906140",
+      "type": "Technology",
+      "attributes": {
+        "name": "Virtualization",
+        "category": "Infrastructure",
+        "version": "v14.0"
+      },
+      "source_sentence": "Steven Taylor, age 37, works at VMware as a Virtualization Expert.",
+      "metadata": {}
+    },
+    {
+      "id": "Technology-security-69a13b",
+      "type": "Technology",
+      "attributes": {
+        "name": "Security",
+        "category": "Cybersecurity",
+        "version": "v8.0"
+      },
+      "source_sentence": "Nathan Williams, age 39, works at Dropbox as a Security Engineer.",
+      "metadata": {}
+    },
+    {
+      "id": "Location-san_francisco_-_openai-ecf396",
+      "type": "Location",
+      "attributes": {
+        "city": "San Francisco",
+        "country": "USA",
+        "office_type": "HQ"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-mountain_view_-_google-a1f59b",
+      "type": "Location",
+      "attributes": {
+        "city": "Mountain View",
+        "country": "USA",
+        "office_type": "Campus"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-seattle_-_amazon-e1c053",
+      "type": "Location",
+      "attributes": {
+        "city": "Seattle",
+        "country": "USA",
+        "office_type": "Headquarters"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-menlo_park_-_meta-f98bd5",
+      "type": "Location",
+      "attributes": {
+        "city": "Menlo Park",
+        "country": "USA",
+        "office_type": "Headquarters"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-palo_alto_-_tesla-8778ed",
+      "type": "Location",
+      "attributes": {
+        "city": "Palo Alto",
+        "country": "USA",
+        "office_type": "Research"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-stockholm_-_spotify-9cdebe",
+      "type": "Location",
+      "attributes": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "office_type": "Product"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-san_francisco_-_uber-3d17fc",
+      "type": "Location",
+      "attributes": {
+        "city": "San Francisco",
+        "country": "USA",
+        "office_type": "Operations"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-armonk_-_ibm-30fc3b",
+      "type": "Location",
+      "attributes": {
+        "city": "Armonk",
+        "country": "USA",
+        "office_type": "Research"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-redwood_shores_-_oracle-7f5b73",
+      "type": "Location",
+      "attributes": {
+        "city": "Redwood Shores",
+        "country": "USA",
+        "office_type": "Campus"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-santa_clara_-_intel-3969e1",
+      "type": "Location",
+      "attributes": {
+        "city": "Santa Clara",
+        "country": "USA",
+        "office_type": "Microchip Lab"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-san_jose_-_cisco-37b535",
+      "type": "Location",
+      "attributes": {
+        "city": "San Jose",
+        "country": "USA",
+        "office_type": "Networking"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-palo_alto_-_hp-462389",
+      "type": "Location",
+      "attributes": {
+        "city": "Palo Alto",
+        "country": "USA",
+        "office_type": "Operations"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-palo_alto_-_vmware-e52523",
+      "type": "Location",
+      "attributes": {
+        "city": "Palo Alto",
+        "country": "USA",
+        "office_type": "Virtualization"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Location-raleigh_-_redhat-1b8909",
+      "type": "Location",
+      "attributes": {
+        "city": "Raleigh",
+        "country": "USA",
+        "office_type": "Open Source Lab"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-alpha_squad-dac3b1",
+      "type": "Team",
+      "attributes": {
+        "name": "Alpha Squad",
+        "size": 7,
+        "focus_area": "Delivery of Alpha"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-beta_squad-0a8ad7",
+      "type": "Team",
+      "attributes": {
+        "name": "Beta Squad",
+        "size": 6,
+        "focus_area": "Delivery of Beta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-gamma_squad-e2daf5",
+      "type": "Team",
+      "attributes": {
+        "name": "Gamma Squad",
+        "size": 7,
+        "focus_area": "Delivery of Gamma"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-delta_squad-e317db",
+      "type": "Team",
+      "attributes": {
+        "name": "Delta Squad",
+        "size": 7,
+        "focus_area": "Delivery of Delta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-epsilon_squad-11fab1",
+      "type": "Team",
+      "attributes": {
+        "name": "Epsilon Squad",
+        "size": 9,
+        "focus_area": "Delivery of Epsilon"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-zeta_squad-7eb541",
+      "type": "Team",
+      "attributes": {
+        "name": "Zeta Squad",
+        "size": 6,
+        "focus_area": "Delivery of Zeta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-eta_squad-0028c3",
+      "type": "Team",
+      "attributes": {
+        "name": "Eta Squad",
+        "size": 5,
+        "focus_area": "Delivery of Eta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-theta_squad-3886be",
+      "type": "Team",
+      "attributes": {
+        "name": "Theta Squad",
+        "size": 7,
+        "focus_area": "Delivery of Theta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-iota_squad-f2c617",
+      "type": "Team",
+      "attributes": {
+        "name": "Iota Squad",
+        "size": 6,
+        "focus_area": "Delivery of Iota"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-kappa_squad-058017",
+      "type": "Team",
+      "attributes": {
+        "name": "Kappa Squad",
+        "size": 7,
+        "focus_area": "Delivery of Kappa"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-lambda_squad-0d811c",
+      "type": "Team",
+      "attributes": {
+        "name": "Lambda Squad",
+        "size": 8,
+        "focus_area": "Delivery of Lambda"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-mu_squad-2795f9",
+      "type": "Team",
+      "attributes": {
+        "name": "Mu Squad",
+        "size": 4,
+        "focus_area": "Delivery of Mu"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-nu_squad-928753",
+      "type": "Team",
+      "attributes": {
+        "name": "Nu Squad",
+        "size": 4,
+        "focus_area": "Delivery of Nu"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-xi_squad-cc1f43",
+      "type": "Team",
+      "attributes": {
+        "name": "Xi Squad",
+        "size": 4,
+        "focus_area": "Delivery of Xi"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-omicron_squad-257209",
+      "type": "Team",
+      "attributes": {
+        "name": "Omicron Squad",
+        "size": 9,
+        "focus_area": "Delivery of Omicron"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-pi_squad-ab9756",
+      "type": "Team",
+      "attributes": {
+        "name": "Pi Squad",
+        "size": 4,
+        "focus_area": "Delivery of Pi"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-rho_squad-74f740",
+      "type": "Team",
+      "attributes": {
+        "name": "Rho Squad",
+        "size": 5,
+        "focus_area": "Delivery of Rho"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-sigma_squad-e8d999",
+      "type": "Team",
+      "attributes": {
+        "name": "Sigma Squad",
+        "size": 7,
+        "focus_area": "Delivery of Sigma"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-tau_squad-8d2d12",
+      "type": "Team",
+      "attributes": {
+        "name": "Tau Squad",
+        "size": 5,
+        "focus_area": "Delivery of Tau"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-upsilon_squad-93a9f3",
+      "type": "Team",
+      "attributes": {
+        "name": "Upsilon Squad",
+        "size": 9,
+        "focus_area": "Delivery of Upsilon"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-phi_squad-c5fe4e",
+      "type": "Team",
+      "attributes": {
+        "name": "Phi Squad",
+        "size": 5,
+        "focus_area": "Delivery of Phi"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-chi_squad-22b798",
+      "type": "Team",
+      "attributes": {
+        "name": "Chi Squad",
+        "size": 5,
+        "focus_area": "Delivery of Chi"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-psi_squad-3404ea",
+      "type": "Team",
+      "attributes": {
+        "name": "Psi Squad",
+        "size": 5,
+        "focus_area": "Delivery of Psi"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-omega_squad-b8bf89",
+      "type": "Team",
+      "attributes": {
+        "name": "Omega Squad",
+        "size": 7,
+        "focus_area": "Delivery of Omega"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-alpha-2_squad-71fef4",
+      "type": "Team",
+      "attributes": {
+        "name": "Alpha-2 Squad",
+        "size": 9,
+        "focus_area": "Delivery of Alpha-2"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-beta-2_squad-31cb47",
+      "type": "Team",
+      "attributes": {
+        "name": "Beta-2 Squad",
+        "size": 8,
+        "focus_area": "Delivery of Beta-2"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-gamma-2_squad-78152b",
+      "type": "Team",
+      "attributes": {
+        "name": "Gamma-2 Squad",
+        "size": 9,
+        "focus_area": "Delivery of Gamma-2"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-nova_squad-b366af",
+      "type": "Team",
+      "attributes": {
+        "name": "Nova Squad",
+        "size": 6,
+        "focus_area": "Delivery of Nova"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-stellar_squad-477d1b",
+      "type": "Team",
+      "attributes": {
+        "name": "Stellar Squad",
+        "size": 9,
+        "focus_area": "Delivery of Stellar"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-cosmic_squad-d1cdbb",
+      "type": "Team",
+      "attributes": {
+        "name": "Cosmic Squad",
+        "size": 8,
+        "focus_area": "Delivery of Cosmic"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-galactic_squad-cb0a55",
+      "type": "Team",
+      "attributes": {
+        "name": "Galactic Squad",
+        "size": 10,
+        "focus_area": "Delivery of Galactic"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-universal_squad-f43ede",
+      "type": "Team",
+      "attributes": {
+        "name": "Universal Squad",
+        "size": 11,
+        "focus_area": "Delivery of Universal"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-quantum_squad-54514b",
+      "type": "Team",
+      "attributes": {
+        "name": "Quantum Squad",
+        "size": 9,
+        "focus_area": "Delivery of Quantum"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-photon_squad-1e3b5f",
+      "type": "Team",
+      "attributes": {
+        "name": "Photon Squad",
+        "size": 8,
+        "focus_area": "Delivery of Photon"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-electron_squad-681eab",
+      "type": "Team",
+      "attributes": {
+        "name": "Electron Squad",
+        "size": 10,
+        "focus_area": "Delivery of Electron"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-neutron_squad-1c6c6a",
+      "type": "Team",
+      "attributes": {
+        "name": "Neutron Squad",
+        "size": 9,
+        "focus_area": "Delivery of Neutron"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-proton_squad-00dae7",
+      "type": "Team",
+      "attributes": {
+        "name": "Proton Squad",
+        "size": 8,
+        "focus_area": "Delivery of Proton"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-circuit_squad-d83c5a",
+      "type": "Team",
+      "attributes": {
+        "name": "Circuit Squad",
+        "size": 9,
+        "focus_area": "Delivery of Circuit"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-binary_squad-886de6",
+      "type": "Team",
+      "attributes": {
+        "name": "Binary Squad",
+        "size": 8,
+        "focus_area": "Delivery of Binary"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-network-a_squad-0b8ce8",
+      "type": "Team",
+      "attributes": {
+        "name": "Network-A Squad",
+        "size": 11,
+        "focus_area": "Delivery of Network-A"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-network-b_squad-0e343f",
+      "type": "Team",
+      "attributes": {
+        "name": "Network-B Squad",
+        "size": 11,
+        "focus_area": "Delivery of Network-B"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-network-c_squad-23029b",
+      "type": "Team",
+      "attributes": {
+        "name": "Network-C Squad",
+        "size": 11,
+        "focus_area": "Delivery of Network-C"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-server-prime_squad-ca9d21",
+      "type": "Team",
+      "attributes": {
+        "name": "Server-Prime Squad",
+        "size": 12,
+        "focus_area": "Delivery of Server-Prime"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-support-alpha_squad-170497",
+      "type": "Team",
+      "attributes": {
+        "name": "Support-Alpha Squad",
+        "size": 12,
+        "focus_area": "Delivery of Support-Alpha"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-support-beta_squad-46e685",
+      "type": "Team",
+      "attributes": {
+        "name": "Support-Beta Squad",
+        "size": 12,
+        "focus_area": "Delivery of Support-Beta"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-virtual-x_squad-c26474",
+      "type": "Team",
+      "attributes": {
+        "name": "Virtual-X Squad",
+        "size": 11,
+        "focus_area": "Delivery of Virtual-X"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-virtual-y_squad-dea001",
+      "type": "Team",
+      "attributes": {
+        "name": "Virtual-Y Squad",
+        "size": 11,
+        "focus_area": "Delivery of Virtual-Y"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-virtual-z_squad-5e5915",
+      "type": "Team",
+      "attributes": {
+        "name": "Virtual-Z Squad",
+        "size": 11,
+        "focus_area": "Delivery of Virtual-Z"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-linux-core_squad-0dc183",
+      "type": "Team",
+      "attributes": {
+        "name": "Linux-Core Squad",
+        "size": 12,
+        "focus_area": "Delivery of Linux-Core"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-airflow_squad-314ffa",
+      "type": "Team",
+      "attributes": {
+        "name": "AirFlow Squad",
+        "size": 9,
+        "focus_area": "Delivery of AirFlow"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-airstream_squad-252988",
+      "type": "Team",
+      "attributes": {
+        "name": "AirStream Squad",
+        "size": 11,
+        "focus_area": "Delivery of AirStream"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-airsync_squad-e47186",
+      "type": "Team",
+      "attributes": {
+        "name": "AirSync Squad",
+        "size": 9,
+        "focus_area": "Delivery of AirSync"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-tweetdeck-2_squad-6f8962",
+      "type": "Team",
+      "attributes": {
+        "name": "TweetDeck-2 Squad",
+        "size": 12,
+        "focus_area": "Delivery of TweetDeck-2"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-twitterapi-v3_squad-15687e",
+      "type": "Team",
+      "attributes": {
+        "name": "TwitterAPI-v3 Squad",
+        "size": 12,
+        "focus_area": "Delivery of TwitterAPI-v3"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-linkeddata_squad-81083d",
+      "type": "Team",
+      "attributes": {
+        "name": "LinkedData Squad",
+        "size": 12,
+        "focus_area": "Delivery of LinkedData"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-profileengine_squad-e7ec11",
+      "type": "Team",
+      "attributes": {
+        "name": "ProfileEngine Squad",
+        "size": 12,
+        "focus_area": "Delivery of ProfileEngine"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-networkgraph_squad-a295c7",
+      "type": "Team",
+      "attributes": {
+        "name": "NetworkGraph Squad",
+        "size": 12,
+        "focus_area": "Delivery of NetworkGraph"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-jobmatcher_squad-7f226f",
+      "type": "Team",
+      "attributes": {
+        "name": "JobMatcher Squad",
+        "size": 12,
+        "focus_area": "Delivery of JobMatcher"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-pinboard-mobile_squad-afc95e",
+      "type": "Team",
+      "attributes": {
+        "name": "PinBoard-Mobile Squad",
+        "size": 12,
+        "focus_area": "Delivery of PinBoard-Mobile"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-securevault_squad-98e28c",
+      "type": "Team",
+      "attributes": {
+        "name": "SecureVault Squad",
+        "size": 12,
+        "focus_area": "Delivery of SecureVault"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-cryptoguard_squad-a1d47b",
+      "type": "Team",
+      "attributes": {
+        "name": "CryptoGuard Squad",
+        "size": 12,
+        "focus_area": "Delivery of CryptoGuard"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-slackbot-ai_squad-519f47",
+      "type": "Team",
+      "attributes": {
+        "name": "SlackBot-AI Squad",
+        "size": 12,
+        "focus_area": "Delivery of SlackBot-AI"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-channelsync_squad-f0ebc7",
+      "type": "Team",
+      "attributes": {
+        "name": "ChannelSync Squad",
+        "size": 12,
+        "focus_area": "Delivery of ChannelSync"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-workspacehub_squad-aea79b",
+      "type": "Team",
+      "attributes": {
+        "name": "WorkspaceHub Squad",
+        "size": 12,
+        "focus_area": "Delivery of WorkspaceHub"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-videocodec-x_squad-d78342",
+      "type": "Team",
+      "attributes": {
+        "name": "VideoCodec-X Squad",
+        "size": 12,
+        "focus_area": "Delivery of VideoCodec-X"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-meetingroom-pro_squad-3d196e",
+      "type": "Team",
+      "attributes": {
+        "name": "MeetingRoom-Pro Squad",
+        "size": 12,
+        "focus_area": "Delivery of MeetingRoom-Pro"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-shopengine-v2_squad-63f86e",
+      "type": "Team",
+      "attributes": {
+        "name": "ShopEngine-v2 Squad",
+        "size": 12,
+        "focus_area": "Delivery of ShopEngine-v2"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-paymentgateway_squad-e940e9",
+      "type": "Team",
+      "attributes": {
+        "name": "PaymentGateway Squad",
+        "size": 12,
+        "focus_area": "Delivery of PaymentGateway"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-squareapi_squad-76b7cc",
+      "type": "Team",
+      "attributes": {
+        "name": "SquareAPI Squad",
+        "size": 11,
+        "focus_area": "Delivery of SquareAPI"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-transactionengine_squad-303a99",
+      "type": "Team",
+      "attributes": {
+        "name": "TransactionEngine Squad",
+        "size": 12,
+        "focus_area": "Delivery of TransactionEngine"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-signatureapi_squad-48cedb",
+      "type": "Team",
+      "attributes": {
+        "name": "SignatureAPI Squad",
+        "size": 12,
+        "focus_area": "Delivery of SignatureAPI"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Team-documentflow_squad-e7b1f4",
+      "type": "Team",
+      "attributes": {
+        "name": "DocumentFlow Squad",
+        "size": 12,
+        "focus_area": "Delivery of DocumentFlow"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Product-alpha_platform-8559a0",
+      "type": "Product",
+      "attributes": {
+        "name": "Alpha Platform",
+        "version": "v1.0",
+        "release_date": "2023-01-15"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "AI"
+      }
+    },
+    {
+      "id": "Product-beta_platform-3a05e4",
+      "type": "Product",
+      "attributes": {
+        "name": "Beta Platform",
+        "version": "v2.0",
+        "release_date": "2023-02-01"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Data"
+      }
+    },
+    {
+      "id": "Product-gamma_platform-ecdc5d",
+      "type": "Product",
+      "attributes": {
+        "name": "Gamma Platform",
+        "version": "v3.0",
+        "release_date": "2023-03-10"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Streaming"
+      }
+    },
+    {
+      "id": "Product-delta_platform-463e5e",
+      "type": "Product",
+      "attributes": {
+        "name": "Delta Platform",
+        "version": "v4.0",
+        "release_date": "2023-01-20"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Transport"
+      }
+    },
+    {
+      "id": "Product-epsilon_platform-95941a",
+      "type": "Product",
+      "attributes": {
+        "name": "Epsilon Platform",
+        "version": "v5.0",
+        "release_date": "2023-04-05"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Cloud"
+      }
+    },
+    {
+      "id": "Product-zeta_platform-f526da",
+      "type": "Product",
+      "attributes": {
+        "name": "Zeta Platform",
+        "version": "v6.0",
+        "release_date": "2023-02-15"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Network"
+      }
+    },
+    {
+      "id": "Product-eta_platform-3123c5",
+      "type": "Product",
+      "attributes": {
+        "name": "Eta Platform",
+        "version": "v7.0",
+        "release_date": "2023-05-01"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Virtualization"
+      }
+    },
+    {
+      "id": "Product-theta_platform-61aefb",
+      "type": "Product",
+      "attributes": {
+        "name": "Theta Platform",
+        "version": "v8.0",
+        "release_date": "2023-03-20"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Security"
+      }
+    },
+    {
+      "id": "Product-iota_platform-1d8b8d",
+      "type": "Product",
+      "attributes": {
+        "name": "Iota Platform",
+        "version": "v9.0",
+        "release_date": "2023-06-01"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "AI"
+      }
+    },
+    {
+      "id": "Product-kappa_platform-841d43",
+      "type": "Product",
+      "attributes": {
+        "name": "Kappa Platform",
+        "version": "v10.0",
+        "release_date": "2023-01-10"
+      },
+      "source_sentence": "derived",
+      "metadata": {
+        "technology": "Data"
+      }
+    },
+    {
+      "id": "Client-openai_strategic_solutions-f8b7b0",
+      "type": "Client",
+      "attributes": {
+        "name": "OpenAI Strategic Solutions",
+        "contract_value": "3.2M",
+        "industry": "the Technology industry"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Client-google_prime_ventures-76773c",
+      "type": "Client",
+      "attributes": {
+        "name": "Google Prime Ventures",
+        "contract_value": "1.8M",
+        "industry": "Technology"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Client-amazon_global_logistics-8f7cb1",
+      "type": "Client",
+      "attributes": {
+        "name": "Amazon Global Logistics",
+        "contract_value": "2.4M",
+        "industry": "Technology"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Client-meta_greenfield_retail-8f0dbd",
+      "type": "Client",
+      "attributes": {
+        "name": "Meta Greenfield Retail",
+        "contract_value": "1.5M",
+        "industry": "Technology"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Client-tesla_unity_manufacturing-4141c5",
+      "type": "Client",
+      "attributes": {
+        "name": "Tesla Unity Manufacturing",
+        "contract_value": "2.9M",
+        "industry": "Automotive"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    },
+    {
+      "id": "Client-spotify_nextwave_media-8b9408",
+      "type": "Client",
+      "attributes": {
+        "name": "Spotify NextWave Media",
+        "contract_value": "2.1M",
+        "industry": "Music"
+      },
+      "source_sentence": "derived",
+      "metadata": {}
+    }
+  ]
+}

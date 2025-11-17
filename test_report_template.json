@@ -1,0 +1,30 @@
+{
+  "report_id": "enterprise-kg-eval-0001",
+  "generated_at": "2025-01-01T00:00:00Z",
+  "dataset": {
+    "documents": [
+      "documents.txt"
+    ],
+    "entity_definitions": "entities.json",
+    "relation_definitions": "relations.json"
+  },
+  "options": {
+    "engine": "regex",
+    "runtime_environment": "python",
+    "version": "0.1.0"
+  },
+  "entity_metrics": {
+    "precision": null,
+    "recall": null,
+    "f1_score": null,
+    "notes": []
+  },
+  "relation_metrics": {
+    "precision": null,
+    "recall": null,
+    "f1_score": null,
+    "notes": []
+  },
+  "observations": [],
+  "next_steps": []
+}
