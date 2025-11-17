@@ -1,0 +1,2901 @@
+[
+  {
+    "id": "cec74c675a6624f8c02b134be5df34c3d8dcf05c",
+    "type": "Person",
+    "text": "John Doe",
+    "attributes": {
+      "name": "John Doe",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 0,
+      "text": "John Doe, age 32, works at OpenAI as a Researcher."
+    }
+  },
+  {
+    "id": "2678e842c2f28cecdf917084fd0c2c74da727572",
+    "type": "Company",
+    "text": "OpenAI",
+    "attributes": {
+      "name": "OpenAI",
+      "industry": "the Technology industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 0,
+      "text": "John Doe, age 32, works at OpenAI as a Researcher."
+    }
+  },
+  {
+    "id": "9bb16bc4561a3ee383437c560fb435e8ad574629",
+    "type": "Person",
+    "text": "Jane Smith",
+    "attributes": {
+      "name": "Jane Smith",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 1,
+      "text": "Jane Smith, age 28, works at Google as an Engineer."
+    }
+  },
+  {
+    "id": "86e9aa8871caf0c7b8d50426d1c72837633c9257",
+    "type": "Company",
+    "text": "Google",
+    "attributes": {
+      "name": "Google",
+      "industry": "Technology and Internet Services"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 1,
+      "text": "Jane Smith, age 28, works at Google as an Engineer."
+    }
+  },
+  {
+    "id": "c490f833305cf23c0d7835e13ac89ab99f4f4a6d",
+    "type": "Person",
+    "text": "Senior Developer",
+    "attributes": {
+      "name": "Senior Developer",
+      "age": 45
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 2,
+      "text": "Michael Brown, age 45, works at Microsoft as a Senior Developer."
+    }
+  },
+  {
+    "id": "f757a6ae56391a55994b674dccd3c9643ae350a5",
+    "type": "Person",
+    "text": "Michael Brown",
+    "attributes": {
+      "name": "Michael Brown",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 2,
+      "text": "Michael Brown, age 45, works at Microsoft as a Senior Developer."
+    }
+  },
+  {
+    "id": "01c382363188934fc6b26eada525de1f48479829",
+    "type": "Company",
+    "text": "Microsoft",
+    "attributes": {
+      "name": "Microsoft",
+      "industry": "Technology and Software industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 2,
+      "text": "Michael Brown, age 45, works at Microsoft as a Senior Developer."
+    }
+  },
+  {
+    "id": "3803fffc887a2b408cda0aa407defcb32beda02d",
+    "type": "Person",
+    "text": "Product Manager",
+    "attributes": {
+      "name": "Product Manager",
+      "age": 35
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 3,
+      "text": "Sarah Wilson, age 35, works at Apple as a Product Manager."
+    }
+  },
+  {
+    "id": "99119091f3901cdcfacc15f84f855d9a77a83bdb",
+    "type": "Person",
+    "text": "Sarah Wilson",
+    "attributes": {
+      "name": "Sarah Wilson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 3,
+      "text": "Sarah Wilson, age 35, works at Apple as a Product Manager."
+    }
+  },
+  {
+    "id": "afa5327afcc7d769edf26f396e4cceef6c09d72e",
+    "type": "Company",
+    "text": "Apple",
+    "attributes": {
+      "name": "Apple",
+      "industry": "Technology and Consumer Electronics"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 3,
+      "text": "Sarah Wilson, age 35, works at Apple as a Product Manager."
+    }
+  },
+  {
+    "id": "11ab3a342ebf271ff8865876ae0d90b86d808bcc",
+    "type": "Person",
+    "text": "David Johnson",
+    "attributes": {
+      "name": "David Johnson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 4,
+      "text": "David Johnson, age 29, works at Amazon as a Data Scientist."
+    }
+  },
+  {
+    "id": "85f873abf1782b83bd1bff576ca311095f9e7cf3",
+    "type": "Person",
+    "text": "Data Scientist",
+    "attributes": {
+      "name": "Data Scientist",
+      "age": 29
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 4,
+      "text": "David Johnson, age 29, works at Amazon as a Data Scientist."
+    }
+  },
+  {
+    "id": "e66ee512bec3d00012d10d4bebeba0c8c0ae5796",
+    "type": "Company",
+    "text": "Amazon",
+    "attributes": {
+      "name": "Amazon",
+      "industry": "Technology and E-commerce sectors"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 4,
+      "text": "David Johnson, age 29, works at Amazon as a Data Scientist."
+    }
+  },
+  {
+    "id": "ab068784dbc6a137c6a2b143d78f3f4598a6ce52",
+    "type": "Person",
+    "text": "Emily Davis",
+    "attributes": {
+      "name": "Emily Davis",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 5,
+      "text": "Emily Davis, age 31, works at Meta as a UX Designer."
+    }
+  },
+  {
+    "id": "4abfb425d8be957e460b40b9df3947175d8e944a",
+    "type": "Company",
+    "text": "Meta",
+    "attributes": {
+      "name": "Meta",
+      "industry": "Technology and Social Media industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 5,
+      "text": "Emily Davis, age 31, works at Meta as a UX Designer."
+    }
+  },
+  {
+    "id": "f48d0998c3c2387570ddb646752f8759d53f6e96",
+    "type": "Person",
+    "text": "Robert Miller",
+    "attributes": {
+      "name": "Robert Miller",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 6,
+      "text": "Robert Miller, age 38, works at Tesla as an AI Specialist."
+    }
+  },
+  {
+    "id": "54f4cfaa0b92b641975e184a065ce5d0fe450e47",
+    "type": "Company",
+    "text": "Tesla",
+    "attributes": {
+      "name": "Tesla",
+      "industry": "Automotive and Clean Energy"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 6,
+      "text": "Robert Miller, age 38, works at Tesla as an AI Specialist."
+    }
+  },
+  {
+    "id": "e424328c14bb8da49767a34dc718e8e298508a6b",
+    "type": "Person",
+    "text": "Lisa Garcia",
+    "attributes": {
+      "name": "Lisa Garcia",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 7,
+      "text": "Lisa Garcia, age 26, works at Netflix as a Software Engineer."
+    }
+  },
+  {
+    "id": "2f8467774b39a8eb636d076742aa25ec252d6aa8",
+    "type": "Person",
+    "text": "Software Engineer",
+    "attributes": {
+      "name": "Software Engineer",
+      "age": 26
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 7,
+      "text": "Lisa Garcia, age 26, works at Netflix as a Software Engineer."
+    }
+  },
+  {
+    "id": "a6e8f82862283d3ee8695aca98573990e87bee74",
+    "type": "Company",
+    "text": "Netflix",
+    "attributes": {
+      "name": "Netflix",
+      "industry": "Entertainment and Streaming industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 7,
+      "text": "Lisa Garcia, age 26, works at Netflix as a Software Engineer."
+    }
+  },
+  {
+    "id": "bd2cdd0631c7cb3810684f32d88ad9cf360870f4",
+    "type": "Person",
+    "text": "Backend Developer",
+    "attributes": {
+      "name": "Backend Developer",
+      "age": 42
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 8,
+      "text": "James Rodriguez, age 42, works at Spotify as a Backend Developer."
+    }
+  },
+  {
+    "id": "6cdd3eaa134e6006e4bfaae5aa9ae1b20a5d6112",
+    "type": "Person",
+    "text": "James Rodriguez",
+    "attributes": {
+      "name": "James Rodriguez",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 8,
+      "text": "James Rodriguez, age 42, works at Spotify as a Backend Developer."
+    }
+  },
+  {
+    "id": "91ff584e15eaba6cb3e2d4027979b8834a78391f",
+    "type": "Company",
+    "text": "Spotify",
+    "attributes": {
+      "name": "Spotify",
+      "industry": "Music and Audio Technology"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 8,
+      "text": "James Rodriguez, age 42, works at Spotify as a Backend Developer."
+    }
+  },
+  {
+    "id": "c6bac040fadb3556481b8a1eb6d0bee315d3afe9",
+    "type": "Person",
+    "text": "Systems Architect",
+    "attributes": {
+      "name": "Systems Architect",
+      "age": 34
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 9,
+      "text": "Maria Martinez, age 34, works at Uber as a Systems Architect."
+    }
+  },
+  {
+    "id": "9ccf2d3e760e348218d18fa074fed20db3afed1b",
+    "type": "Person",
+    "text": "Maria Martinez",
+    "attributes": {
+      "name": "Maria Martinez",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 9,
+      "text": "Maria Martinez, age 34, works at Uber as a Systems Architect."
+    }
+  },
+  {
+    "id": "26e8e3b0bcbe8e1fe07628625fd41944e35fc956",
+    "type": "Company",
+    "text": "Uber",
+    "attributes": {
+      "name": "Uber",
+      "industry": "Transportation and Technology"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 9,
+      "text": "Maria Martinez, age 34, works at Uber as a Systems Architect."
+    }
+  },
+  {
+    "id": "c908a41d6df84e46da4334330e8308fe2201b297",
+    "type": "Person",
+    "text": "Project Alpha",
+    "attributes": {
+      "name": "Project Alpha",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 20,
+      "text": "Project Alpha started on 2023-01-15, ends on 2023-06-30."
+    }
+  },
+  {
+    "id": "fbf3b84641ff303237b1e5933903afc355fc5b2a",
+    "type": "Project",
+    "text": "Alpha",
+    "attributes": {
+      "name": "Alpha",
+      "start_date": "2023-01-15",
+      "end_date": "2023-06-30"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 20,
+      "text": "Project Alpha started on 2023-01-15, ends on 2023-06-30."
+    }
+  },
+  {
+    "id": "a31ced9449c6c2c0e24db6317247f804c7c5abcd",
+    "type": "Person",
+    "text": "Project Beta",
+    "attributes": {
+      "name": "Project Beta",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 21,
+      "text": "Project Beta began on 2023-02-01, concludes on 2023-08-15."
+    }
+  },
+  {
+    "id": "796c837dfb0730f32dbb59545fb04c6e0a2b7d2d",
+    "type": "Person",
+    "text": "Project Gamma",
+    "attributes": {
+      "name": "Project Gamma",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 22,
+      "text": "Project Gamma launched on 2023-03-10, finishes on 2023-09-20."
+    }
+  },
+  {
+    "id": "7b96abf16b95c065321aa1491ab978729a5dd1fa",
+    "type": "Person",
+    "text": "Project Delta",
+    "attributes": {
+      "name": "Project Delta",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 23,
+      "text": "Project Delta initiated on 2023-01-20, completes on 2023-07-10."
+    }
+  },
+  {
+    "id": "8a7e2caf030ed8928dbaf6180111082a9710d7cc",
+    "type": "Person",
+    "text": "Project Epsilon",
+    "attributes": {
+      "name": "Project Epsilon",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 24,
+      "text": "Project Epsilon started on 2023-04-05, ends on 2023-10-12."
+    }
+  },
+  {
+    "id": "59c7db575a20d6795538a7256d075bcefd4a2fb1",
+    "type": "Project",
+    "text": "Epsilon",
+    "attributes": {
+      "name": "Epsilon",
+      "start_date": "2023-04-05",
+      "end_date": "2023-10-12"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 24,
+      "text": "Project Epsilon started on 2023-04-05, ends on 2023-10-12."
+    }
+  },
+  {
+    "id": "e197a34880eda459cd736281e680c08a44193f7e",
+    "type": "Person",
+    "text": "Project Zeta",
+    "attributes": {
+      "name": "Project Zeta",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 25,
+      "text": "Project Zeta began on 2023-02-15, concludes on 2023-12-01."
+    }
+  },
+  {
+    "id": "3bb222b2e89903845ae4df4ba60a2a275a611ca7",
+    "type": "Person",
+    "text": "Project Eta",
+    "attributes": {
+      "name": "Project Eta",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 26,
+      "text": "Project Eta launched on 2023-05-01, finishes on 2024-01-30."
+    }
+  },
+  {
+    "id": "5bbc4f74abaf22ed96bdde87cd5fd84371685196",
+    "type": "Person",
+    "text": "Project Theta",
+    "attributes": {
+      "name": "Project Theta",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 27,
+      "text": "Project Theta initiated on 2023-03-20, completes on 2023-11-15."
+    }
+  },
+  {
+    "id": "fd819197cef7a412f60692675a9d8fbbeb0e28f3",
+    "type": "Person",
+    "text": "Project Iota",
+    "attributes": {
+      "name": "Project Iota",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 28,
+      "text": "Project Iota started on 2023-06-01, ends on 2024-02-28."
+    }
+  },
+  {
+    "id": "53227fe19d4cca383f09ede77ddac9a524d25796",
+    "type": "Project",
+    "text": "Iota",
+    "attributes": {
+      "name": "Iota",
+      "start_date": "2023-06-01",
+      "end_date": "2024-02-28"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 28,
+      "text": "Project Iota started on 2023-06-01, ends on 2024-02-28."
+    }
+  },
+  {
+    "id": "8cc621fc0ea7e559c994f6d4577ff809d3e3325f",
+    "type": "Person",
+    "text": "Project Kappa",
+    "attributes": {
+      "name": "Project Kappa",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 29,
+      "text": "Project Kappa began on 2023-01-10, concludes on 2023-05-25."
+    }
+  },
+  {
+    "id": "dde8a34948a609382097af3ff4ebf101649b18ff",
+    "type": "Person",
+    "text": "Project Lambda",
+    "attributes": {
+      "name": "Project Lambda",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 30,
+      "text": "Project Lambda launched on 2023-07-01, finishes on 2024-03-15."
+    }
+  },
+  {
+    "id": "bb8ded417230214b089201b812135a79750266f6",
+    "type": "Person",
+    "text": "Project Mu",
+    "attributes": {
+      "name": "Project Mu",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 31,
+      "text": "Project Mu initiated on 2023-04-15, completes on 2023-12-20."
+    }
+  },
+  {
+    "id": "9f808e31a44779b0c35e6d2be8af1f564ba4735a",
+    "type": "Person",
+    "text": "Project Nu",
+    "attributes": {
+      "name": "Project Nu",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 32,
+      "text": "Project Nu started on 2023-08-01, ends on 2024-04-10."
+    }
+  },
+  {
+    "id": "c2e1a201da2bc1d0e9886e0c4fa5a45c8e6bbbf2",
+    "type": "Project",
+    "text": "Nu",
+    "attributes": {
+      "name": "Nu",
+      "start_date": "2023-08-01",
+      "end_date": "2024-04-10"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 32,
+      "text": "Project Nu started on 2023-08-01, ends on 2024-04-10."
+    }
+  },
+  {
+    "id": "4931c61c03436766e09f1f0304acbf7174208dea",
+    "type": "Person",
+    "text": "Project Xi",
+    "attributes": {
+      "name": "Project Xi",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 33,
+      "text": "Project Xi began on 2023-05-10, concludes on 2024-01-05."
+    }
+  },
+  {
+    "id": "8e1e0773878f8da1d2591ff643aa80403ab75b45",
+    "type": "Person",
+    "text": "Project Omicron",
+    "attributes": {
+      "name": "Project Omicron",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 34,
+      "text": "Project Omicron launched on 2023-09-01, finishes on 2024-05-20."
+    }
+  },
+  {
+    "id": "e835bc0bc57db884b0ee62f5d3d63a8342d18a00",
+    "type": "Person",
+    "text": "Project Pi",
+    "attributes": {
+      "name": "Project Pi",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 35,
+      "text": "Project Pi initiated on 2023-03-25, completes on 2023-10-30."
+    }
+  },
+  {
+    "id": "da49795d6dcd89cb49ef9fa49ab806f7209031a8",
+    "type": "Person",
+    "text": "Project Rho",
+    "attributes": {
+      "name": "Project Rho",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 36,
+      "text": "Project Rho started on 2023-06-15, ends on 2024-01-12."
+    }
+  },
+  {
+    "id": "9ec8252ed5a11644117eb5e530a9ee093a3eb049",
+    "type": "Project",
+    "text": "Rho",
+    "attributes": {
+      "name": "Rho",
+      "start_date": "2023-06-15",
+      "end_date": "2024-01-12"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 36,
+      "text": "Project Rho started on 2023-06-15, ends on 2024-01-12."
+    }
+  },
+  {
+    "id": "9385510d61c370eb20cc8fe1edee1fc967ab0634",
+    "type": "Person",
+    "text": "Project Sigma",
+    "attributes": {
+      "name": "Project Sigma",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 37,
+      "text": "Project Sigma began on 2023-02-28, concludes on 2023-11-30."
+    }
+  },
+  {
+    "id": "e40a434ef5e265a4e9293a12fcbc0cdf57e5bd7e",
+    "type": "Person",
+    "text": "Project Tau",
+    "attributes": {
+      "name": "Project Tau",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 38,
+      "text": "Project Tau launched on 2023-07-20, finishes on 2024-02-15."
+    }
+  },
+  {
+    "id": "5599a2ba7a9115c2f85bfcb2c020a87d048fda2d",
+    "type": "Person",
+    "text": "Project Upsilon",
+    "attributes": {
+      "name": "Project Upsilon",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 39,
+      "text": "Project Upsilon initiated on 2023-04-30, completes on 2024-01-25."
+    }
+  },
+  {
+    "id": "51f8cb8a3a62d77481af8c0e3ed0d65516d25ce6",
+    "type": "Person",
+    "text": "Project Phi",
+    "attributes": {
+      "name": "Project Phi",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 40,
+      "text": "Project Phi started on 2023-08-15, ends on 2024-03-30."
+    }
+  },
+  {
+    "id": "138794f391f073b1b6558e82cdeb1ab55190eb79",
+    "type": "Project",
+    "text": "Phi",
+    "attributes": {
+      "name": "Phi",
+      "start_date": "2023-08-15",
+      "end_date": "2024-03-30"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 40,
+      "text": "Project Phi started on 2023-08-15, ends on 2024-03-30."
+    }
+  },
+  {
+    "id": "b313e67f59a67f810aff85772f724b845baddc70",
+    "type": "Person",
+    "text": "Project Chi",
+    "attributes": {
+      "name": "Project Chi",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 41,
+      "text": "Project Chi began on 2023-05-25, concludes on 2024-02-10."
+    }
+  },
+  {
+    "id": "4c993b7a2f0f72a991b74b9d70f55d0415bb440b",
+    "type": "Person",
+    "text": "Project Psi",
+    "attributes": {
+      "name": "Project Psi",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 42,
+      "text": "Project Psi launched on 2023-09-10, finishes on 2024-04-25."
+    }
+  },
+  {
+    "id": "08c14652be6ee3f3d13e38a667b513f268f022eb",
+    "type": "Person",
+    "text": "Project Omega",
+    "attributes": {
+      "name": "Project Omega",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 43,
+      "text": "Project Omega initiated on 2023-06-30, completes on 2024-03-05."
+    }
+  },
+  {
+    "id": "652e95ce01e3453a1463fba01305234ccf18ab1a",
+    "type": "Project",
+    "text": "Alpha-2",
+    "attributes": {
+      "name": "Alpha-2",
+      "start_date": "2023-10-01",
+      "end_date": "2024-06-15"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 44,
+      "text": "Project Alpha-2 started on 2023-10-01, ends on 2024-06-15."
+    }
+  },
+  {
+    "id": "26591f0d11dc68edb1a79ee820f221c0831601cd",
+    "type": "Person",
+    "text": "Internet Services",
+    "attributes": {
+      "name": "Internet Services",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 48,
+      "text": "Google specializes in Technology and Internet Services."
+    }
+  },
+  {
+    "id": "ef6fcfb7cb7297aea0a16f963d815032bdfbcaf0",
+    "type": "Person",
+    "text": "Consumer Electronics",
+    "attributes": {
+      "name": "Consumer Electronics",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 50,
+      "text": "Apple is known for Technology and Consumer Electronics."
+    }
+  },
+  {
+    "id": "14f7895a3288dd2569788d4b1c74d3d5b4ae7e55",
+    "type": "Person",
+    "text": "Social Media",
+    "attributes": {
+      "name": "Social Media",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 52,
+      "text": "Meta operates in Technology and Social Media industry."
+    }
+  },
+  {
+    "id": "03729c7a1167d5a1b15fd1d07404a5574862b77b",
+    "type": "Person",
+    "text": "Clean Energy",
+    "attributes": {
+      "name": "Clean Energy",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 53,
+      "text": "Tesla specializes in Automotive and Clean Energy."
+    }
+  },
+  {
+    "id": "7142e4665f5ca567912fe0d7eebe71fba03e785b",
+    "type": "Person",
+    "text": "Audio Technology",
+    "attributes": {
+      "name": "Audio Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 55,
+      "text": "Spotify operates in Music and Audio Technology."
+    }
+  },
+  {
+    "id": "93dd06884a7c86ac02b9f41f3de6cd8f650273ca",
+    "type": "Person",
+    "text": "Cloud Architect",
+    "attributes": {
+      "name": "Cloud Architect",
+      "age": 39
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 57,
+      "text": "Tom Anderson, age 39, works at IBM as a Cloud Architect."
+    }
+  },
+  {
+    "id": "94cea7906c0d768e27c1f1e370f0077f8b65b0c6",
+    "type": "Person",
+    "text": "Tom Anderson",
+    "attributes": {
+      "name": "Tom Anderson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 57,
+      "text": "Tom Anderson, age 39, works at IBM as a Cloud Architect."
+    }
+  },
+  {
+    "id": "fc1ecd786ddf4fe7ecb4d11f09a726ab3a33d4f2",
+    "type": "Company",
+    "text": "IBM",
+    "attributes": {
+      "name": "IBM",
+      "industry": "Technology and Enterprise Solutions industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 57,
+      "text": "Tom Anderson, age 39, works at IBM as a Cloud Architect."
+    }
+  },
+  {
+    "id": "a782d81e96244393ed79177a66b0da13e32b7ea6",
+    "type": "Person",
+    "text": "Rachel Green",
+    "attributes": {
+      "name": "Rachel Green",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 58,
+      "text": "Rachel Green, age 27, works at Oracle as a Database Administrator."
+    }
+  },
+  {
+    "id": "1ecd79c1c45d5729a2e00a1af1c58474ba9e57b7",
+    "type": "Person",
+    "text": "Database Administrator",
+    "attributes": {
+      "name": "Database Administrator",
+      "age": 27
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 58,
+      "text": "Rachel Green, age 27, works at Oracle as a Database Administrator."
+    }
+  },
+  {
+    "id": "c8346dc33569b7b979d3fd54fc5ab64aff716d48",
+    "type": "Company",
+    "text": "Oracle",
+    "attributes": {
+      "name": "Oracle",
+      "industry": "Database and Enterprise Software"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 58,
+      "text": "Rachel Green, age 27, works at Oracle as a Database Administrator."
+    }
+  },
+  {
+    "id": "3698354efc1c0cfd970867a89468e4d741271846",
+    "type": "Person",
+    "text": "Ops Engineer",
+    "attributes": {
+      "name": "Ops Engineer",
+      "age": 33
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 59,
+      "text": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer."
+    }
+  },
+  {
+    "id": "c85cf3003ba88b2f3b996c0c5bc6b046b59bfe76",
+    "type": "Person",
+    "text": "Kevin Lee",
+    "attributes": {
+      "name": "Kevin Lee",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 59,
+      "text": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer."
+    }
+  },
+  {
+    "id": "d595798b34942a270b6239a45e8734700d8182e2",
+    "type": "Company",
+    "text": "Salesforce",
+    "attributes": {
+      "name": "Salesforce",
+      "industry": "CRM and Cloud Computing industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 59,
+      "text": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer."
+    }
+  },
+  {
+    "id": "0f447c4ccbf4494694875d0fb2627e30ff41cdcd",
+    "type": "Person",
+    "text": "Creative Director",
+    "attributes": {
+      "name": "Creative Director",
+      "age": 30
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 60,
+      "text": "Anna Thompson, age 30, works at Adobe as a Creative Director."
+    }
+  },
+  {
+    "id": "5a8d5ef23ffc2867cbba0ade2e52433ecb06c62d",
+    "type": "Person",
+    "text": "Anna Thompson",
+    "attributes": {
+      "name": "Anna Thompson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 60,
+      "text": "Anna Thompson, age 30, works at Adobe as a Creative Director."
+    }
+  },
+  {
+    "id": "c86def397a2055e63378fabcdd0854def55f0396",
+    "type": "Company",
+    "text": "Adobe",
+    "attributes": {
+      "name": "Adobe",
+      "industry": "Creative Software and Digital Marketing"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 60,
+      "text": "Anna Thompson, age 30, works at Adobe as a Creative Director."
+    }
+  },
+  {
+    "id": "3599945853032afbac4b14ffb998f350a7ed6d62",
+    "type": "Person",
+    "text": "Hardware Engineer",
+    "attributes": {
+      "name": "Hardware Engineer",
+      "age": 44
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 61,
+      "text": "Mark Davis, age 44, works at Intel as a Hardware Engineer."
+    }
+  },
+  {
+    "id": "7b3ed3fdeba439a42035e089c9e82457ca141608",
+    "type": "Person",
+    "text": "Mark Davis",
+    "attributes": {
+      "name": "Mark Davis",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 61,
+      "text": "Mark Davis, age 44, works at Intel as a Hardware Engineer."
+    }
+  },
+  {
+    "id": "a1977ec7829228e04f59c62adeb66a702c6edbed",
+    "type": "Company",
+    "text": "Intel",
+    "attributes": {
+      "name": "Intel",
+      "industry": "Semiconductors and Technology sectors"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 61,
+      "text": "Mark Davis, age 44, works at Intel as a Hardware Engineer."
+    }
+  },
+  {
+    "id": "b41a7d54f7a665593e72109d3acb680aa801bf97",
+    "type": "Person",
+    "text": "Network Specialist",
+    "attributes": {
+      "name": "Network Specialist",
+      "age": 36
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 62,
+      "text": "Susan Clark, age 36, works at Cisco as a Network Specialist."
+    }
+  },
+  {
+    "id": "b6ae2f657fa5ffd40f8052aab37e17ba542cd971",
+    "type": "Person",
+    "text": "Susan Clark",
+    "attributes": {
+      "name": "Susan Clark",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 62,
+      "text": "Susan Clark, age 36, works at Cisco as a Network Specialist."
+    }
+  },
+  {
+    "id": "ca68dace0672003b6da26614cef7da8347df3031",
+    "type": "Company",
+    "text": "Cisco",
+    "attributes": {
+      "name": "Cisco",
+      "industry": "Networking and Technology industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 62,
+      "text": "Susan Clark, age 36, works at Cisco as a Network Specialist."
+    }
+  },
+  {
+    "id": "98fca5d901d419107535907df4fe15afe9d5f6c2",
+    "type": "Person",
+    "text": "Systems Administrator",
+    "attributes": {
+      "name": "Systems Administrator",
+      "age": 41
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 63,
+      "text": "Paul Wilson, age 41, works at HP as a Systems Administrator."
+    }
+  },
+  {
+    "id": "fe0158e8902decc46a60b9358e71968ec3995f0f",
+    "type": "Person",
+    "text": "Paul Wilson",
+    "attributes": {
+      "name": "Paul Wilson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 63,
+      "text": "Paul Wilson, age 41, works at HP as a Systems Administrator."
+    }
+  },
+  {
+    "id": "5bdd75d36273c213ab658efc8f7d3e7a97407567",
+    "type": "Company",
+    "text": "HP",
+    "attributes": {
+      "name": "HP",
+      "industry": "Computing and Printing Technology"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 63,
+      "text": "Paul Wilson, age 41, works at HP as a Systems Administrator."
+    }
+  },
+  {
+    "id": "53341717d04034bdd0e5b5fc5a9238aadca2baaa",
+    "type": "Person",
+    "text": "Technical Support",
+    "attributes": {
+      "name": "Technical Support",
+      "age": 29
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 64,
+      "text": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead."
+    }
+  },
+  {
+    "id": "b2a93ce7bba98e9d80fc990f34e306bab6f4525b",
+    "type": "Person",
+    "text": "Jennifer Moore",
+    "attributes": {
+      "name": "Jennifer Moore",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 64,
+      "text": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead."
+    }
+  },
+  {
+    "id": "2e074b17370546e4ffb820e69e9302eb5e6f2110",
+    "type": "Company",
+    "text": "Dell",
+    "attributes": {
+      "name": "Dell",
+      "industry": "Technology and Computer Hardware"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 64,
+      "text": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead."
+    }
+  },
+  {
+    "id": "ada69821c1609ae4dd3cfa3b5560dbd2cfac48b8",
+    "type": "Person",
+    "text": "Virtualization Expert",
+    "attributes": {
+      "name": "Virtualization Expert",
+      "age": 37
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 65,
+      "text": "Steven Taylor, age 37, works at VMware as a Virtualization Expert."
+    }
+  },
+  {
+    "id": "aaf981af16ceeef4dcb67d1b2a8484c8296c4808",
+    "type": "Person",
+    "text": "Steven Taylor",
+    "attributes": {
+      "name": "Steven Taylor",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 65,
+      "text": "Steven Taylor, age 37, works at VMware as a Virtualization Expert."
+    }
+  },
+  {
+    "id": "2a920d0bb82ed7075fff0b5e69e1db7149b2cd36",
+    "type": "Company",
+    "text": "VMware",
+    "attributes": {
+      "name": "VMware",
+      "industry": "Virtualization and Cloud Computing"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 65,
+      "text": "Steven Taylor, age 37, works at VMware as a Virtualization Expert."
+    }
+  },
+  {
+    "id": "e9b29157bbeda69c62437b3ecfd3b623ed74f550",
+    "type": "Person",
+    "text": "Michelle White",
+    "attributes": {
+      "name": "Michelle White",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 66,
+      "text": "Michelle White, age 32, works at RedHat as a Linux Administrator."
+    }
+  },
+  {
+    "id": "ac9ab8ad733edd37400c25584319432c5ad3abc3",
+    "type": "Person",
+    "text": "Linux Administrator",
+    "attributes": {
+      "name": "Linux Administrator",
+      "age": 32
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 66,
+      "text": "Michelle White, age 32, works at RedHat as a Linux Administrator."
+    }
+  },
+  {
+    "id": "00eb377cac2f2beea350cd9d5576c2d3db52a300",
+    "type": "Company",
+    "text": "RedHat",
+    "attributes": {
+      "name": "RedHat",
+      "industry": "Open Source and Enterprise Linux"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 66,
+      "text": "Michelle White, age 32, works at RedHat as a Linux Administrator."
+    }
+  },
+  {
+    "id": "987b365ca8944f323f7dc061ca2b40d8606b8216",
+    "type": "Person",
+    "text": "Project Nova",
+    "attributes": {
+      "name": "Project Nova",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 77,
+      "text": "Project Nova started on 2023-08-01, ends on 2024-01-15."
+    }
+  },
+  {
+    "id": "cf7326ec17eb8629fcec57feb575e24f4837e250",
+    "type": "Project",
+    "text": "Nova",
+    "attributes": {
+      "name": "Nova",
+      "start_date": "2023-08-01",
+      "end_date": "2024-01-15"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 77,
+      "text": "Project Nova started on 2023-08-01, ends on 2024-01-15."
+    }
+  },
+  {
+    "id": "2e08f903dbe7c754f75964e8125f206323d115ae",
+    "type": "Person",
+    "text": "Project Stellar",
+    "attributes": {
+      "name": "Project Stellar",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 78,
+      "text": "Project Stellar began on 2023-09-15, concludes on 2024-03-30."
+    }
+  },
+  {
+    "id": "9d72b1c5604a5b2fb010309585fc24dc2bc0892d",
+    "type": "Person",
+    "text": "Project Cosmic",
+    "attributes": {
+      "name": "Project Cosmic",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 79,
+      "text": "Project Cosmic launched on 2023-07-10, finishes on 2024-02-20."
+    }
+  },
+  {
+    "id": "085e0190bf937264dd0a63f8dadd254972680662",
+    "type": "Person",
+    "text": "Project Galactic",
+    "attributes": {
+      "name": "Project Galactic",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 80,
+      "text": "Project Galactic initiated on 2023-10-05, completes on 2024-05-10."
+    }
+  },
+  {
+    "id": "9470bc3a3070f049d801cff3a6141fea95b52882",
+    "type": "Person",
+    "text": "Project Universal",
+    "attributes": {
+      "name": "Project Universal",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 81,
+      "text": "Project Universal started on 2023-11-20, ends on 2024-06-25."
+    }
+  },
+  {
+    "id": "761a2885dc871f757dec2e50dffd4899770aa74d",
+    "type": "Project",
+    "text": "Universal",
+    "attributes": {
+      "name": "Universal",
+      "start_date": "2023-11-20",
+      "end_date": "2024-06-25"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 81,
+      "text": "Project Universal started on 2023-11-20, ends on 2024-06-25."
+    }
+  },
+  {
+    "id": "58349ab4d2b4994cc35b63b483fba00a40bfc777",
+    "type": "Person",
+    "text": "Project Quantum",
+    "attributes": {
+      "name": "Project Quantum",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 82,
+      "text": "Project Quantum began on 2023-06-05, concludes on 2023-12-15."
+    }
+  },
+  {
+    "id": "b1b64db0c1059d543dc76212d646e603877fe7e4",
+    "type": "Person",
+    "text": "Project Photon",
+    "attributes": {
+      "name": "Project Photon",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 83,
+      "text": "Project Photon launched on 2023-04-20, finishes on 2023-11-05."
+    }
+  },
+  {
+    "id": "d5a297d4d274a61bd16c79d7d4d4bb35ce3b14a5",
+    "type": "Person",
+    "text": "Project Electron",
+    "attributes": {
+      "name": "Project Electron",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 84,
+      "text": "Project Electron initiated on 2023-07-25, completes on 2024-01-20."
+    }
+  },
+  {
+    "id": "7ccbf6f29bf30e418113f73df794bdc1d2f1d9c0",
+    "type": "Person",
+    "text": "Project Neutron",
+    "attributes": {
+      "name": "Project Neutron",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 85,
+      "text": "Project Neutron started on 2023-08-30, ends on 2024-04-05."
+    }
+  },
+  {
+    "id": "d75cc34ea62742959e120c1525d9bd578b4f860f",
+    "type": "Project",
+    "text": "Neutron",
+    "attributes": {
+      "name": "Neutron",
+      "start_date": "2023-08-30",
+      "end_date": "2024-04-05"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 85,
+      "text": "Project Neutron started on 2023-08-30, ends on 2024-04-05."
+    }
+  },
+  {
+    "id": "9d71de11a50159475259ce4b91b921fd4390cf90",
+    "type": "Person",
+    "text": "Project Proton",
+    "attributes": {
+      "name": "Project Proton",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 86,
+      "text": "Project Proton began on 2023-09-20, concludes on 2024-02-28."
+    }
+  },
+  {
+    "id": "77f7d27e36d5d800d0d4512d72ffc2a7e6ea275b",
+    "type": "Person",
+    "text": "Project Circuit",
+    "attributes": {
+      "name": "Project Circuit",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 87,
+      "text": "Project Circuit launched on 2023-05-15, finishes on 2023-12-30."
+    }
+  },
+  {
+    "id": "d21b94052ffabedb10f04bf76a451c6defb6b4db",
+    "type": "Person",
+    "text": "Project Binary",
+    "attributes": {
+      "name": "Project Binary",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 88,
+      "text": "Project Binary initiated on 2023-10-10, completes on 2024-05-25."
+    }
+  },
+  {
+    "id": "31452396746ae989be3b22dec58fa77bdaa4a139",
+    "type": "Person",
+    "text": "Project Network",
+    "attributes": {
+      "name": "Project Network",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 89,
+      "text": "Project Network-A started on 2023-03-05, ends on 2023-09-15."
+    }
+  },
+  {
+    "id": "445fdc3b46b653f62ea61a27ca6fe2468855cdbe",
+    "type": "Project",
+    "text": "Network-A",
+    "attributes": {
+      "name": "Network-A",
+      "start_date": "2023-03-05",
+      "end_date": "2023-09-15"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 89,
+      "text": "Project Network-A started on 2023-03-05, ends on 2023-09-15."
+    }
+  },
+  {
+    "id": "fcbc4e3801eb566875e0caf0f5ad3b7336943a4a",
+    "type": "Person",
+    "text": "Project Server",
+    "attributes": {
+      "name": "Project Server",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 92,
+      "text": "Project Server-Prime initiated on 2023-07-05, completes on 2024-02-05."
+    }
+  },
+  {
+    "id": "57bbcc705597439cf5c4af0abca85e5137bad495",
+    "type": "Person",
+    "text": "Project Support",
+    "attributes": {
+      "name": "Project Support",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 93,
+      "text": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15."
+    }
+  },
+  {
+    "id": "fff14e5f8034839b5efe8ee8487ba12c8b3535b1",
+    "type": "Project",
+    "text": "Support-Alpha",
+    "attributes": {
+      "name": "Support-Alpha",
+      "start_date": "2023-09-01",
+      "end_date": "2024-04-15"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 93,
+      "text": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15."
+    }
+  },
+  {
+    "id": "8c1781baaeadddc1c8b7f9b450dbc81a6e3cc88a",
+    "type": "Person",
+    "text": "Project Virtual",
+    "attributes": {
+      "name": "Project Virtual",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 95,
+      "text": "Project Virtual-X launched on 2023-05-30, finishes on 2024-01-30."
+    }
+  },
+  {
+    "id": "458bd8ae0b48b04fd5d29cacd76b5355ef151454",
+    "type": "Project",
+    "text": "Virtual-Z",
+    "attributes": {
+      "name": "Virtual-Z",
+      "start_date": "2023-10-25",
+      "end_date": "2024-07-10"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 97,
+      "text": "Project Virtual-Z started on 2023-10-25, ends on 2024-07-10."
+    }
+  },
+  {
+    "id": "df1d40f9b3b4247dfff79fb9069f00e8504da990",
+    "type": "Person",
+    "text": "Project Linux",
+    "attributes": {
+      "name": "Project Linux",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 98,
+      "text": "Project Linux-Core began on 2023-12-05, concludes on 2024-08-15."
+    }
+  },
+  {
+    "id": "011e3497c70b7c983616636541b1b905b278ce6f",
+    "type": "Person",
+    "text": "Enterprise Solutions",
+    "attributes": {
+      "name": "Enterprise Solutions",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 99,
+      "text": "IBM operates in Technology and Enterprise Solutions industry."
+    }
+  },
+  {
+    "id": "475e08687c7a07bd3e9c70b63fd8cbf38e1062c7",
+    "type": "Person",
+    "text": "Enterprise Software",
+    "attributes": {
+      "name": "Enterprise Software",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 100,
+      "text": "Oracle specializes in Database and Enterprise Software."
+    }
+  },
+  {
+    "id": "ba9b4173a39b4af5a17a5fa35a16fad43053472e",
+    "type": "Person",
+    "text": "Cloud Computing",
+    "attributes": {
+      "name": "Cloud Computing",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 101,
+      "text": "Salesforce focuses on CRM and Cloud Computing industry."
+    }
+  },
+  {
+    "id": "27c37dc5952571ba9bcf6be50849d2e80d18dba0",
+    "type": "Person",
+    "text": "Digital Marketing",
+    "attributes": {
+      "name": "Digital Marketing",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 102,
+      "text": "Adobe is known for Creative Software and Digital Marketing."
+    }
+  },
+  {
+    "id": "0d4a213d1aa93ab3365a8323e8d0bb3840f9e33e",
+    "type": "Person",
+    "text": "Creative Software",
+    "attributes": {
+      "name": "Creative Software",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 102,
+      "text": "Adobe is known for Creative Software and Digital Marketing."
+    }
+  },
+  {
+    "id": "fc6f1c89a20813337f023501515fb13540f0c3b9",
+    "type": "Person",
+    "text": "Printing Technology",
+    "attributes": {
+      "name": "Printing Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 105,
+      "text": "HP specializes in Computing and Printing Technology."
+    }
+  },
+  {
+    "id": "2f9b488af01ee3b3be7a8319d3c32afa9a2eb653",
+    "type": "Person",
+    "text": "Computer Hardware",
+    "attributes": {
+      "name": "Computer Hardware",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 106,
+      "text": "Dell focuses on Technology and Computer Hardware."
+    }
+  },
+  {
+    "id": "f1d7567563901dc99c889ac6e2b350960dfdcc05",
+    "type": "Person",
+    "text": "Open Source",
+    "attributes": {
+      "name": "Open Source",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 108,
+      "text": "RedHat specializes in Open Source and Enterprise Linux."
+    }
+  },
+  {
+    "id": "db0f9908b8632af9d677e1d3debd58dbc1aaa15d",
+    "type": "Person",
+    "text": "Enterprise Linux",
+    "attributes": {
+      "name": "Enterprise Linux",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 108,
+      "text": "RedHat specializes in Open Source and Enterprise Linux."
+    }
+  },
+  {
+    "id": "4023e1612945abfff7e025664023cb68d1cd3a8e",
+    "type": "Person",
+    "text": "Daniel Kim",
+    "attributes": {
+      "name": "Daniel Kim",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 109,
+      "text": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer."
+    }
+  },
+  {
+    "id": "e90d8ebb1ea298ba4470e0530784fc1697975324",
+    "type": "Person",
+    "text": "Full Stack",
+    "attributes": {
+      "name": "Full Stack",
+      "age": 35
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 109,
+      "text": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer."
+    }
+  },
+  {
+    "id": "15a2a17ff69c679382e4f0483b31a5ff9bdeab0a",
+    "type": "Company",
+    "text": "Airbnb",
+    "attributes": {
+      "name": "Airbnb",
+      "industry": "Travel and Hospitality Technology industry"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 109,
+      "text": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer."
+    }
+  },
+  {
+    "id": "7bb9d5d010c50e5b6746903e583111cbe4e5c710",
+    "type": "Person",
+    "text": "Catherine Jones",
+    "attributes": {
+      "name": "Catherine Jones",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 110,
+      "text": "Catherine Jones, age 28, works at Twitter as a Frontend Developer."
+    }
+  },
+  {
+    "id": "5bf8c567d6e4905731b490097d802ae65d8ea58e",
+    "type": "Person",
+    "text": "Frontend Developer",
+    "attributes": {
+      "name": "Frontend Developer",
+      "age": 28
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 110,
+      "text": "Catherine Jones, age 28, works at Twitter as a Frontend Developer."
+    }
+  },
+  {
+    "id": "c4229f28bafae39bcbeaa23f7a495f24dbf50471",
+    "type": "Company",
+    "text": "Twitter",
+    "attributes": {
+      "name": "Twitter",
+      "industry": "Social Media and Communication Technology"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 110,
+      "text": "Catherine Jones, age 28, works at Twitter as a Frontend Developer."
+    }
+  },
+  {
+    "id": "046327ad7b6bdca0c8574535b9c83d49447afb3b",
+    "type": "Person",
+    "text": "Data Engineer",
+    "attributes": {
+      "name": "Data Engineer",
+      "age": 42
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 111,
+      "text": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer."
+    }
+  },
+  {
+    "id": "35883fe85d8acf8d51ade73074788a153f3bf039",
+    "type": "Person",
+    "text": "Andrew Chen",
+    "attributes": {
+      "name": "Andrew Chen",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 111,
+      "text": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer."
+    }
+  },
+  {
+    "id": "83f455236e8c7d9802b77f0a952c0942b2081135",
+    "type": "Company",
+    "text": "LinkedIn",
+    "attributes": {
+      "name": "LinkedIn",
+      "industry": "Professional Networking and Career Services"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 111,
+      "text": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer."
+    }
+  },
+  {
+    "id": "e6875f7c242f1a108573a5ac815e85a5c2971041",
+    "type": "Person",
+    "text": "Mobile Developer",
+    "attributes": {
+      "name": "Mobile Developer",
+      "age": 31
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 112,
+      "text": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer."
+    }
+  },
+  {
+    "id": "7d273156cbf69b56d80494158bd0ec6e90d6abe4",
+    "type": "Person",
+    "text": "Sophia Rodriguez",
+    "attributes": {
+      "name": "Sophia Rodriguez",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 112,
+      "text": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer."
+    }
+  },
+  {
+    "id": "c1fa197d2abcee4be74d0b8d5b86cb445ebaf833",
+    "type": "Company",
+    "text": "Pinterest",
+    "attributes": {
+      "name": "Pinterest",
+      "industry": "Social Media and Visual Discovery"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 112,
+      "text": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer."
+    }
+  },
+  {
+    "id": "76bd5323001e778c04190e1df404d1bb0d49edc6",
+    "type": "Person",
+    "text": "Nathan Williams",
+    "attributes": {
+      "name": "Nathan Williams",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 113,
+      "text": "Nathan Williams, age 39, works at Dropbox as a Security Engineer."
+    }
+  },
+  {
+    "id": "4756ccc6cfd99d838158b6deaba51aed2d94fbf9",
+    "type": "Person",
+    "text": "Security Engineer",
+    "attributes": {
+      "name": "Security Engineer",
+      "age": 39
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 113,
+      "text": "Nathan Williams, age 39, works at Dropbox as a Security Engineer."
+    }
+  },
+  {
+    "id": "07cb8e46e7c53beb3c1cd0d67903bb40692ad5fb",
+    "type": "Company",
+    "text": "Dropbox",
+    "attributes": {
+      "name": "Dropbox",
+      "industry": "Cloud Storage and File Sharing sectors"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 113,
+      "text": "Nathan Williams, age 39, works at Dropbox as a Security Engineer."
+    }
+  },
+  {
+    "id": "df17dd0a87bd41d537810ef65594eb6c38809d75",
+    "type": "Person",
+    "text": "Product Designer",
+    "attributes": {
+      "name": "Product Designer",
+      "age": 26
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 114,
+      "text": "Olivia Brown, age 26, works at Slack as a Product Designer."
+    }
+  },
+  {
+    "id": "bfedeb43896e8ce830ca4eef791816edb7535ebc",
+    "type": "Person",
+    "text": "Olivia Brown",
+    "attributes": {
+      "name": "Olivia Brown",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 114,
+      "text": "Olivia Brown, age 26, works at Slack as a Product Designer."
+    }
+  },
+  {
+    "id": "c4a14b104161138a645a5a0f99b2f14314a39b43",
+    "type": "Company",
+    "text": "Slack",
+    "attributes": {
+      "name": "Slack",
+      "industry": "Business Communication and Collaboration"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 114,
+      "text": "Olivia Brown, age 26, works at Slack as a Product Designer."
+    }
+  },
+  {
+    "id": "fc172cd38eb9b9c8f2934011a65fa5be258a911c",
+    "type": "Person",
+    "text": "Video Technology",
+    "attributes": {
+      "name": "Video Technology",
+      "age": 34
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 115,
+      "text": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist."
+    }
+  },
+  {
+    "id": "efd9534c2cac4fbe189fd4c1443db01205305918",
+    "type": "Person",
+    "text": "Christopher Davis",
+    "attributes": {
+      "name": "Christopher Davis",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 115,
+      "text": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist."
+    }
+  },
+  {
+    "id": "cb875a36550425e12ea3ab024d9190b0ecaa2adb",
+    "type": "Company",
+    "text": "Zoom",
+    "attributes": {
+      "name": "Zoom",
+      "industry": "Video Conferencing and Communications"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 115,
+      "text": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist."
+    }
+  },
+  {
+    "id": "7135bbf085417114a144de3c5d0976dc69267bab",
+    "type": "Person",
+    "text": "Amanda Miller",
+    "attributes": {
+      "name": "Amanda Miller",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 116,
+      "text": "Amanda Miller, age 30, works at Shopify as an E-commerce Developer."
+    }
+  },
+  {
+    "id": "4a6f548a54d5db5834947e3a2529267b8281eb5c",
+    "type": "Company",
+    "text": "Shopify",
+    "attributes": {
+      "name": "Shopify",
+      "industry": "E-commerce and Retail Technology"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 116,
+      "text": "Amanda Miller, age 30, works at Shopify as an E-commerce Developer."
+    }
+  },
+  {
+    "id": "df67f38e7541f5f185093b8f35361c4cbaf64d7e",
+    "type": "Person",
+    "text": "Payment Systems",
+    "attributes": {
+      "name": "Payment Systems",
+      "age": 37
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 117,
+      "text": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer."
+    }
+  },
+  {
+    "id": "900b0555d37d688ea448c6c96a30ffab25cc860e",
+    "type": "Person",
+    "text": "Ryan Garcia",
+    "attributes": {
+      "name": "Ryan Garcia",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 117,
+      "text": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer."
+    }
+  },
+  {
+    "id": "1e2a00c4679e2c2d9c9fd34a2a9a72f472dca29d",
+    "type": "Company",
+    "text": "Square",
+    "attributes": {
+      "name": "Square",
+      "industry": "Financial Technology and Payment Processing"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 117,
+      "text": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer."
+    }
+  },
+  {
+    "id": "f872ec8e414a242309206c52bcc0bf07cd70f738",
+    "type": "Person",
+    "text": "Jessica Wilson",
+    "attributes": {
+      "name": "Jessica Wilson",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 118,
+      "text": "Jessica Wilson, age 33, works at DocuSign as a API Developer."
+    }
+  },
+  {
+    "id": "f83a777c2f0d3d176584b6d290c72a50fae358fe",
+    "type": "Company",
+    "text": "DocuSign",
+    "attributes": {
+      "name": "DocuSign",
+      "industry": "Digital Signature and Document Management"
+    },
+    "confidence": 0.88,
+    "method": "regex",
+    "source": {
+      "doc_id": 118,
+      "text": "Jessica Wilson, age 33, works at DocuSign as a API Developer."
+    }
+  },
+  {
+    "id": "7a40cac0a4ab48b852a2a14522c29d01aa07679c",
+    "type": "Person",
+    "text": "Project Air",
+    "attributes": {
+      "name": "Project Air",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 129,
+      "text": "Project AirFlow started on 2023-02-10, ends on 2023-08-25."
+    }
+  },
+  {
+    "id": "558119ae989c493ff642a90d717f0a914fab4028",
+    "type": "Project",
+    "text": "AirFlow",
+    "attributes": {
+      "name": "AirFlow",
+      "start_date": "2023-02-10",
+      "end_date": "2023-08-25"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 129,
+      "text": "Project AirFlow started on 2023-02-10, ends on 2023-08-25."
+    }
+  },
+  {
+    "id": "41d6ae1104cedf1ba4ec2efe69ad43833d25a47f",
+    "type": "Person",
+    "text": "Project Tweet",
+    "attributes": {
+      "name": "Project Tweet",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 132,
+      "text": "Project TweetDeck-2 initiated on 2023-04-01, completes on 2023-10-15."
+    }
+  },
+  {
+    "id": "d4ea71f873380b587a8096ed753826f80146bbf2",
+    "type": "Person",
+    "text": "Project Twitter",
+    "attributes": {
+      "name": "Project Twitter",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 133,
+      "text": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20."
+    }
+  },
+  {
+    "id": "659136b128c3f7bdaa0761e8b76de7299de4b179",
+    "type": "Project",
+    "text": "TwitterAPI-v3",
+    "attributes": {
+      "name": "TwitterAPI-v3",
+      "start_date": "2023-08-05",
+      "end_date": "2024-02-20"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 133,
+      "text": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20."
+    }
+  },
+  {
+    "id": "2b6947ae853a3e71c1b42118a1d8eec744645d14",
+    "type": "Person",
+    "text": "Project Linked",
+    "attributes": {
+      "name": "Project Linked",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 134,
+      "text": "Project LinkedData began on 2023-03-15, concludes on 2023-09-30."
+    }
+  },
+  {
+    "id": "84bb753cc6937991ea007268ad2d185bd01b7690",
+    "type": "Person",
+    "text": "Project Profile",
+    "attributes": {
+      "name": "Project Profile",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 135,
+      "text": "Project ProfileEngine launched on 2023-06-10, finishes on 2023-12-25."
+    }
+  },
+  {
+    "id": "33be6c98c8389412ffde96713f3d07548cbd6f77",
+    "type": "Person",
+    "text": "Project Job",
+    "attributes": {
+      "name": "Project Job",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 137,
+      "text": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15."
+    }
+  },
+  {
+    "id": "89b47349ae28bbac18e91bd359f9bfbaee76886a",
+    "type": "Project",
+    "text": "JobMatcher",
+    "attributes": {
+      "name": "JobMatcher",
+      "start_date": "2023-11-01",
+      "end_date": "2024-05-15"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 137,
+      "text": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15."
+    }
+  },
+  {
+    "id": "93376198b8c42c8f542fe7e3da07e8668b4b980e",
+    "type": "Person",
+    "text": "Project Pin",
+    "attributes": {
+      "name": "Project Pin",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 138,
+      "text": "Project PinBoard-Mobile began on 2023-01-25, concludes on 2023-07-40."
+    }
+  },
+  {
+    "id": "d11c2d7ec342fa7841e124bbbac8cd3f285dace5",
+    "type": "Person",
+    "text": "Project Secure",
+    "attributes": {
+      "name": "Project Secure",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 139,
+      "text": "Project SecureVault launched on 2023-04-10, finishes on 2023-10-25."
+    }
+  },
+  {
+    "id": "a1b06e8dfd664064a94f8d13b14b0bffd4e867e3",
+    "type": "Person",
+    "text": "Project Crypto",
+    "attributes": {
+      "name": "Project Crypto",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 140,
+      "text": "Project CryptoGuard initiated on 2023-07-01, completes on 2024-01-15."
+    }
+  },
+  {
+    "id": "96d60c26f3bfc48bfea5a4f17eabe39044c6b497",
+    "type": "Person",
+    "text": "Project Slack",
+    "attributes": {
+      "name": "Project Slack",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 141,
+      "text": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05."
+    }
+  },
+  {
+    "id": "a9887eebf32006067b177203742460d7432b42a7",
+    "type": "Project",
+    "text": "SlackBot-AI",
+    "attributes": {
+      "name": "SlackBot-AI",
+      "start_date": "2023-05-20",
+      "end_date": "2023-11-05"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 141,
+      "text": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05."
+    }
+  },
+  {
+    "id": "a2c4848f95689446fab01ce22563bfb90867010f",
+    "type": "Person",
+    "text": "Project Channel",
+    "attributes": {
+      "name": "Project Channel",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 142,
+      "text": "Project ChannelSync began on 2023-08-15, concludes on 2024-02-28."
+    }
+  },
+  {
+    "id": "400d9c7d5185128cf752b2d1a62e65c95c3cf4f8",
+    "type": "Person",
+    "text": "Project Workspace",
+    "attributes": {
+      "name": "Project Workspace",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 143,
+      "text": "Project WorkspaceHub launched on 2023-10-30, finishes on 2024-04-15."
+    }
+  },
+  {
+    "id": "737100c300003d9d744d6f227682de6858e69104",
+    "type": "Person",
+    "text": "Project Video",
+    "attributes": {
+      "name": "Project Video",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 144,
+      "text": "Project VideoCodec-X initiated on 2023-03-30, completes on 2023-09-15."
+    }
+  },
+  {
+    "id": "3a8da6e08f5eaaa7c7248517d38afb7137301f8b",
+    "type": "Person",
+    "text": "Project Meeting",
+    "attributes": {
+      "name": "Project Meeting",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 145,
+      "text": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10."
+    }
+  },
+  {
+    "id": "eb23f81bc3b7271caec337a52d177a8457ce190a",
+    "type": "Project",
+    "text": "MeetingRoom-Pro",
+    "attributes": {
+      "name": "MeetingRoom-Pro",
+      "start_date": "2023-06-25",
+      "end_date": "2024-01-10"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 145,
+      "text": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10."
+    }
+  },
+  {
+    "id": "8b14b9cd553c4a844ffd99736899e94860fe516e",
+    "type": "Person",
+    "text": "Project Shop",
+    "attributes": {
+      "name": "Project Shop",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 146,
+      "text": "Project ShopEngine-v2 began on 2023-09-20, concludes on 2024-05-05."
+    }
+  },
+  {
+    "id": "6ea88a604b388d4ce42bd4a4e2ae99d7ca601ccd",
+    "type": "Person",
+    "text": "Project Payment",
+    "attributes": {
+      "name": "Project Payment",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 147,
+      "text": "Project PaymentGateway launched on 2023-02-20, finishes on 2023-08-35."
+    }
+  },
+  {
+    "id": "e585de4537a8d5a44df81572677c65dc2b2ca449",
+    "type": "Person",
+    "text": "Project Square",
+    "attributes": {
+      "name": "Project Square",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 148,
+      "text": "Project SquareAPI initiated on 2023-07-30, completes on 2024-02-15."
+    }
+  },
+  {
+    "id": "d4de57c5fe49a37b2240f0fc53d769852248dedf",
+    "type": "Person",
+    "text": "Project Transaction",
+    "attributes": {
+      "name": "Project Transaction",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 149,
+      "text": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10."
+    }
+  },
+  {
+    "id": "c064381d7425881c2b527baee4f0b26798302bcd",
+    "type": "Project",
+    "text": "TransactionEngine",
+    "attributes": {
+      "name": "TransactionEngine",
+      "start_date": "2023-11-25",
+      "end_date": "2024-07-10"
+    },
+    "confidence": 0.92,
+    "method": "regex",
+    "source": {
+      "doc_id": 149,
+      "text": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10."
+    }
+  },
+  {
+    "id": "93f2979a326cc7075b7d1f64e151fc871b3ab854",
+    "type": "Person",
+    "text": "Project Signature",
+    "attributes": {
+      "name": "Project Signature",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 150,
+      "text": "Project SignatureAPI began on 2023-04-25, concludes on 2023-11-10."
+    }
+  },
+  {
+    "id": "ec50643ee3103ed51898ffa1aa4ecc16503c8001",
+    "type": "Person",
+    "text": "Project Document",
+    "attributes": {
+      "name": "Project Document",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 151,
+      "text": "Project DocumentFlow launched on 2023-08-25, finishes on 2024-04-10."
+    }
+  },
+  {
+    "id": "26b6c0e1c5ba652dc38663b35d02c7611035e78b",
+    "type": "Person",
+    "text": "Hospitality Technology",
+    "attributes": {
+      "name": "Hospitality Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 152,
+      "text": "Airbnb operates in Travel and Hospitality Technology industry."
+    }
+  },
+  {
+    "id": "92e65785791badd2bbac00d0e28e1adf8bbbb597",
+    "type": "Person",
+    "text": "Communication Technology",
+    "attributes": {
+      "name": "Communication Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 153,
+      "text": "Twitter specializes in Social Media and Communication Technology."
+    }
+  },
+  {
+    "id": "39e6c2aa01852c6f1d29c34ceabb2a53992eed0d",
+    "type": "Person",
+    "text": "Professional Networking",
+    "attributes": {
+      "name": "Professional Networking",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 154,
+      "text": "LinkedIn focuses on Professional Networking and Career Services."
+    }
+  },
+  {
+    "id": "15b45468246ff3902af011dc46602476b271fc07",
+    "type": "Person",
+    "text": "Career Services",
+    "attributes": {
+      "name": "Career Services",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 154,
+      "text": "LinkedIn focuses on Professional Networking and Career Services."
+    }
+  },
+  {
+    "id": "37bec34a0742db6138246be8c423fe08a03d0622",
+    "type": "Person",
+    "text": "Visual Discovery",
+    "attributes": {
+      "name": "Visual Discovery",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 155,
+      "text": "Pinterest is known for Social Media and Visual Discovery."
+    }
+  },
+  {
+    "id": "27b3be086d957e20bbcd57c927fcc333d29e5110",
+    "type": "Person",
+    "text": "Cloud Storage",
+    "attributes": {
+      "name": "Cloud Storage",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 156,
+      "text": "Dropbox works in Cloud Storage and File Sharing sectors."
+    }
+  },
+  {
+    "id": "a307c41cf71af65192fe2a0d9fd8c21f711dae1e",
+    "type": "Person",
+    "text": "File Sharing",
+    "attributes": {
+      "name": "File Sharing",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 156,
+      "text": "Dropbox works in Cloud Storage and File Sharing sectors."
+    }
+  },
+  {
+    "id": "90516fa2bde3160c5cc991be73dc6f4e7911151e",
+    "type": "Person",
+    "text": "Business Communication",
+    "attributes": {
+      "name": "Business Communication",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 157,
+      "text": "Slack operates in Business Communication and Collaboration."
+    }
+  },
+  {
+    "id": "8ae7cb5dc83490a1faa4713356a26bcdfad41bff",
+    "type": "Person",
+    "text": "Video Conferencing",
+    "attributes": {
+      "name": "Video Conferencing",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 158,
+      "text": "Zoom specializes in Video Conferencing and Communications."
+    }
+  },
+  {
+    "id": "76766af81ec6a5175eca72af15064084fc41055c",
+    "type": "Person",
+    "text": "Retail Technology",
+    "attributes": {
+      "name": "Retail Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 159,
+      "text": "Shopify focuses on E-commerce and Retail Technology."
+    }
+  },
+  {
+    "id": "5490b3e946de9897e436510b6048f0de7641f4ee",
+    "type": "Person",
+    "text": "Payment Processing",
+    "attributes": {
+      "name": "Payment Processing",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 160,
+      "text": "Square operates in Financial Technology and Payment Processing."
+    }
+  },
+  {
+    "id": "8d5f956e603ebd66c316bedb326815f7c2b7d14d",
+    "type": "Person",
+    "text": "Financial Technology",
+    "attributes": {
+      "name": "Financial Technology",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 160,
+      "text": "Square operates in Financial Technology and Payment Processing."
+    }
+  },
+  {
+    "id": "d5e2644d7294840cec0dc8e73623fd5173b56311",
+    "type": "Person",
+    "text": "Digital Signature",
+    "attributes": {
+      "name": "Digital Signature",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 161,
+      "text": "DocuSign specializes in Digital Signature and Document Management."
+    }
+  },
+  {
+    "id": "9ccaa113609855e7576808be06dc4c7f1eb0dea5",
+    "type": "Person",
+    "text": "Document Management",
+    "attributes": {
+      "name": "Document Management",
+      "age": null
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source": {
+      "doc_id": 161,
+      "text": "DocuSign specializes in Digital Signature and Document Management."
+    }
+  }
+]
