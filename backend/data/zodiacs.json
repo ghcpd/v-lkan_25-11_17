@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Aries",
+    "dateRange": "March 21 - April 19",
+    "symbol": "♈",
+    "element": "Fire",
+    "rulingPlanet": "Mars",
+    "personality": [
+      "Courageous",
+      "Determined",
+      "Confident",
+      "Ambitious",
+      "Passionate"
+    ],
+    "strengths": "Bold, initiators, energetic, dynamic",
+    "weaknesses": "Impatient, aggressive, impulsive",
+    "compatibility": ["Leo", "Sagittarius", "Gemini"],
+    "origin": "Aries is associated with the golden fleece from Greek mythology and represents the pioneering spirit of those born under this sign."
+  },
+  {
+    "id": 2,
+    "name": "Taurus",
+    "dateRange": "April 20 - May 20",
+    "symbol": "♉",
+    "element": "Earth",
+    "rulingPlanet": "Venus",
+    "personality": [
+      "Reliable",
+      "Practical",
+      "Devoted",
+      "Dependable",
+      "Sensible"
+    ],
+    "strengths": "Dependable, reliable, practical, patient",
+    "weaknesses": "Stubborn, overly cautious, materialistic",
+    "compatibility": ["Virgo", "Capricorn", "Cancer"],
+    "origin": "Taurus symbolizes stability and determination, rooted in the myth of Europa and the white bull."
+  },
+  {
+    "id": 3,
+    "name": "Gemini",
+    "dateRange": "May 21 - June 20",
+    "symbol": "♊",
+    "element": "Air",
+    "rulingPlanet": "Mercury",
+    "personality": [
+      "Adaptable",
+      "Outgoing",
+      "Intelligent",
+      "Witty",
+      "Curious"
+    ],
+    "strengths": "Communicative, clever, adaptable, affectionate",
+    "weaknesses": "Inconsistent, indecisive, nervous",
+    "compatibility": ["Libra", "Aquarius", "Aries"],
+    "origin": "Gemini represents duality and communication, embodied by the Dioscuri twins in mythology."
+  },
+  {
+    "id": 4,
+    "name": "Cancer",
+    "dateRange": "June 21 - July 22",
+    "symbol": "♋",
+    "element": "Water",
+    "rulingPlanet": "Moon",
+    "personality": [
+      "Intuitive",
+      "Protective",
+      "Emotional",
+      "Sentimental",
+      "Compassionate"
+    ],
+    "strengths": "Tenacious, emotional, nurturing, protective",
+    "weaknesses": "Moody, pessimistic, insecure",
+    "compatibility": ["Scorpio", "Pisces", "Taurus"],
+    "origin": "Cancer is linked to the crab from Heracles mythology, symbolizing the protective nature of those born under this sign."
+  },
+  {
+    "id": 5,
+    "name": "Leo",
+    "dateRange": "July 23 - August 22",
+    "symbol": "♌",
+    "element": "Fire",
+    "rulingPlanet": "Sun",
+    "personality": [
+      "Generous",
+      "Warm-hearted",
+      "Charismatic",
+      "Creative",
+      "Confident"
+    ],
+    "strengths": "Creative, generous, warm-hearted, natural leader",
+    "weaknesses": "Arrogant, stubborn, self-centered",
+    "compatibility": ["Aries", "Sagittarius", "Gemini"],
+    "origin": "Leo represents royalty and courage, inspired by the Nemean Lion from Greek mythology."
+  },
+  {
+    "id": 6,
+    "name": "Virgo",
+    "dateRange": "August 23 - September 22",
+    "symbol": "♍",
+    "element": "Earth",
+    "rulingPlanet": "Mercury",
+    "personality": [
+      "Analytical",
+      "Practical",
+      "Intelligent",
+      "Modest",
+      "Hardworking"
+    ],
+    "strengths": "Practical, loyal, hardworking, detail-oriented",
+    "weaknesses": "Overcritical, overly analytical, anxious",
+    "compatibility": ["Taurus", "Capricorn", "Cancer"],
+    "origin": "Virgo symbolizes purity and service, traditionally associated with the goddess of harvest and agriculture."
+  },
+  {
+    "id": 7,
+    "name": "Libra",
+    "dateRange": "September 23 - October 22",
+    "symbol": "♎",
+    "element": "Air",
+    "rulingPlanet": "Venus",
+    "personality": [
+      "Diplomatic",
+      "Fair",
+      "Social",
+      "Gracious",
+      "Artistic"
+    ],
+    "strengths": "Diplomatic, fair, artistic, charming",
+    "weaknesses": "Indecisive, avoidant, people-pleaser",
+    "compatibility": ["Gemini", "Aquarius", "Leo"],
+    "origin": "Libra represents balance and justice, symbolized by the scales held by Lady Justice."
+  },
+  {
+    "id": 8,
+    "name": "Scorpio",
+    "dateRange": "October 23 - November 21",
+    "symbol": "♏",
+    "element": "Water",
+    "rulingPlanet": "Pluto",
+    "personality": [
+      "Passionate",
+      "Determined",
+      "Secretive",
+      "Intense",
+      "Resourceful"
+    ],
+    "strengths": "Passionate, determined, resourceful, loyal",
+    "weaknesses": "Secretive, jealous, manipulative",
+    "compatibility": ["Cancer", "Pisces", "Virgo"],
+    "origin": "Scorpio symbolizes transformation and power, connected to the scorpion in mythology."
+  },
+  {
+    "id": 9,
+    "name": "Sagittarius",
+    "dateRange": "November 22 - December 21",
+    "symbol": "♐",
+    "element": "Fire",
+    "rulingPlanet": "Jupiter",
+    "personality": [
+      "Adventurous",
+      "Optimistic",
+      "Independent",
+      "Philosophical",
+      "Honest"
+    ],
+    "strengths": "Optimistic, freedom-loving, honest, philosophical",
+    "weaknesses": "Impatient, tactless, overconfident",
+    "compatibility": ["Aries", "Leo", "Libra"],
+    "origin": "Sagittarius represents wisdom and expansion, symbolized by the archer centaur Chiron."
+  },
+  {
+    "id": 10,
+    "name": "Capricorn",
+    "dateRange": "December 22 - January 19",
+    "symbol": "♑",
+    "element": "Earth",
+    "rulingPlanet": "Saturn",
+    "personality": [
+      "Disciplined",
+      "Responsible",
+      "Self-controlled",
+      "Traditional",
+      "Ambitious"
+    ],
+    "strengths": "Responsible, disciplined, self-control, ambitious",
+    "weaknesses": "Know-it-all, unforgiving, condescending",
+    "compatibility": ["Taurus", "Virgo", "Scorpio"],
+    "origin": "Capricorn symbolizes ambition and perseverance, represented by the mythical sea-goat."
+  },
+  {
+    "id": 11,
+    "name": "Aquarius",
+    "dateRange": "January 20 - February 18",
+    "symbol": "♒",
+    "element": "Air",
+    "rulingPlanet": "Uranus",
+    "personality": [
+      "Independent",
+      "Intellectual",
+      "Humanitarian",
+      "Innovative",
+      "Detached"
+    ],
+    "strengths": "Friendly, humanitarian, intellectual, innovative",
+    "weaknesses": "Aloof, unpredictable, unemotional",
+    "compatibility": ["Gemini", "Libra", "Sagittarius"],
+    "origin": "Aquarius represents innovation and humanitarian ideals, associated with the water-bearer figure."
+  },
+  {
+    "id": 12,
+    "name": "Pisces",
+    "dateRange": "February 19 - March 20",
+    "symbol": "♓",
+    "element": "Water",
+    "rulingPlanet": "Neptune",
+    "personality": [
+      "Compassionate",
+      "Artistic",
+      "Intuitive",
+      "Gentle",
+      "Wise"
+    ],
+    "strengths": "Compassionate, artistic, intuitive, gentle",
+    "weaknesses": "Overly trusting, escapist, overly emotional",
+    "compatibility": ["Cancer", "Scorpio", "Taurus"],
+    "origin": "Pisces symbolizes intuition and creativity, represented by the two fish bound together."
+  }
+]

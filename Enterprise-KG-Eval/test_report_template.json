@@ -1,0 +1,57 @@
+{
+  "evaluation_metadata": {
+    "schema_version": "1.0.0",
+    "timestamp": "TIMESTAMP_PLACEHOLDER",
+    "project_name": "Enterprise-KG-Eval",
+    "evaluator": "EVALUATOR_PLACEHOLDER"
+  },
+  "execution_summary": {
+    "total_documents_processed": 0,
+    "total_entities_extracted": 0,
+    "total_relations_extracted": 0,
+    "execution_time_seconds": 0.0,
+    "success": true
+  },
+  "entity_extraction_metrics": {
+    "total_count": 0,
+    "by_type": {},
+    "average_confidence": 0.0,
+    "min_confidence": 0.0,
+    "max_confidence": 0.0,
+    "coverage": {
+      "expected_types": [],
+      "found_types": [],
+      "coverage_percent": 0.0
+    }
+  },
+  "relation_extraction_metrics": {
+    "total_count": 0,
+    "by_type": {},
+    "average_confidence": 0.0,
+    "min_confidence": 0.0,
+    "max_confidence": 0.0,
+    "coverage": {
+      "expected_types": [],
+      "found_types": [],
+      "coverage_percent": 0.0
+    }
+  },
+  "quality_metrics": {
+    "entity_precision": 0.0,
+    "entity_recall": 0.0,
+    "entity_f1": 0.0,
+    "relation_precision": 0.0,
+    "relation_recall": 0.0,
+    "relation_f1": 0.0
+  },
+  "error_report": {
+    "total_errors": 0,
+    "errors": []
+  },
+  "output_files": {
+    "entities_json": "output/entities_output.json",
+    "relations_json": "output/relations_output.json",
+    "combined_kg_json": "output/kg_output.json"
+  },
+  "notes": "Add evaluation notes and observations here"
+}

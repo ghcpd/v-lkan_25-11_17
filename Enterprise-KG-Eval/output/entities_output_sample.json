@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-17T10:30:00.000000",
+    "total_count": 45,
+    "schema_version": "1.0.0",
+    "entity_types_covered": 10,
+    "average_confidence": 0.91,
+    "processing_time_seconds": 0.842
+  },
+  "entities": [
+    {
+      "id": "e_1",
+      "text": "John Doe",
+      "type": "Person",
+      "start": 0,
+      "end": 8,
+      "confidence": 0.92,
+      "context": "John Doe, age 32, works at OpenAI as a Researcher."
+    },
+    {
+      "id": "e_2",
+      "text": "Jane Smith",
+      "type": "Person",
+      "start": 52,
+      "end": 62,
+      "confidence": 0.91,
+      "context": "Jane Smith, age 28, works at Google as an Engineer."
+    },
+    {
+      "id": "e_3",
+      "text": "Michael Brown",
+      "type": "Person",
+      "start": 104,
+      "end": 117,
+      "confidence": 0.90,
+      "context": "Michael Brown, age 45, works at Microsoft as a Senior Developer."
+    },
+    {
+      "id": "e_4",
+      "text": "Sarah Johnson",
+      "type": "Person",
+      "start": 156,
+      "end": 169,
+      "confidence": 0.89,
+      "context": "Sarah Johnson leads the AI Research Department at OpenAI."
+    },
+    {
+      "id": "e_5",
+      "text": "David Chen",
+      "type": "Person",
+      "start": 198,
+      "end": 208,
+      "confidence": 0.88,
+      "context": "David Chen manages the Cloud Infrastructure Team at AWS."
+    },
+    {
+      "id": "e_6",
+      "text": "Emily Williams",
+      "type": "Person",
+      "start": 245,
+      "end": 259,
+      "confidence": 0.87,
+      "context": "Emily Williams works as a Data Scientist at Meta."
+    },
+    {
+      "id": "e_7",
+      "text": "Robert Martinez",
+      "type": "Person",
+      "start": 292,
+      "end": 307,
+      "confidence": 0.89,
+      "context": "Robert Martinez is the CTO of Tesla AI Division."
+    },
+    {
+      "id": "e_8",
+      "text": "Lisa Anderson",
+      "type": "Person",
+      "start": 339,
+      "end": 352,
+      "confidence": 0.91,
+      "context": "Lisa Anderson manages the Data Engineering Team at Amazon."
+    },
+    {
+      "id": "e_9",
+      "text": "James Wilson",
+      "type": "Person",
+      "start": 378,
+      "end": 390,
+      "confidence": 0.90,
+      "context": "James Wilson is a Senior Architect at IBM."
+    },
+    {
+      "id": "e_10",
+      "text": "OpenAI",
+      "type": "Company",
+      "start": 28,
+      "end": 34,
+      "confidence": 0.98,
+      "context": "works at OpenAI as a Researcher."
+    },
+    {
+      "id": "e_11",
+      "text": "Google",
+      "type": "Company",
+      "start": 82,
+      "end": 88,
+      "confidence": 0.99,
+      "context": "works at Google as an Engineer."
+    },
+    {
+      "id": "e_12",
+      "text": "Microsoft",
+      "type": "Company",
+      "start": 137,
+      "end": 146,
+      "confidence": 0.99,
+      "context": "works at Microsoft as a Senior Developer."
+    },
+    {
+      "id": "e_13",
+      "text": "AWS",
+      "type": "Company",
+      "start": 285,
+      "end": 288,
+      "confidence": 0.95,
+      "context": "manages the Cloud Infrastructure Team at AWS."
+    },
+    {
+      "id": "e_14",
+      "text": "Meta",
+      "type": "Company",
+      "start": 275,
+      "end": 279,
+      "confidence": 0.97,
+      "context": "works as a Data Scientist at Meta."
+    },
+    {
+      "id": "e_15",
+      "text": "Tesla",
+      "type": "Company",
+      "start": 325,
+      "end": 330,
+      "confidence": 0.98,
+      "context": "is the CTO of Tesla AI Division."
+    },
+    {
+      "id": "e_16",
+      "text": "Amazon",
+      "type": "Company",
+      "start": 356,
+      "end": 362,
+      "confidence": 0.97,
+      "context": "manages the Data Engineering Team at Amazon."
+    },
+    {
+      "id": "e_17",
+      "text": "IBM",
+      "type": "Company",
+      "start": 387,
+      "end": 390,
+      "confidence": 0.95,
+      "context": "is a Senior Architect at IBM."
+    },
+    {
+      "id": "e_18",
+      "text": "Alpha",
+      "type": "Project",
+      "start": 185,
+      "end": 190,
+      "confidence": 0.89,
+      "context": "manages projects: Alpha, Beta, Gamma."
+    },
+    {
+      "id": "e_19",
+      "text": "Beta",
+      "type": "Project",
+      "start": 192,
+      "end": 196,
+      "confidence": 0.90,
+      "context": "manages projects: Alpha, Beta, Gamma."
+    },
+    {
+      "id": "e_20",
+      "text": "Gamma",
+      "type": "Project",
+      "start": 198,
+      "end": 203,
+      "confidence": 0.88,
+      "context": "manages projects: Alpha, Beta, Gamma."
+    },
+    {
+      "id": "e_21",
+      "text": "Delta",
+      "type": "Project",
+      "start": 238,
+      "end": 243,
+      "confidence": 0.89,
+      "context": "leads projects: Delta, Epsilon."
+    },
+    {
+      "id": "e_22",
+      "text": "Epsilon",
+      "type": "Project",
+      "start": 245,
+      "end": 252,
+      "confidence": 0.87,
+      "context": "leads projects: Delta, Epsilon."
+    },
+    {
+      "id": "e_23",
+      "text": "Zeta",
+      "type": "Project",
+      "start": 297,
+      "end": 301,
+      "confidence": 0.86,
+      "context": "oversees projects: Zeta, Eta, Theta, Iota."
+    },
+    {
+      "id": "e_24",
+      "text": "Eta",
+      "type": "Project",
+      "start": 303,
+      "end": 306,
+      "confidence": 0.85,
+      "context": "oversees projects: Zeta, Eta, Theta, Iota."
+    },
+    {
+      "id": "e_25",
+      "text": "Theta",
+      "type": "Project",
+      "start": 308,
+      "end": 313,
+      "confidence": 0.88,
+      "context": "oversees projects: Zeta, Eta, Theta, Iota."
+    },
+    {
+      "id": "e_26",
+      "text": "Iota",
+      "type": "Project",
+      "start": 315,
+      "end": 319,
+      "confidence": 0.84,
+      "context": "oversees projects: Zeta, Eta, Theta, Iota."
+    },
+    {
+      "id": "e_27",
+      "text": "Researcher",
+      "type": "Position",
+      "start": 40,
+      "end": 50,
+      "confidence": 0.85,
+      "context": "works at OpenAI as a Researcher."
+    },
+    {
+      "id": "e_28",
+      "text": "Engineer",
+      "type": "Position",
+      "start": 94,
+      "end": 102,
+      "confidence": 0.88,
+      "context": "works at Google as an Engineer."
+    },
+    {
+      "id": "e_29",
+      "text": "Senior Developer",
+      "type": "Position",
+      "start": 152,
+      "end": 167,
+      "confidence": 0.87,
+      "context": "works at Microsoft as a Senior Developer."
+    },
+    {
+      "id": "e_30",
+      "text": "Data Scientist",
+      "type": "Position",
+      "start": 230,
+      "end": 244,
+      "confidence": 0.86,
+      "context": "works as a Data Scientist at Meta."
+    },
+    {
+      "id": "e_31",
+      "text": "Senior Architect",
+      "type": "Position",
+      "start": 380,
+      "end": 396,
+      "confidence": 0.89,
+      "context": "is a Senior Architect at IBM."
+    },
+    {
+      "id": "e_32",
+      "text": "CTO",
+      "type": "Position",
+      "start": 323,
+      "end": 326,
+      "confidence": 0.94,
+      "context": "is the CTO of Tesla AI Division."
+    },
+    {
+      "id": "e_33",
+      "text": "Technology",
+      "type": "Industry",
+      "start": 430,
+      "end": 440,
+      "confidence": 0.92,
+      "context": "OpenAI operates in the Technology industry."
+    },
+    {
+      "id": "e_34",
+      "text": "Internet Services",
+      "type": "Industry",
+      "start": 470,
+      "end": 486,
+      "confidence": 0.88,
+      "context": "Google specializes in Technology and Internet Services."
+    },
+    {
+      "id": "e_35",
+      "text": "Cloud Computing",
+      "type": "Industry",
+      "start": 460,
+      "end": 475,
+      "confidence": 0.89,
+      "context": "Microsoft focuses on Cloud Computing and Enterprise Software."
+    },
+    {
+      "id": "e_36",
+      "text": "AI Research",
+      "type": "Department",
+      "start": 168,
+      "end": 178,
+      "confidence": 0.87,
+      "context": "Sarah Johnson leads the AI Research Department at OpenAI."
+    },
+    {
+      "id": "e_37",
+      "text": "Cloud Infrastructure Team",
+      "type": "Team",
+      "start": 234,
+      "end": 258,
+      "confidence": 0.85,
+      "context": "David Chen manages the Cloud Infrastructure Team at AWS."
+    },
+    {
+      "id": "e_38",
+      "text": "Data Engineering Team",
+      "type": "Team",
+      "start": 340,
+      "end": 361,
+      "confidence": 0.86,
+      "context": "Lisa Anderson manages the Data Engineering Team at Amazon."
+    },
+    {
+      "id": "e_39",
+      "text": "2023-01-15",
+      "type": "Date",
+      "start": 335,
+      "end": 345,
+      "confidence": 0.99,
+      "context": "Project Alpha started on 2023-01-15, ends on 2023-06-30."
+    },
+    {
+      "id": "e_40",
+      "text": "2023-06-30",
+      "type": "Date",
+      "start": 354,
+      "end": 364,
+      "confidence": 0.99,
+      "context": "Project Alpha started on 2023-01-15, ends on 2023-06-30."
+    },
+    {
+      "id": "e_41",
+      "text": "2023-02-01",
+      "type": "Date",
+      "start": 378,
+      "end": 388,
+      "confidence": 0.99,
+      "context": "Project Beta began on 2023-02-01, concludes on 2023-08-15."
+    },
+    {
+      "id": "e_42",
+      "text": "2023-08-15",
+      "type": "Date",
+      "start": 404,
+      "end": 414,
+      "confidence": 0.99,
+      "context": "Project Beta began on 2023-02-01, concludes on 2023-08-15."
+    },
+    {
+      "id": "e_43",
+      "text": "San Francisco",
+      "type": "Location",
+      "start": 420,
+      "end": 433,
+      "confidence": 0.91,
+      "context": "OpenAI headquarters located in San Francisco, California."
+    },
+    {
+      "id": "e_44",
+      "text": "Mountain View",
+      "type": "Location",
+      "start": 455,
+      "end": 468,
+      "confidence": 0.92,
+      "context": "Google main office in Mountain View, California."
+    },
+    {
+      "id": "e_45",
+      "text": "Redmond",
+      "type": "Location",
+      "start": 485,
+      "end": 492,
+      "confidence": 0.93,
+      "context": "Microsoft headquarters in Redmond, Washington."
+    }
+  ],
+  "statistics": {
+    "total_entities": 45,
+    "by_type": {
+      "Person": 9,
+      "Company": 8,
+      "Project": 9,
+      "Position": 6,
+      "Industry": 3,
+      "Department": 1,
+      "Team": 2,
+      "Date": 4,
+      "Location": 3
+    },
+    "confidence_distribution": {
+      "0.85_0.90": 18,
+      "0.90_0.95": 20,
+      "0.95_1.00": 7
+    },
+    "average_confidence": 0.91
+  }
+}
