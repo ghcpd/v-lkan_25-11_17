@@ -1,0 +1,1204 @@
+{
+  "entities": [
+    {
+      "doc_id": 0,
+      "text": "John Doe, age 32, works at OpenAI as a Researcher.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 10,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "doc_id": 1,
+      "text": "Jane Smith, age 28, works at Google as an Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 12,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "doc_id": 2,
+      "text": "Michael Brown, age 45, works at Microsoft as a Senior Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 3,
+      "text": "Sarah Wilson, age 35, works at Apple as a Product Manager.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 14,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "doc_id": 4,
+      "text": "David Johnson, age 29, works at Amazon as a Data Scientist.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 5,
+      "text": "Emily Davis, age 31, works at Meta as a UX Designer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 6,
+      "text": "Robert Miller, age 38, works at Tesla as an AI Specialist.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 7,
+      "text": "Lisa Garcia, age 26, works at Netflix as a Software Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 8,
+      "text": "James Rodriguez, age 42, works at Spotify as a Backend Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 17,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "doc_id": 9,
+      "text": "Maria Martinez, age 34, works at Uber as a Systems Architect.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 16,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "doc_id": 10,
+      "text": "John Doe manages 3 projects: Alpha, Beta, Gamma.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 12,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "doc_id": 11,
+      "text": "Jane Smith leads 2 projects: Delta, Epsilon.",
+      "entities": []
+    },
+    {
+      "doc_id": 12,
+      "text": "Michael Brown oversees 4 projects: Zeta, Eta, Theta, Iota.",
+      "entities": []
+    },
+    {
+      "doc_id": 13,
+      "text": "Sarah Wilson supervises 1 project: Kappa.",
+      "entities": []
+    },
+    {
+      "doc_id": 14,
+      "text": "David Johnson handles 5 projects: Lambda, Mu, Nu, Xi, Omicron.",
+      "entities": []
+    },
+    {
+      "doc_id": 15,
+      "text": "Emily Davis coordinates 2 projects: Pi, Rho.",
+      "entities": []
+    },
+    {
+      "doc_id": 16,
+      "text": "Robert Miller directs 3 projects: Sigma, Tau, Upsilon.",
+      "entities": []
+    },
+    {
+      "doc_id": 17,
+      "text": "Lisa Garcia manages 1 project: Phi.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 18,
+      "text": "James Rodriguez leads 4 projects: Chi, Psi, Omega, Alpha-2.",
+      "entities": []
+    },
+    {
+      "doc_id": 19,
+      "text": "Maria Martinez oversees 2 projects: Beta-2, Gamma-2.",
+      "entities": []
+    },
+    {
+      "doc_id": 20,
+      "text": "Project Alpha started on 2023-01-15, ends on 2023-06-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 21,
+      "text": "Project Beta began on 2023-02-01, concludes on 2023-08-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 22,
+      "text": "Project Gamma launched on 2023-03-10, finishes on 2023-09-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 23,
+      "text": "Project Delta initiated on 2023-01-20, completes on 2023-07-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 24,
+      "text": "Project Epsilon started on 2023-04-05, ends on 2023-10-12.",
+      "entities": []
+    },
+    {
+      "doc_id": 25,
+      "text": "Project Zeta began on 2023-02-15, concludes on 2023-12-01.",
+      "entities": []
+    },
+    {
+      "doc_id": 26,
+      "text": "Project Eta launched on 2023-05-01, finishes on 2024-01-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 27,
+      "text": "Project Theta initiated on 2023-03-20, completes on 2023-11-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 28,
+      "text": "Project Iota started on 2023-06-01, ends on 2024-02-28.",
+      "entities": []
+    },
+    {
+      "doc_id": 29,
+      "text": "Project Kappa began on 2023-01-10, concludes on 2023-05-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 30,
+      "text": "Project Lambda launched on 2023-07-01, finishes on 2024-03-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 31,
+      "text": "Project Mu initiated on 2023-04-15, completes on 2023-12-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 32,
+      "text": "Project Nu started on 2023-08-01, ends on 2024-04-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 33,
+      "text": "Project Xi began on 2023-05-10, concludes on 2024-01-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 34,
+      "text": "Project Omicron launched on 2023-09-01, finishes on 2024-05-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 35,
+      "text": "Project Pi initiated on 2023-03-25, completes on 2023-10-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 36,
+      "text": "Project Rho started on 2023-06-15, ends on 2024-01-12.",
+      "entities": []
+    },
+    {
+      "doc_id": 37,
+      "text": "Project Sigma began on 2023-02-28, concludes on 2023-11-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 38,
+      "text": "Project Tau launched on 2023-07-20, finishes on 2024-02-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 39,
+      "text": "Project Upsilon initiated on 2023-04-30, completes on 2024-01-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 40,
+      "text": "Project Phi started on 2023-08-15, ends on 2024-03-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 41,
+      "text": "Project Chi began on 2023-05-25, concludes on 2024-02-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 42,
+      "text": "Project Psi launched on 2023-09-10, finishes on 2024-04-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 43,
+      "text": "Project Omega initiated on 2023-06-30, completes on 2024-03-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 44,
+      "text": "Project Alpha-2 started on 2023-10-01, ends on 2024-06-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 45,
+      "text": "Project Beta-2 began on 2023-11-15, concludes on 2024-07-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 46,
+      "text": "Project Gamma-2 launched on 2023-12-01, finishes on 2024-08-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 47,
+      "text": "OpenAI operates in the Technology industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 34,
+          "end": 42
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 34,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "doc_id": 48,
+      "text": "Google specializes in Technology and Internet Services.",
+      "entities": []
+    },
+    {
+      "doc_id": 49,
+      "text": "Microsoft focuses on Technology and Software industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 45,
+          "end": 53
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 45,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "doc_id": 50,
+      "text": "Apple is known for Technology and Consumer Electronics.",
+      "entities": []
+    },
+    {
+      "doc_id": 51,
+      "text": "Amazon works in Technology and E-commerce sectors.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "sector",
+          "start": 42,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "doc_id": 52,
+      "text": "Meta operates in Technology and Social Media industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 45,
+          "end": 53
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 45,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "doc_id": 53,
+      "text": "Tesla specializes in Automotive and Clean Energy.",
+      "entities": []
+    },
+    {
+      "doc_id": 54,
+      "text": "Netflix focuses on Entertainment and Streaming industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 47,
+          "end": 55
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 47,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "doc_id": 55,
+      "text": "Spotify operates in Music and Audio Technology.",
+      "entities": []
+    },
+    {
+      "doc_id": 56,
+      "text": "Uber specializes in Transportation and Technology.",
+      "entities": []
+    },
+    {
+      "doc_id": 57,
+      "text": "Tom Anderson, age 39, works at IBM as a Cloud Architect.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 14,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "doc_id": 58,
+      "text": "Rachel Green, age 27, works at Oracle as a Database Administrator.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 14,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "doc_id": 59,
+      "text": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 11,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "doc_id": 60,
+      "text": "Anna Thompson, age 30, works at Adobe as a Creative Director.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 61,
+      "text": "Mark Davis, age 44, works at Intel as a Hardware Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 12,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "doc_id": 62,
+      "text": "Susan Clark, age 36, works at Cisco as a Network Specialist.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 63,
+      "text": "Paul Wilson, age 41, works at HP as a Systems Administrator.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 64,
+      "text": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 16,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "doc_id": 65,
+      "text": "Steven Taylor, age 37, works at VMware as a Virtualization Expert.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 66,
+      "text": "Michelle White, age 32, works at RedHat as a Linux Administrator.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 16,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "doc_id": 67,
+      "text": "Tom Anderson manages 2 projects: Nova, Stellar.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 16,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "doc_id": 68,
+      "text": "Rachel Green leads 3 projects: Cosmic, Galactic, Universal.",
+      "entities": []
+    },
+    {
+      "doc_id": 69,
+      "text": "Kevin Lee oversees 1 project: Quantum.",
+      "entities": []
+    },
+    {
+      "doc_id": 70,
+      "text": "Anna Thompson supervises 4 projects: Photon, Electron, Neutron, Proton.",
+      "entities": []
+    },
+    {
+      "doc_id": 71,
+      "text": "Mark Davis handles 2 projects: Circuit, Binary.",
+      "entities": []
+    },
+    {
+      "doc_id": 72,
+      "text": "Susan Clark coordinates 3 projects: Network-A, Network-B, Network-C.",
+      "entities": []
+    },
+    {
+      "doc_id": 73,
+      "text": "Paul Wilson directs 1 project: Server-Prime.",
+      "entities": []
+    },
+    {
+      "doc_id": 74,
+      "text": "Jennifer Moore manages 2 projects: Support-Alpha, Support-Beta.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 18,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "doc_id": 75,
+      "text": "Steven Taylor leads 3 projects: Virtual-X, Virtual-Y, Virtual-Z.",
+      "entities": []
+    },
+    {
+      "doc_id": 76,
+      "text": "Michelle White oversees 1 project: Linux-Core.",
+      "entities": []
+    },
+    {
+      "doc_id": 77,
+      "text": "Project Nova started on 2023-08-01, ends on 2024-01-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 78,
+      "text": "Project Stellar began on 2023-09-15, concludes on 2024-03-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 79,
+      "text": "Project Cosmic launched on 2023-07-10, finishes on 2024-02-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 80,
+      "text": "Project Galactic initiated on 2023-10-05, completes on 2024-05-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 81,
+      "text": "Project Universal started on 2023-11-20, ends on 2024-06-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 82,
+      "text": "Project Quantum began on 2023-06-05, concludes on 2023-12-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 83,
+      "text": "Project Photon launched on 2023-04-20, finishes on 2023-11-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 84,
+      "text": "Project Electron initiated on 2023-07-25, completes on 2024-01-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 85,
+      "text": "Project Neutron started on 2023-08-30, ends on 2024-04-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 86,
+      "text": "Project Proton began on 2023-09-20, concludes on 2024-02-28.",
+      "entities": []
+    },
+    {
+      "doc_id": 87,
+      "text": "Project Circuit launched on 2023-05-15, finishes on 2023-12-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 88,
+      "text": "Project Binary initiated on 2023-10-10, completes on 2024-05-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 89,
+      "text": "Project Network-A started on 2023-03-05, ends on 2023-09-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 90,
+      "text": "Project Network-B began on 2023-06-20, concludes on 2024-01-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 91,
+      "text": "Project Network-C launched on 2023-08-10, finishes on 2024-03-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 92,
+      "text": "Project Server-Prime initiated on 2023-07-05, completes on 2024-02-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 93,
+      "text": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 94,
+      "text": "Project Support-Beta began on 2023-11-10, concludes on 2024-06-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 95,
+      "text": "Project Virtual-X launched on 2023-05-30, finishes on 2024-01-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 96,
+      "text": "Project Virtual-Y initiated on 2023-08-20, completes on 2024-04-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 97,
+      "text": "Project Virtual-Z started on 2023-10-25, ends on 2024-07-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 98,
+      "text": "Project Linux-Core began on 2023-12-05, concludes on 2024-08-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 99,
+      "text": "IBM operates in Technology and Enterprise Solutions industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 52,
+          "end": 60
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 52,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "doc_id": 100,
+      "text": "Oracle specializes in Database and Enterprise Software.",
+      "entities": []
+    },
+    {
+      "doc_id": 101,
+      "text": "Salesforce focuses on CRM and Cloud Computing industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 46,
+          "end": 54
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 46,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "doc_id": 102,
+      "text": "Adobe is known for Creative Software and Digital Marketing.",
+      "entities": []
+    },
+    {
+      "doc_id": 103,
+      "text": "Intel works in Semiconductors and Technology sectors.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "sector",
+          "start": 45,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "doc_id": 104,
+      "text": "Cisco operates in Networking and Technology industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 44,
+          "end": 52
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 44,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "doc_id": 105,
+      "text": "HP specializes in Computing and Printing Technology.",
+      "entities": []
+    },
+    {
+      "doc_id": 106,
+      "text": "Dell focuses on Technology and Computer Hardware.",
+      "entities": []
+    },
+    {
+      "doc_id": 107,
+      "text": "VMware operates in Virtualization and Cloud Computing.",
+      "entities": []
+    },
+    {
+      "doc_id": 108,
+      "text": "RedHat specializes in Open Source and Enterprise Linux.",
+      "entities": []
+    },
+    {
+      "doc_id": 109,
+      "text": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 12,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "doc_id": 110,
+      "text": "Catherine Jones, age 28, works at Twitter as a Frontend Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 17,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "doc_id": 111,
+      "text": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 112,
+      "text": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 18,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "doc_id": 113,
+      "text": "Nathan Williams, age 39, works at Dropbox as a Security Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 17,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "doc_id": 114,
+      "text": "Olivia Brown, age 26, works at Slack as a Product Designer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 14,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "doc_id": 115,
+      "text": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 19,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "doc_id": 116,
+      "text": "Amanda Miller, age 30, works at Shopify as an E-commerce Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 15,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "doc_id": 117,
+      "text": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 13,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "doc_id": 118,
+      "text": "Jessica Wilson, age 33, works at DocuSign as a API Developer.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 16,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "doc_id": 119,
+      "text": "Daniel Kim manages 3 projects: AirFlow, AirStream, AirSync.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 14,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "doc_id": 120,
+      "text": "Catherine Jones leads 2 projects: TweetDeck-2, TwitterAPI-v3.",
+      "entities": []
+    },
+    {
+      "doc_id": 121,
+      "text": "Andrew Chen oversees 4 projects: LinkedData, ProfileEngine, NetworkGraph, JobMatcher.",
+      "entities": []
+    },
+    {
+      "doc_id": 122,
+      "text": "Sophia Rodriguez supervises 1 project: PinBoard-Mobile.",
+      "entities": []
+    },
+    {
+      "doc_id": 123,
+      "text": "Nathan Williams handles 2 projects: SecureVault, CryptoGuard.",
+      "entities": []
+    },
+    {
+      "doc_id": 124,
+      "text": "Olivia Brown coordinates 3 projects: SlackBot-AI, ChannelSync, WorkspaceHub.",
+      "entities": []
+    },
+    {
+      "doc_id": 125,
+      "text": "Christopher Davis directs 2 projects: VideoCodec-X, MeetingRoom-Pro.",
+      "entities": []
+    },
+    {
+      "doc_id": 126,
+      "text": "Amanda Miller manages 1 project: ShopEngine-v2.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 17,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "doc_id": 127,
+      "text": "Ryan Garcia leads 3 projects: PaymentGateway, SquareAPI, TransactionEngine.",
+      "entities": []
+    },
+    {
+      "doc_id": 128,
+      "text": "Jessica Wilson oversees 2 projects: SignatureAPI, DocumentFlow.",
+      "entities": []
+    },
+    {
+      "doc_id": 129,
+      "text": "Project AirFlow started on 2023-02-10, ends on 2023-08-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 130,
+      "text": "Project AirStream began on 2023-05-05, concludes on 2023-11-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 131,
+      "text": "Project AirSync launched on 2023-07-15, finishes on 2024-01-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 132,
+      "text": "Project TweetDeck-2 initiated on 2023-04-01, completes on 2023-10-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 133,
+      "text": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 134,
+      "text": "Project LinkedData began on 2023-03-15, concludes on 2023-09-30.",
+      "entities": []
+    },
+    {
+      "doc_id": 135,
+      "text": "Project ProfileEngine launched on 2023-06-10, finishes on 2023-12-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 136,
+      "text": "Project NetworkGraph initiated on 2023-09-05, completes on 2024-03-20.",
+      "entities": []
+    },
+    {
+      "doc_id": 137,
+      "text": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 138,
+      "text": "Project PinBoard-Mobile began on 2023-01-25, concludes on 2023-07-40.",
+      "entities": []
+    },
+    {
+      "doc_id": 139,
+      "text": "Project SecureVault launched on 2023-04-10, finishes on 2023-10-25.",
+      "entities": []
+    },
+    {
+      "doc_id": 140,
+      "text": "Project CryptoGuard initiated on 2023-07-01, completes on 2024-01-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 141,
+      "text": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 142,
+      "text": "Project ChannelSync began on 2023-08-15, concludes on 2024-02-28.",
+      "entities": []
+    },
+    {
+      "doc_id": 143,
+      "text": "Project WorkspaceHub launched on 2023-10-30, finishes on 2024-04-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 144,
+      "text": "Project VideoCodec-X initiated on 2023-03-30, completes on 2023-09-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 145,
+      "text": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 146,
+      "text": "Project ShopEngine-v2 began on 2023-09-20, concludes on 2024-05-05.",
+      "entities": []
+    },
+    {
+      "doc_id": 147,
+      "text": "Project PaymentGateway launched on 2023-02-20, finishes on 2023-08-35.",
+      "entities": []
+    },
+    {
+      "doc_id": 148,
+      "text": "Project SquareAPI initiated on 2023-07-30, completes on 2024-02-15.",
+      "entities": []
+    },
+    {
+      "doc_id": 149,
+      "text": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 150,
+      "text": "Project SignatureAPI began on 2023-04-25, concludes on 2023-11-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 151,
+      "text": "Project DocumentFlow launched on 2023-08-25, finishes on 2024-04-10.",
+      "entities": []
+    },
+    {
+      "doc_id": 152,
+      "text": "Airbnb operates in Travel and Hospitality Technology industry.",
+      "entities": [
+        {
+          "type": "Company",
+          "text": "industry",
+          "start": 53,
+          "end": 61
+        },
+        {
+          "type": "Client",
+          "text": "industry",
+          "start": 53,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "doc_id": 153,
+      "text": "Twitter specializes in Social Media and Communication Technology.",
+      "entities": []
+    },
+    {
+      "doc_id": 154,
+      "text": "LinkedIn focuses on Professional Networking and Career Services.",
+      "entities": []
+    },
+    {
+      "doc_id": 155,
+      "text": "Pinterest is known for Social Media and Visual Discovery.",
+      "entities": []
+    },
+    {
+      "doc_id": 156,
+      "text": "Dropbox works in Cloud Storage and File Sharing sectors.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 27,
+          "end": 30
+        },
+        {
+          "type": "Company",
+          "text": "sector",
+          "start": 48,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "doc_id": 157,
+      "text": "Slack operates in Business Communication and Collaboration.",
+      "entities": []
+    },
+    {
+      "doc_id": 158,
+      "text": "Zoom specializes in Video Conferencing and Communications.",
+      "entities": []
+    },
+    {
+      "doc_id": 159,
+      "text": "Shopify focuses on E-commerce and Retail Technology.",
+      "entities": []
+    },
+    {
+      "doc_id": 160,
+      "text": "Square operates in Financial Technology and Payment Processing.",
+      "entities": []
+    },
+    {
+      "doc_id": 161,
+      "text": "DocuSign specializes in Digital Signature and Document Management.",
+      "entities": [
+        {
+          "type": "Person",
+          "text": "age",
+          "start": 58,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}
