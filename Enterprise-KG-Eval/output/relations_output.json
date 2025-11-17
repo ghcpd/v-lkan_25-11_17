@@ -1,0 +1,334 @@
+{
+  "project": "Enterprise-KG-Eval",
+  "generated_at": "2025-11-17T07:53:50.457020+00:00",
+  "documents": [
+    {
+      "document_id": "DOC_0001",
+      "relations": [
+        {
+          "type": "product_manager",
+          "source": "Sarah Wilson",
+          "target": "Product Manager",
+          "confidence": 0.7,
+          "evidence": "Sarah Wilson, age 35, works at Apple as a Product Manager.",
+          "attributes": {}
+        },
+        {
+          "type": "product_manager",
+          "source": "Product Manager",
+          "target": "Product Manager",
+          "confidence": 0.7,
+          "evidence": "Sarah Wilson, age 35, works at Apple as a Product Manager.",
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0002",
+      "relations": [
+        {
+          "type": "manages",
+          "source": "John Doe",
+          "target": "Alpha, Beta, Gamma.",
+          "confidence": 0.7,
+          "evidence": "John Doe manages 3 projects: Alpha, Beta, Gamma.",
+          "attributes": {}
+        },
+        {
+          "type": "manages",
+          "source": "Lisa Garcia",
+          "target": "Phi.",
+          "confidence": 0.7,
+          "evidence": "Lisa Garcia manages 1 project: Phi.",
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0003",
+      "relations": [
+        {
+          "type": "project_period",
+          "source": "Project Alpha",
+          "target": "start_date=2023-01-15; end_date=2023-01-15",
+          "confidence": 0.6,
+          "evidence": "Project Alpha started on 2023-01-15, ends on 2023-06-30.",
+          "attributes": {
+            "start_date": "2023-01-15",
+            "end_date": "2023-01-15"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Epsilon",
+          "target": "start_date=2023-04-05; end_date=2023-04-05",
+          "confidence": 0.6,
+          "evidence": "Project Epsilon started on 2023-04-05, ends on 2023-10-12.",
+          "attributes": {
+            "start_date": "2023-04-05",
+            "end_date": "2023-04-05"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Iota",
+          "target": "start_date=2023-06-01; end_date=2023-06-01",
+          "confidence": 0.6,
+          "evidence": "Project Iota started on 2023-06-01, ends on 2024-02-28.",
+          "attributes": {
+            "start_date": "2023-06-01",
+            "end_date": "2023-06-01"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Nu",
+          "target": "start_date=2023-08-01; end_date=2023-08-01",
+          "confidence": 0.6,
+          "evidence": "Project Nu started on 2023-08-01, ends on 2024-04-10.",
+          "attributes": {
+            "start_date": "2023-08-01",
+            "end_date": "2023-08-01"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Rho",
+          "target": "start_date=2023-06-15; end_date=2023-06-15",
+          "confidence": 0.6,
+          "evidence": "Project Rho started on 2023-06-15, ends on 2024-01-12.",
+          "attributes": {
+            "start_date": "2023-06-15",
+            "end_date": "2023-06-15"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Phi",
+          "target": "start_date=2023-08-15; end_date=2023-08-15",
+          "confidence": 0.6,
+          "evidence": "Project Phi started on 2023-08-15, ends on 2024-03-30.",
+          "attributes": {
+            "start_date": "2023-08-15",
+            "end_date": "2023-08-15"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Alpha-2",
+          "target": "start_date=2023-10-01; end_date=2023-10-01",
+          "confidence": 0.6,
+          "evidence": "Project Alpha-2 started on 2023-10-01, ends on 2024-06-15.",
+          "attributes": {
+            "start_date": "2023-10-01",
+            "end_date": "2023-10-01"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0004",
+      "relations": []
+    },
+    {
+      "document_id": "DOC_0005",
+      "relations": []
+    },
+    {
+      "document_id": "DOC_0006",
+      "relations": [
+        {
+          "type": "manages",
+          "source": "Tom Anderson",
+          "target": "Nova, Stellar.",
+          "confidence": 0.7,
+          "evidence": "Tom Anderson manages 2 projects: Nova, Stellar.",
+          "attributes": {}
+        },
+        {
+          "type": "manages",
+          "source": "Jennifer Moore",
+          "target": "Support-Alpha, Support-Beta.",
+          "confidence": 0.7,
+          "evidence": "Jennifer Moore manages 2 projects: Support-Alpha, Support-Beta.",
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0007",
+      "relations": [
+        {
+          "type": "project_period",
+          "source": "Project Nova",
+          "target": "start_date=2023-08-01; end_date=2023-08-01",
+          "confidence": 0.6,
+          "evidence": "Project Nova started on 2023-08-01, ends on 2024-01-15.",
+          "attributes": {
+            "start_date": "2023-08-01",
+            "end_date": "2023-08-01"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Universal",
+          "target": "start_date=2023-11-20; end_date=2023-11-20",
+          "confidence": 0.6,
+          "evidence": "Project Universal started on 2023-11-20, ends on 2024-06-25.",
+          "attributes": {
+            "start_date": "2023-11-20",
+            "end_date": "2023-11-20"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Neutron",
+          "target": "start_date=2023-08-30; end_date=2023-08-30",
+          "confidence": 0.6,
+          "evidence": "Project Neutron started on 2023-08-30, ends on 2024-04-05.",
+          "attributes": {
+            "start_date": "2023-08-30",
+            "end_date": "2023-08-30"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Network-A",
+          "target": "start_date=2023-03-05; end_date=2023-03-05",
+          "confidence": 0.6,
+          "evidence": "Project Network-A started on 2023-03-05, ends on 2023-09-15.",
+          "attributes": {
+            "start_date": "2023-03-05",
+            "end_date": "2023-03-05"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Support-Alpha",
+          "target": "start_date=2023-09-01; end_date=2023-09-01",
+          "confidence": 0.6,
+          "evidence": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15.",
+          "attributes": {
+            "start_date": "2023-09-01",
+            "end_date": "2023-09-01"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project Virtual-Z",
+          "target": "start_date=2023-10-25; end_date=2023-10-25",
+          "confidence": 0.6,
+          "evidence": "Project Virtual-Z started on 2023-10-25, ends on 2024-07-10.",
+          "attributes": {
+            "start_date": "2023-10-25",
+            "end_date": "2023-10-25"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0008",
+      "relations": []
+    },
+    {
+      "document_id": "DOC_0009",
+      "relations": []
+    },
+    {
+      "document_id": "DOC_0010",
+      "relations": [
+        {
+          "type": "manages",
+          "source": "Daniel Kim",
+          "target": "AirFlow, AirStream, AirSync.",
+          "confidence": 0.7,
+          "evidence": "Daniel Kim manages 3 projects: AirFlow, AirStream, AirSync.",
+          "attributes": {}
+        },
+        {
+          "type": "manages",
+          "source": "Amanda Miller",
+          "target": "ShopEngine-v2.",
+          "confidence": 0.7,
+          "evidence": "Amanda Miller manages 1 project: ShopEngine-v2.",
+          "attributes": {}
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0011",
+      "relations": [
+        {
+          "type": "project_period",
+          "source": "Project AirFlow",
+          "target": "start_date=2023-02-10; end_date=2023-02-10",
+          "confidence": 0.6,
+          "evidence": "Project AirFlow started on 2023-02-10, ends on 2023-08-25.",
+          "attributes": {
+            "start_date": "2023-02-10",
+            "end_date": "2023-02-10"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project TwitterAPI-v3",
+          "target": "start_date=2023-08-05; end_date=2023-08-05",
+          "confidence": 0.6,
+          "evidence": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20.",
+          "attributes": {
+            "start_date": "2023-08-05",
+            "end_date": "2023-08-05"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project JobMatcher",
+          "target": "start_date=2023-11-01; end_date=2023-11-01",
+          "confidence": 0.6,
+          "evidence": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15.",
+          "attributes": {
+            "start_date": "2023-11-01",
+            "end_date": "2023-11-01"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project SlackBot-AI",
+          "target": "start_date=2023-05-20; end_date=2023-05-20",
+          "confidence": 0.6,
+          "evidence": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05.",
+          "attributes": {
+            "start_date": "2023-05-20",
+            "end_date": "2023-05-20"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project MeetingRoom-Pro",
+          "target": "start_date=2023-06-25; end_date=2023-06-25",
+          "confidence": 0.6,
+          "evidence": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10.",
+          "attributes": {
+            "start_date": "2023-06-25",
+            "end_date": "2023-06-25"
+          }
+        },
+        {
+          "type": "project_period",
+          "source": "Project TransactionEngine",
+          "target": "start_date=2023-11-25; end_date=2023-11-25",
+          "confidence": 0.6,
+          "evidence": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10.",
+          "attributes": {
+            "start_date": "2023-11-25",
+            "end_date": "2023-11-25"
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "DOC_0012",
+      "relations": []
+    }
+  ]
+}

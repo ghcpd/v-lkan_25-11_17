@@ -1,0 +1,36 @@
+Enterprise-KG-Eval
+├── Dockerfile
+├── README.md
+├── PROJECT_STRUCTURE.txt
+├── documents.txt
+├── entities.json
+├── relations.json
+├── requirements.txt
+├── run_pipeline.py
+├── run_test.sh
+├── setup.sh
+├── test_report_template.json
+├── output
+│   └── .gitkeep
+├── src
+│   └── enterprise_kg_eval
+│       ├── __init__.py
+│       ├── config_loader.py
+│       ├── data_loader.py
+│       ├── engine_factory.py
+│       ├── entity_pipeline.py
+│       ├── models.py
+│       ├── output_writer.py
+│       ├── pipeline_runner.py
+│       ├── relation_pipeline.py
+│       └── engines
+│           ├── __init__.py
+│           ├── base.py
+│           └── regex_engine.py
+└── tests
+    ├── __init__.py
+    ├── data
+    ├── test_config_loader.py
+    ├── test_data_loader.py
+    ├── test_entity_pipeline.py
+    └── test_relation_pipeline.py
