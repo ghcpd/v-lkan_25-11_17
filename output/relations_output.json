@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "0ed0d75cde5f40eb7a3091896c1c871d62aef924",
+    "type": "works_at",
+    "source": "cec74c675a6624f8c02b134be5df34c3d8dcf05c",
+    "target": "2678e842c2f28cecdf917084fd0c2c74da727572",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 0,
+      "text": "John Doe, age 32, works at OpenAI as a Researcher."
+    }
+  },
+  {
+    "id": "01638e73524203f65dcacab0816d8485dcf03c68",
+    "type": "works_at",
+    "source": "9bb16bc4561a3ee383437c560fb435e8ad574629",
+    "target": "86e9aa8871caf0c7b8d50426d1c72837633c9257",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 1,
+      "text": "Jane Smith, age 28, works at Google as an Engineer."
+    }
+  },
+  {
+    "id": "d64f5bd8e1d9fbdc5cc98bda7deec87b81f44484",
+    "type": "works_at",
+    "source": "f757a6ae56391a55994b674dccd3c9643ae350a5",
+    "target": "01c382363188934fc6b26eada525de1f48479829",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 2,
+      "text": "Michael Brown, age 45, works at Microsoft as a Senior Developer."
+    }
+  },
+  {
+    "id": "b948b102b9d662f3068a04fea93338bcd977c7a3",
+    "type": "works_at",
+    "source": "99119091f3901cdcfacc15f84f855d9a77a83bdb",
+    "target": "afa5327afcc7d769edf26f396e4cceef6c09d72e",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 3,
+      "text": "Sarah Wilson, age 35, works at Apple as a Product Manager."
+    }
+  },
+  {
+    "id": "c4903d8eff7bb1d65adbecc566c9fec565502f76",
+    "type": "works_at",
+    "source": "11ab3a342ebf271ff8865876ae0d90b86d808bcc",
+    "target": "e66ee512bec3d00012d10d4bebeba0c8c0ae5796",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 4,
+      "text": "David Johnson, age 29, works at Amazon as a Data Scientist."
+    }
+  },
+  {
+    "id": "f7904ad92b13f427cc1844cbe369e8ed7872a192",
+    "type": "works_at",
+    "source": "ab068784dbc6a137c6a2b143d78f3f4598a6ce52",
+    "target": "4abfb425d8be957e460b40b9df3947175d8e944a",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 5,
+      "text": "Emily Davis, age 31, works at Meta as a UX Designer."
+    }
+  },
+  {
+    "id": "8c0984217effbb056dcdd1e1ffd8e119f1c28c86",
+    "type": "works_at",
+    "source": "f48d0998c3c2387570ddb646752f8759d53f6e96",
+    "target": "54f4cfaa0b92b641975e184a065ce5d0fe450e47",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 6,
+      "text": "Robert Miller, age 38, works at Tesla as an AI Specialist."
+    }
+  },
+  {
+    "id": "86b735c4baa9bdc0b78e173fb850f22a1785986f",
+    "type": "works_at",
+    "source": "e424328c14bb8da49767a34dc718e8e298508a6b",
+    "target": "a6e8f82862283d3ee8695aca98573990e87bee74",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 7,
+      "text": "Lisa Garcia, age 26, works at Netflix as a Software Engineer."
+    }
+  },
+  {
+    "id": "dc097aea0324da0988b9e786641a8d513e0b2022",
+    "type": "works_at",
+    "source": "6cdd3eaa134e6006e4bfaae5aa9ae1b20a5d6112",
+    "target": "91ff584e15eaba6cb3e2d4027979b8834a78391f",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 8,
+      "text": "James Rodriguez, age 42, works at Spotify as a Backend Developer."
+    }
+  },
+  {
+    "id": "554d079dcc65afbf1663d77c963f66e1f41f9e42",
+    "type": "works_at",
+    "source": "9ccf2d3e760e348218d18fa074fed20db3afed1b",
+    "target": "26e8e3b0bcbe8e1fe07628625fd41944e35fc956",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 9,
+      "text": "Maria Martinez, age 34, works at Uber as a Systems Architect."
+    }
+  },
+  {
+    "id": "6ab1b475d619ce9b7d80a05c4cf8cf409ddd7575",
+    "type": "manages",
+    "source": "cec74c675a6624f8c02b134be5df34c3d8dcf05c",
+    "target": "fbf3b84641ff303237b1e5933903afc355fc5b2a",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 10,
+      "text": "John Doe manages 3 projects: Alpha, Beta, Gamma."
+    }
+  },
+  {
+    "id": "805b074c849c0d3d6d039a8affd21810989f2d26",
+    "type": "manages",
+    "source": "9bb16bc4561a3ee383437c560fb435e8ad574629",
+    "target": "59c7db575a20d6795538a7256d075bcefd4a2fb1",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 11,
+      "text": "Jane Smith leads 2 projects: Delta, Epsilon."
+    }
+  },
+  {
+    "id": "2c3bc54416b55e30e80d094e8a35ed34ea97bbbc",
+    "type": "manages",
+    "source": "f757a6ae56391a55994b674dccd3c9643ae350a5",
+    "target": "53227fe19d4cca383f09ede77ddac9a524d25796",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 12,
+      "text": "Michael Brown oversees 4 projects: Zeta, Eta, Theta, Iota."
+    }
+  },
+  {
+    "id": "2026897f0d24dae6407eae1342391ee79398b40b",
+    "type": "manages",
+    "source": "11ab3a342ebf271ff8865876ae0d90b86d808bcc",
+    "target": "c2e1a201da2bc1d0e9886e0c4fa5a45c8e6bbbf2",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 14,
+      "text": "David Johnson handles 5 projects: Lambda, Mu, Nu, Xi, Omicron."
+    }
+  },
+  {
+    "id": "3d2f5899601b713a12747ae4232b11841193279b",
+    "type": "manages",
+    "source": "ab068784dbc6a137c6a2b143d78f3f4598a6ce52",
+    "target": "9ec8252ed5a11644117eb5e530a9ee093a3eb049",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 15,
+      "text": "Emily Davis coordinates 2 projects: Pi, Rho."
+    }
+  },
+  {
+    "id": "a51ca172464b9b27dd5f02c258f082f917a86fc8",
+    "type": "manages",
+    "source": "6cdd3eaa134e6006e4bfaae5aa9ae1b20a5d6112",
+    "target": "652e95ce01e3453a1463fba01305234ccf18ab1a",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 18,
+      "text": "James Rodriguez leads 4 projects: Chi, Psi, Omega, Alpha-2."
+    }
+  },
+  {
+    "id": "965ae87e0d39b1bc9286485e30da1cb67fadfa7d",
+    "type": "project_period",
+    "source": "fbf3b84641ff303237b1e5933903afc355fc5b2a",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-01-15",
+      "end_date": "2023-06-30"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 20,
+      "text": "Project Alpha started on 2023-01-15, ends on 2023-06-30."
+    }
+  },
+  {
+    "id": "1f93bef5d6088680f57913c5c8a990bff448de68",
+    "type": "project_period",
+    "source": "59c7db575a20d6795538a7256d075bcefd4a2fb1",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-04-05",
+      "end_date": "2023-10-12"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 24,
+      "text": "Project Epsilon started on 2023-04-05, ends on 2023-10-12."
+    }
+  },
+  {
+    "id": "0c634fafd94869cffb5c7725cd50b593de22f2cf",
+    "type": "project_period",
+    "source": "53227fe19d4cca383f09ede77ddac9a524d25796",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-06-01",
+      "end_date": "2024-02-28"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 28,
+      "text": "Project Iota started on 2023-06-01, ends on 2024-02-28."
+    }
+  },
+  {
+    "id": "74de2e5f144798258d843e6d165e1b9816f043de",
+    "type": "project_period",
+    "source": "c2e1a201da2bc1d0e9886e0c4fa5a45c8e6bbbf2",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-08-01",
+      "end_date": "2024-04-10"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 32,
+      "text": "Project Nu started on 2023-08-01, ends on 2024-04-10."
+    }
+  },
+  {
+    "id": "c2729bca56a3306d242ef953a4b9fb2c293bfca7",
+    "type": "project_period",
+    "source": "9ec8252ed5a11644117eb5e530a9ee093a3eb049",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-06-15",
+      "end_date": "2024-01-12"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 36,
+      "text": "Project Rho started on 2023-06-15, ends on 2024-01-12."
+    }
+  },
+  {
+    "id": "3aeaf002c8a9db1f80f08782458f5a57f3235447",
+    "type": "project_period",
+    "source": "138794f391f073b1b6558e82cdeb1ab55190eb79",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-08-15",
+      "end_date": "2024-03-30"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 40,
+      "text": "Project Phi started on 2023-08-15, ends on 2024-03-30."
+    }
+  },
+  {
+    "id": "43acd9461ced16463e440b2ba218de4f4bc6e657",
+    "type": "project_period",
+    "source": "652e95ce01e3453a1463fba01305234ccf18ab1a",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-10-01",
+      "end_date": "2024-06-15"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 44,
+      "text": "Project Alpha-2 started on 2023-10-01, ends on 2024-06-15."
+    }
+  },
+  {
+    "id": "d3140f6c64e22d1ffe848cadefba350073deece2",
+    "type": "company_industry",
+    "source": "2678e842c2f28cecdf917084fd0c2c74da727572",
+    "target": null,
+    "attributes": {
+      "industry": "the Technology industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 47,
+      "text": "OpenAI operates in the Technology industry."
+    }
+  },
+  {
+    "id": "69c0bc24e29544dfb9ee02e158edc58f0ba36fe9",
+    "type": "company_industry",
+    "source": "86e9aa8871caf0c7b8d50426d1c72837633c9257",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Internet Services"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 48,
+      "text": "Google specializes in Technology and Internet Services."
+    }
+  },
+  {
+    "id": "73251fe1c77d119163bdf391a718963f92da6730",
+    "type": "company_industry",
+    "source": "01c382363188934fc6b26eada525de1f48479829",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Software industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 49,
+      "text": "Microsoft focuses on Technology and Software industry."
+    }
+  },
+  {
+    "id": "de28148e55b6351d1e57d73a531de5cb161f67c2",
+    "type": "company_industry",
+    "source": "afa5327afcc7d769edf26f396e4cceef6c09d72e",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Consumer Electronics"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 50,
+      "text": "Apple is known for Technology and Consumer Electronics."
+    }
+  },
+  {
+    "id": "c54b59febe7f9ac22ebe96cabf07f24eec67a13d",
+    "type": "company_industry",
+    "source": "e66ee512bec3d00012d10d4bebeba0c8c0ae5796",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and E-commerce sectors"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 51,
+      "text": "Amazon works in Technology and E-commerce sectors."
+    }
+  },
+  {
+    "id": "d5e8a88274fa855c01deeefc1fa7a47e1dffee3f",
+    "type": "company_industry",
+    "source": "4abfb425d8be957e460b40b9df3947175d8e944a",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Social Media industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 52,
+      "text": "Meta operates in Technology and Social Media industry."
+    }
+  },
+  {
+    "id": "885a016faedb6600572b3c703b2eb019e9fa05c0",
+    "type": "company_industry",
+    "source": "54f4cfaa0b92b641975e184a065ce5d0fe450e47",
+    "target": null,
+    "attributes": {
+      "industry": "Automotive and Clean Energy"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 53,
+      "text": "Tesla specializes in Automotive and Clean Energy."
+    }
+  },
+  {
+    "id": "f07cc89e64e1e197b51a00d8e2eb009bddd7adc4",
+    "type": "company_industry",
+    "source": "a6e8f82862283d3ee8695aca98573990e87bee74",
+    "target": null,
+    "attributes": {
+      "industry": "Entertainment and Streaming industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 54,
+      "text": "Netflix focuses on Entertainment and Streaming industry."
+    }
+  },
+  {
+    "id": "043bfa97ce1e3b9030dabce71ff5d92de27081ec",
+    "type": "company_industry",
+    "source": "91ff584e15eaba6cb3e2d4027979b8834a78391f",
+    "target": null,
+    "attributes": {
+      "industry": "Music and Audio Technology"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 55,
+      "text": "Spotify operates in Music and Audio Technology."
+    }
+  },
+  {
+    "id": "987f64d4196b56acff5cb05585c47c41e1e2872a",
+    "type": "company_industry",
+    "source": "26e8e3b0bcbe8e1fe07628625fd41944e35fc956",
+    "target": null,
+    "attributes": {
+      "industry": "Transportation and Technology"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 56,
+      "text": "Uber specializes in Transportation and Technology."
+    }
+  },
+  {
+    "id": "ba385f86c12b509200b27b5949c7b484db3ce035",
+    "type": "works_at",
+    "source": "94cea7906c0d768e27c1f1e370f0077f8b65b0c6",
+    "target": "fc1ecd786ddf4fe7ecb4d11f09a726ab3a33d4f2",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 57,
+      "text": "Tom Anderson, age 39, works at IBM as a Cloud Architect."
+    }
+  },
+  {
+    "id": "ab9586f2cba9ec3e8bb6783e51bd6b5be786b547",
+    "type": "works_at",
+    "source": "a782d81e96244393ed79177a66b0da13e32b7ea6",
+    "target": "c8346dc33569b7b979d3fd54fc5ab64aff716d48",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 58,
+      "text": "Rachel Green, age 27, works at Oracle as a Database Administrator."
+    }
+  },
+  {
+    "id": "8630e6eb4b1c326129faea8536b89f45c117e5c0",
+    "type": "works_at",
+    "source": "c85cf3003ba88b2f3b996c0c5bc6b046b59bfe76",
+    "target": "d595798b34942a270b6239a45e8734700d8182e2",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 59,
+      "text": "Kevin Lee, age 33, works at Salesforce as a DevOps Engineer."
+    }
+  },
+  {
+    "id": "cba874dc2889c36d6045a263a65c03a6a26596f7",
+    "type": "works_at",
+    "source": "5a8d5ef23ffc2867cbba0ade2e52433ecb06c62d",
+    "target": "c86def397a2055e63378fabcdd0854def55f0396",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 60,
+      "text": "Anna Thompson, age 30, works at Adobe as a Creative Director."
+    }
+  },
+  {
+    "id": "506e34e0fb481bd95801cb35907960ae0b537d0a",
+    "type": "works_at",
+    "source": "7b3ed3fdeba439a42035e089c9e82457ca141608",
+    "target": "a1977ec7829228e04f59c62adeb66a702c6edbed",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 61,
+      "text": "Mark Davis, age 44, works at Intel as a Hardware Engineer."
+    }
+  },
+  {
+    "id": "41d518802572cc113e7c3b32e77b3abf380e82b2",
+    "type": "works_at",
+    "source": "b6ae2f657fa5ffd40f8052aab37e17ba542cd971",
+    "target": "ca68dace0672003b6da26614cef7da8347df3031",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 62,
+      "text": "Susan Clark, age 36, works at Cisco as a Network Specialist."
+    }
+  },
+  {
+    "id": "9d6c8c2c9524a288400e49b9f936520797a9d6f6",
+    "type": "works_at",
+    "source": "fe0158e8902decc46a60b9358e71968ec3995f0f",
+    "target": "5bdd75d36273c213ab658efc8f7d3e7a97407567",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 63,
+      "text": "Paul Wilson, age 41, works at HP as a Systems Administrator."
+    }
+  },
+  {
+    "id": "8330b4648b397f49817660d18355f4e6f2eadf23",
+    "type": "works_at",
+    "source": "b2a93ce7bba98e9d80fc990f34e306bab6f4525b",
+    "target": "2e074b17370546e4ffb820e69e9302eb5e6f2110",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 64,
+      "text": "Jennifer Moore, age 29, works at Dell as a Technical Support Lead."
+    }
+  },
+  {
+    "id": "526782c43222b5ce70dec5717f999a0599422b13",
+    "type": "works_at",
+    "source": "aaf981af16ceeef4dcb67d1b2a8484c8296c4808",
+    "target": "2a920d0bb82ed7075fff0b5e69e1db7149b2cd36",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 65,
+      "text": "Steven Taylor, age 37, works at VMware as a Virtualization Expert."
+    }
+  },
+  {
+    "id": "a23defec81d13c782f5fae1d3581cf6c512d5aba",
+    "type": "works_at",
+    "source": "e9b29157bbeda69c62437b3ecfd3b623ed74f550",
+    "target": "00eb377cac2f2beea350cd9d5576c2d3db52a300",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 66,
+      "text": "Michelle White, age 32, works at RedHat as a Linux Administrator."
+    }
+  },
+  {
+    "id": "7061ca143eb620bdd9eed2b5d487c14f53c7e4e7",
+    "type": "manages",
+    "source": "94cea7906c0d768e27c1f1e370f0077f8b65b0c6",
+    "target": "cf7326ec17eb8629fcec57feb575e24f4837e250",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 67,
+      "text": "Tom Anderson manages 2 projects: Nova, Stellar."
+    }
+  },
+  {
+    "id": "a14c517437f5c39764122bca546b3818746dcb83",
+    "type": "manages",
+    "source": "a782d81e96244393ed79177a66b0da13e32b7ea6",
+    "target": "761a2885dc871f757dec2e50dffd4899770aa74d",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 68,
+      "text": "Rachel Green leads 3 projects: Cosmic, Galactic, Universal."
+    }
+  },
+  {
+    "id": "dc558d2d78c8dce417723c35f3c902598b7bc8c6",
+    "type": "manages",
+    "source": "5a8d5ef23ffc2867cbba0ade2e52433ecb06c62d",
+    "target": "d75cc34ea62742959e120c1525d9bd578b4f860f",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 70,
+      "text": "Anna Thompson supervises 4 projects: Photon, Electron, Neutron, Proton."
+    }
+  },
+  {
+    "id": "a892fd6296e81ac0f36cc703f8379984faf4c0c5",
+    "type": "manages",
+    "source": "b6ae2f657fa5ffd40f8052aab37e17ba542cd971",
+    "target": "445fdc3b46b653f62ea61a27ca6fe2468855cdbe",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 72,
+      "text": "Susan Clark coordinates 3 projects: Network-A, Network-B, Network-C."
+    }
+  },
+  {
+    "id": "b1fc0733d06055cfad039034facf97b1b10b233d",
+    "type": "manages",
+    "source": "b2a93ce7bba98e9d80fc990f34e306bab6f4525b",
+    "target": "fff14e5f8034839b5efe8ee8487ba12c8b3535b1",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 74,
+      "text": "Jennifer Moore manages 2 projects: Support-Alpha, Support-Beta."
+    }
+  },
+  {
+    "id": "1ca2a6f3a7239d10005530f1065d37f7b43ee34d",
+    "type": "manages",
+    "source": "aaf981af16ceeef4dcb67d1b2a8484c8296c4808",
+    "target": "458bd8ae0b48b04fd5d29cacd76b5355ef151454",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 75,
+      "text": "Steven Taylor leads 3 projects: Virtual-X, Virtual-Y, Virtual-Z."
+    }
+  },
+  {
+    "id": "57c7209d6d159181f8a96202c1e6272a7c524edc",
+    "type": "project_period",
+    "source": "cf7326ec17eb8629fcec57feb575e24f4837e250",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-08-01",
+      "end_date": "2024-01-15"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 77,
+      "text": "Project Nova started on 2023-08-01, ends on 2024-01-15."
+    }
+  },
+  {
+    "id": "bd7ea1b131cef0841bca84919858e562acd1afe7",
+    "type": "project_period",
+    "source": "761a2885dc871f757dec2e50dffd4899770aa74d",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-11-20",
+      "end_date": "2024-06-25"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 81,
+      "text": "Project Universal started on 2023-11-20, ends on 2024-06-25."
+    }
+  },
+  {
+    "id": "3e08a2beceb0b9d5d3b9af3b1d6a58db79182bfe",
+    "type": "project_period",
+    "source": "d75cc34ea62742959e120c1525d9bd578b4f860f",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-08-30",
+      "end_date": "2024-04-05"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 85,
+      "text": "Project Neutron started on 2023-08-30, ends on 2024-04-05."
+    }
+  },
+  {
+    "id": "0ebbf16be3d38b852afef76cac082fe71b806f3b",
+    "type": "project_period",
+    "source": "445fdc3b46b653f62ea61a27ca6fe2468855cdbe",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-03-05",
+      "end_date": "2023-09-15"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 89,
+      "text": "Project Network-A started on 2023-03-05, ends on 2023-09-15."
+    }
+  },
+  {
+    "id": "ca6982d408792febeb68b873bfeda5fa2c35e4d4",
+    "type": "project_period",
+    "source": "fff14e5f8034839b5efe8ee8487ba12c8b3535b1",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-09-01",
+      "end_date": "2024-04-15"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 93,
+      "text": "Project Support-Alpha started on 2023-09-01, ends on 2024-04-15."
+    }
+  },
+  {
+    "id": "614f5bb1c017ef2a7a6e82cf07f08323ce585185",
+    "type": "project_period",
+    "source": "458bd8ae0b48b04fd5d29cacd76b5355ef151454",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-10-25",
+      "end_date": "2024-07-10"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 97,
+      "text": "Project Virtual-Z started on 2023-10-25, ends on 2024-07-10."
+    }
+  },
+  {
+    "id": "2fdc39b9e9cd65623606d779c662511ae470882e",
+    "type": "company_industry",
+    "source": "fc1ecd786ddf4fe7ecb4d11f09a726ab3a33d4f2",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Enterprise Solutions industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 99,
+      "text": "IBM operates in Technology and Enterprise Solutions industry."
+    }
+  },
+  {
+    "id": "92838071f228568a5f75bb75c5a4d56e56f11f56",
+    "type": "company_industry",
+    "source": "c8346dc33569b7b979d3fd54fc5ab64aff716d48",
+    "target": null,
+    "attributes": {
+      "industry": "Database and Enterprise Software"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 100,
+      "text": "Oracle specializes in Database and Enterprise Software."
+    }
+  },
+  {
+    "id": "05f27bed6f34a74983768d3c641fb05c40e187b0",
+    "type": "company_industry",
+    "source": "d595798b34942a270b6239a45e8734700d8182e2",
+    "target": null,
+    "attributes": {
+      "industry": "CRM and Cloud Computing industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 101,
+      "text": "Salesforce focuses on CRM and Cloud Computing industry."
+    }
+  },
+  {
+    "id": "470a614a435504bc1f8e98d5ebb7844d009e4f93",
+    "type": "company_industry",
+    "source": "c86def397a2055e63378fabcdd0854def55f0396",
+    "target": null,
+    "attributes": {
+      "industry": "Creative Software and Digital Marketing"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 102,
+      "text": "Adobe is known for Creative Software and Digital Marketing."
+    }
+  },
+  {
+    "id": "5a8227eee23ff96caa94f72dd387d3dd570f2080",
+    "type": "company_industry",
+    "source": "a1977ec7829228e04f59c62adeb66a702c6edbed",
+    "target": null,
+    "attributes": {
+      "industry": "Semiconductors and Technology sectors"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 103,
+      "text": "Intel works in Semiconductors and Technology sectors."
+    }
+  },
+  {
+    "id": "cfcf8eccd014ad32ded4de79e83b8f0d75ad4fa7",
+    "type": "company_industry",
+    "source": "ca68dace0672003b6da26614cef7da8347df3031",
+    "target": null,
+    "attributes": {
+      "industry": "Networking and Technology industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 104,
+      "text": "Cisco operates in Networking and Technology industry."
+    }
+  },
+  {
+    "id": "c957132608b0ec8d9894d2328293cabaf34c4ade",
+    "type": "company_industry",
+    "source": "5bdd75d36273c213ab658efc8f7d3e7a97407567",
+    "target": null,
+    "attributes": {
+      "industry": "Computing and Printing Technology"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 105,
+      "text": "HP specializes in Computing and Printing Technology."
+    }
+  },
+  {
+    "id": "bf5a54170ec4c0e3e25400a591e0c65bc20a9c3f",
+    "type": "company_industry",
+    "source": "2e074b17370546e4ffb820e69e9302eb5e6f2110",
+    "target": null,
+    "attributes": {
+      "industry": "Technology and Computer Hardware"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 106,
+      "text": "Dell focuses on Technology and Computer Hardware."
+    }
+  },
+  {
+    "id": "3e8ad993f8f6673b097a6b56335a53afdd62a79f",
+    "type": "company_industry",
+    "source": "2a920d0bb82ed7075fff0b5e69e1db7149b2cd36",
+    "target": null,
+    "attributes": {
+      "industry": "Virtualization and Cloud Computing"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 107,
+      "text": "VMware operates in Virtualization and Cloud Computing."
+    }
+  },
+  {
+    "id": "221d8119765f9c9b43a067d6d1d45eb0cd0fd8b0",
+    "type": "company_industry",
+    "source": "00eb377cac2f2beea350cd9d5576c2d3db52a300",
+    "target": null,
+    "attributes": {
+      "industry": "Open Source and Enterprise Linux"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 108,
+      "text": "RedHat specializes in Open Source and Enterprise Linux."
+    }
+  },
+  {
+    "id": "a755edf0c573607f7ec14aaf70056c5c204b9cb2",
+    "type": "works_at",
+    "source": "4023e1612945abfff7e025664023cb68d1cd3a8e",
+    "target": "15a2a17ff69c679382e4f0483b31a5ff9bdeab0a",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 109,
+      "text": "Daniel Kim, age 35, works at Airbnb as a Full Stack Developer."
+    }
+  },
+  {
+    "id": "ef41b70c726f92d37687a776e0ca767b0ac1c161",
+    "type": "works_at",
+    "source": "7bb9d5d010c50e5b6746903e583111cbe4e5c710",
+    "target": "c4229f28bafae39bcbeaa23f7a495f24dbf50471",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 110,
+      "text": "Catherine Jones, age 28, works at Twitter as a Frontend Developer."
+    }
+  },
+  {
+    "id": "b76923c15387733e5f38b8194014c15944a8efe6",
+    "type": "works_at",
+    "source": "35883fe85d8acf8d51ade73074788a153f3bf039",
+    "target": "83f455236e8c7d9802b77f0a952c0942b2081135",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 111,
+      "text": "Andrew Chen, age 42, works at LinkedIn as a Data Engineer."
+    }
+  },
+  {
+    "id": "ee83dcbfe74a068c7c18710d87fa770bf7cf6400",
+    "type": "works_at",
+    "source": "7d273156cbf69b56d80494158bd0ec6e90d6abe4",
+    "target": "c1fa197d2abcee4be74d0b8d5b86cb445ebaf833",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 112,
+      "text": "Sophia Rodriguez, age 31, works at Pinterest as a Mobile Developer."
+    }
+  },
+  {
+    "id": "f86a6aa14e57840b81afe7d9fa96722c17ff0a06",
+    "type": "works_at",
+    "source": "76bd5323001e778c04190e1df404d1bb0d49edc6",
+    "target": "07cb8e46e7c53beb3c1cd0d67903bb40692ad5fb",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 113,
+      "text": "Nathan Williams, age 39, works at Dropbox as a Security Engineer."
+    }
+  },
+  {
+    "id": "d623e87ef7ef6b7ed94b6799de77841b38210a4a",
+    "type": "works_at",
+    "source": "bfedeb43896e8ce830ca4eef791816edb7535ebc",
+    "target": "c4a14b104161138a645a5a0f99b2f14314a39b43",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 114,
+      "text": "Olivia Brown, age 26, works at Slack as a Product Designer."
+    }
+  },
+  {
+    "id": "019d64ac82915fd076428121c02853db345d9593",
+    "type": "works_at",
+    "source": "efd9534c2cac4fbe189fd4c1443db01205305918",
+    "target": "cb875a36550425e12ea3ab024d9190b0ecaa2adb",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 115,
+      "text": "Christopher Davis, age 34, works at Zoom as a Video Technology Specialist."
+    }
+  },
+  {
+    "id": "7a268397878138c76908a3da5c5344b13af4cc32",
+    "type": "works_at",
+    "source": "7135bbf085417114a144de3c5d0976dc69267bab",
+    "target": "4a6f548a54d5db5834947e3a2529267b8281eb5c",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 116,
+      "text": "Amanda Miller, age 30, works at Shopify as an E-commerce Developer."
+    }
+  },
+  {
+    "id": "b7e57d980a8f3f4901586a88a344cc300c964546",
+    "type": "works_at",
+    "source": "900b0555d37d688ea448c6c96a30ffab25cc860e",
+    "target": "1e2a00c4679e2c2d9c9fd34a2a9a72f472dca29d",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 117,
+      "text": "Ryan Garcia, age 37, works at Square as a Payment Systems Engineer."
+    }
+  },
+  {
+    "id": "61cb052c402d4081614829881af1f5ce51a9288b",
+    "type": "works_at",
+    "source": "f872ec8e414a242309206c52bcc0bf07cd70f738",
+    "target": "f83a777c2f0d3d176584b6d290c72a50fae358fe",
+    "attributes": {},
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 118,
+      "text": "Jessica Wilson, age 33, works at DocuSign as a API Developer."
+    }
+  },
+  {
+    "id": "9b55a28d7fcd2bcfb3ce3223613e6964050cb13c",
+    "type": "manages",
+    "source": "4023e1612945abfff7e025664023cb68d1cd3a8e",
+    "target": "558119ae989c493ff642a90d717f0a914fab4028",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 119,
+      "text": "Daniel Kim manages 3 projects: AirFlow, AirStream, AirSync."
+    }
+  },
+  {
+    "id": "8a3eeba65542fc1c62fa6f509c453ea8446078eb",
+    "type": "manages",
+    "source": "7bb9d5d010c50e5b6746903e583111cbe4e5c710",
+    "target": "659136b128c3f7bdaa0761e8b76de7299de4b179",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 120,
+      "text": "Catherine Jones leads 2 projects: TweetDeck-2, TwitterAPI-v3."
+    }
+  },
+  {
+    "id": "70ebb91ed344a497daece15052bf20a46d4c8c6d",
+    "type": "manages",
+    "source": "35883fe85d8acf8d51ade73074788a153f3bf039",
+    "target": "89b47349ae28bbac18e91bd359f9bfbaee76886a",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 121,
+      "text": "Andrew Chen oversees 4 projects: LinkedData, ProfileEngine, NetworkGraph, JobMatcher."
+    }
+  },
+  {
+    "id": "6447dd718991c15f7e1a388bca12b2268212bee7",
+    "type": "manages",
+    "source": "bfedeb43896e8ce830ca4eef791816edb7535ebc",
+    "target": "a9887eebf32006067b177203742460d7432b42a7",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 124,
+      "text": "Olivia Brown coordinates 3 projects: SlackBot-AI, ChannelSync, WorkspaceHub."
+    }
+  },
+  {
+    "id": "00313754c9f6b1a0f708d11bde2bd1acf632bb54",
+    "type": "manages",
+    "source": "efd9534c2cac4fbe189fd4c1443db01205305918",
+    "target": "eb23f81bc3b7271caec337a52d177a8457ce190a",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 125,
+      "text": "Christopher Davis directs 2 projects: VideoCodec-X, MeetingRoom-Pro."
+    }
+  },
+  {
+    "id": "bb9378f6cb5602013f359a00f094f7d962a14fea",
+    "type": "manages",
+    "source": "900b0555d37d688ea448c6c96a30ffab25cc860e",
+    "target": "c064381d7425881c2b527baee4f0b26798302bcd",
+    "attributes": {},
+    "confidence": 0.85,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 127,
+      "text": "Ryan Garcia leads 3 projects: PaymentGateway, SquareAPI, TransactionEngine."
+    }
+  },
+  {
+    "id": "45398b7e079dc2e81b3f79b009fcb1756c1dc64e",
+    "type": "project_period",
+    "source": "558119ae989c493ff642a90d717f0a914fab4028",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-02-10",
+      "end_date": "2023-08-25"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 129,
+      "text": "Project AirFlow started on 2023-02-10, ends on 2023-08-25."
+    }
+  },
+  {
+    "id": "902beea4b812a6117faaf96d033d088da224030a",
+    "type": "project_period",
+    "source": "659136b128c3f7bdaa0761e8b76de7299de4b179",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-08-05",
+      "end_date": "2024-02-20"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 133,
+      "text": "Project TwitterAPI-v3 started on 2023-08-05, ends on 2024-02-20."
+    }
+  },
+  {
+    "id": "40dcddafa36b5cc92d370f05ad19bfff7639c6fc",
+    "type": "project_period",
+    "source": "89b47349ae28bbac18e91bd359f9bfbaee76886a",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-11-01",
+      "end_date": "2024-05-15"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 137,
+      "text": "Project JobMatcher started on 2023-11-01, ends on 2024-05-15."
+    }
+  },
+  {
+    "id": "346266ec4da0f33716681c32b1161cba5c3fd8fe",
+    "type": "project_period",
+    "source": "a9887eebf32006067b177203742460d7432b42a7",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-05-20",
+      "end_date": "2023-11-05"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 141,
+      "text": "Project SlackBot-AI started on 2023-05-20, ends on 2023-11-05."
+    }
+  },
+  {
+    "id": "430d74654e021c2636191da67118891e9fca17c9",
+    "type": "project_period",
+    "source": "eb23f81bc3b7271caec337a52d177a8457ce190a",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-06-25",
+      "end_date": "2024-01-10"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 145,
+      "text": "Project MeetingRoom-Pro started on 2023-06-25, ends on 2024-01-10."
+    }
+  },
+  {
+    "id": "e4e0302581e40c7545d68fb13e8f63aea6a15c70",
+    "type": "project_period",
+    "source": "c064381d7425881c2b527baee4f0b26798302bcd",
+    "target": null,
+    "attributes": {
+      "start_date": "2023-11-25",
+      "end_date": "2024-07-10"
+    },
+    "confidence": 0.9,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 149,
+      "text": "Project TransactionEngine started on 2023-11-25, ends on 2024-07-10."
+    }
+  },
+  {
+    "id": "e0ee6ce50f44b1b46d01ba2392664e830b6c0206",
+    "type": "company_industry",
+    "source": "15a2a17ff69c679382e4f0483b31a5ff9bdeab0a",
+    "target": null,
+    "attributes": {
+      "industry": "Travel and Hospitality Technology industry"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 152,
+      "text": "Airbnb operates in Travel and Hospitality Technology industry."
+    }
+  },
+  {
+    "id": "340fdf8ddf7d53da3cba4f7ed0f9398f28b620a1",
+    "type": "company_industry",
+    "source": "c4229f28bafae39bcbeaa23f7a495f24dbf50471",
+    "target": null,
+    "attributes": {
+      "industry": "Social Media and Communication Technology"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 153,
+      "text": "Twitter specializes in Social Media and Communication Technology."
+    }
+  },
+  {
+    "id": "9b7ef0297bec3c30143a52131a3f4c7f7d772bc4",
+    "type": "company_industry",
+    "source": "83f455236e8c7d9802b77f0a952c0942b2081135",
+    "target": null,
+    "attributes": {
+      "industry": "Professional Networking and Career Services"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 154,
+      "text": "LinkedIn focuses on Professional Networking and Career Services."
+    }
+  },
+  {
+    "id": "5825c91b44f791f9e29533414bf97710e26c008c",
+    "type": "company_industry",
+    "source": "c1fa197d2abcee4be74d0b8d5b86cb445ebaf833",
+    "target": null,
+    "attributes": {
+      "industry": "Social Media and Visual Discovery"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 155,
+      "text": "Pinterest is known for Social Media and Visual Discovery."
+    }
+  },
+  {
+    "id": "e146643eca3984432ae874484cec62d0fa973b5b",
+    "type": "company_industry",
+    "source": "07cb8e46e7c53beb3c1cd0d67903bb40692ad5fb",
+    "target": null,
+    "attributes": {
+      "industry": "Cloud Storage and File Sharing sectors"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 156,
+      "text": "Dropbox works in Cloud Storage and File Sharing sectors."
+    }
+  },
+  {
+    "id": "c26741ac19e9f9a2ec730cdb6e9d39323189bf7d",
+    "type": "company_industry",
+    "source": "c4a14b104161138a645a5a0f99b2f14314a39b43",
+    "target": null,
+    "attributes": {
+      "industry": "Business Communication and Collaboration"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 157,
+      "text": "Slack operates in Business Communication and Collaboration."
+    }
+  },
+  {
+    "id": "3153222fb06e5623651f2bfd708eeb985166f2a5",
+    "type": "company_industry",
+    "source": "cb875a36550425e12ea3ab024d9190b0ecaa2adb",
+    "target": null,
+    "attributes": {
+      "industry": "Video Conferencing and Communications"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 158,
+      "text": "Zoom specializes in Video Conferencing and Communications."
+    }
+  },
+  {
+    "id": "d7312512d6455b13ca0c1deef618938f236051e5",
+    "type": "company_industry",
+    "source": "4a6f548a54d5db5834947e3a2529267b8281eb5c",
+    "target": null,
+    "attributes": {
+      "industry": "E-commerce and Retail Technology"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 159,
+      "text": "Shopify focuses on E-commerce and Retail Technology."
+    }
+  },
+  {
+    "id": "715694456f0b526c3053186a37db6073f272dc18",
+    "type": "company_industry",
+    "source": "1e2a00c4679e2c2d9c9fd34a2a9a72f472dca29d",
+    "target": null,
+    "attributes": {
+      "industry": "Financial Technology and Payment Processing"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 160,
+      "text": "Square operates in Financial Technology and Payment Processing."
+    }
+  },
+  {
+    "id": "db5da74cfc126f19649f6ffd8aa37e833a5df422",
+    "type": "company_industry",
+    "source": "f83a777c2f0d3d176584b6d290c72a50fae358fe",
+    "target": null,
+    "attributes": {
+      "industry": "Digital Signature and Document Management"
+    },
+    "confidence": 0.87,
+    "method": "regex",
+    "source_context": {
+      "doc_id": 161,
+      "text": "DocuSign specializes in Digital Signature and Document Management."
+    }
+  }
+]
